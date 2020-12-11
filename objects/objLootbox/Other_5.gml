@@ -1,0 +1,1 @@
+drop_lists_destroy()

@@ -1,0 +1,1 @@
+sound[3] = audio_play_sound(sndBrain, 10, true)

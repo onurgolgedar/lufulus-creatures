@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "sprScroll",
+    "path": "sprites/sprScroll/sprScroll.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": {
+    "name": "sprEffectBox",
+    "path": "sprites/sprEffectBox/sprEffectBox.yy",
+  },
+  "persistent": false,
+  "parentObjectId": {
+    "name": "parEfbox_RecruitedWarrior",
+    "path": "objects/parEfbox_RecruitedWarrior/parEfbox_RecruitedWarrior.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"efboxRecruitedWarrior1","path":"objects/efboxRecruitedWarrior1/efboxRecruitedWarrior1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Effect Box",
+    "path": "folders/Objects/Effect Box.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "efboxRecruitedWarrior1",
+  "tags": [],
+  "resourceType": "GMObject",
+}

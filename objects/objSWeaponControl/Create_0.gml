@@ -1,0 +1,3 @@
+owner = objPlayer.id
+
+event_perform(ev_other, ev_user0)

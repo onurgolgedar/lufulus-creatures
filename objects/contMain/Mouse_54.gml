@@ -1,0 +1,1 @@
+global.itemSelected = -1

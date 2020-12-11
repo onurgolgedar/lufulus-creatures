@@ -1,0 +1,1 @@
+draw_sprite_ext(sprite_index, -1, owner.x, owner.y, image_xscale, image_yscale, point_direction(owner.x, owner.y, target.x, target.y), c_white, image_alpha)

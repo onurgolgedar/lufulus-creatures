@@ -1,0 +1,17 @@
+var width = display_get_gui_width()
+var height = display_get_gui_height()
+
+draw_set_color(test_vsyncForcedOn == true ? c_orange : c_green) draw_set_alpha(0.3)
+	if (alarm6_max != -1)
+		draw_rectangle(0, 0, (1-alarm[6]/alarm6_max)*width/*secsPassed/8*width*/, height, 0)
+/*draw_set_color(c_red)
+	draw_rectangle(0, height-10, (RR_count+exceedRR_count)/20*width, height, 0)
+draw_set_color(c_black)
+	draw_rectangle(0, height-10, exceedRR_count/20*width, height, 0)*/
+draw_set_color(c_white) draw_set_font(fontGUI) draw_set_alpha(1)
+	draw_text_outline(64, 64, ltext_loading+string_repeat(".", abs(contMain.period) div 3)/*+"\nFPS: "+string(capturedFPS)+"\nDisplay Refresh Rate: "+string(global.refreshRate)*/, 2, c_black, 10, 1, 1, 0)
+draw_set_color(c_ltgreen)
+	draw_text_outline(64, height-128, ltext_skip, 2, c_black, 10, 1, 1, 0)
+draw_set_color(c_ltorange)
+	draw_text_outline(64,  height-168, ltext_cursor, 2, c_black, 10, 1, 1, 0)
+draw_set_color(c_black)

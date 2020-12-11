@@ -1,0 +1,1 @@
+global.drawCursor = !global.drawCursor

@@ -1,0 +1,7 @@
+lt_guisize = eng() ? "GUI Size" : "Arayüz Boyutu"
+lt_quality = eng() ? "Pixel Quality" : "Piksel Kalitesi"
+lt_performance = eng() ? "Game Quality" : "Oyun Kalitesi"
+lt_light = eng() ? "Lightning Effect" : "Işık Efekti"
+lt_fullscreen = eng() ? "Fullscreen" : "Tam Ekran"
+lt_turkish = eng() ? "Language" : "Dil"
+lt_aa = eng() ? "VSync" : "VSync"

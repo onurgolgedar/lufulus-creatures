@@ -1,0 +1,1 @@
+change_location(teleportTo, get_location(teleportTo))

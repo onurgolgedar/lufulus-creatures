@@ -1,0 +1,2 @@
+if (owner != -1 and !global.lightActive and owner.mode != md_attack and instance_exists(owner) and !owner.death and owner.inView)
+	draw_sprite_ext(sprEnemySee, -1, x, y, 2.5, 2.5, owner.image_angle, c_red, 0.3)

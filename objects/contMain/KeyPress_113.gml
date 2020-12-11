@@ -1,0 +1,2 @@
+if (!steam_is_overlay_activated())
+	steam_activate_overlay_browser(eng() ? "https://steamcommunity.com/sharedfiles/filedetails/?id=2277985146" : "https://steamcommunity.com/stats/960220/leaderboards/4152310")

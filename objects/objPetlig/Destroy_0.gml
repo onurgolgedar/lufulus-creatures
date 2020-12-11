@@ -1,0 +1,1 @@
+//destroy_effect(effect, 60)

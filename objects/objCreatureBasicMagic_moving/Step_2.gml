@@ -1,0 +1,1 @@
+part_emitter_region(ps, pe_magicEffect1, x-13, x+13, y-13, y+13, pt_shape_circle, ps_distr_gaussian)

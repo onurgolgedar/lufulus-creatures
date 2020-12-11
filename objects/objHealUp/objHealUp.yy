@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "sprHealUp",
+    "path": "sprites/sprHealUp/sprHealUp.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "parBonus",
+    "path": "objects/parBonus/parBonus.yy",
+  },
+  "physicsObject": true,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsGroup": 0,
+  "physicsDensity": 1.0,
+  "physicsRestitution": 0.5,
+  "physicsLinearDamping": 2.0,
+  "physicsAngularDamping": 0.8,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [
+    {"x":16.0,"y":16.0,},
+    {"x":16.0,"y":16.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objHealUp","path":"objects/objHealUp/objHealUp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":2,"collisionObjectId":null,"parent":{"name":"objHealUp","path":"objects/objHealUp/objHealUp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Other",
+    "path": "folders/Objects/Other.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "objHealUp",
+  "tags": [],
+  "resourceType": "GMObject",
+}

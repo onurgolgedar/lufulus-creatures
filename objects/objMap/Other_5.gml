@@ -1,0 +1,4 @@
+ds_list_destroy(locations)
+ds_list_destroy(locations_x)
+ds_list_destroy(locations_y)
+ds_list_destroy(locationsSorted)

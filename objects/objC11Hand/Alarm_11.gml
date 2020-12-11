@@ -1,0 +1,1 @@
+name = "Hand "+string(side == 1 ? "Right" : "Left")

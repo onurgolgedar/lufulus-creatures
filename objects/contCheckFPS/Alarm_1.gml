@@ -1,0 +1,1 @@
+alarm6_max = delta_alarm(6, 5*sec)

@@ -1,0 +1,9 @@
+var loyalFactor = 1-test_title(title_loyal)*0.15
+warrior1_price = 1500*loyalFactor
+warrior1_expense = RECRUIT_WARRIOR_EXPENSE_1
+warrior2_price = 4500*loyalFactor
+warrior2_expense = RECRUIT_WARRIOR_EXPENSE_2
+warrior3_price = 13000*loyalFactor
+warrior3_expense = RECRUIT_WARRIOR_EXPENSE_3
+warrior4_price = 25000*loyalFactor
+warrior4_expense = RECRUIT_WARRIOR_EXPENSE_4

@@ -1,0 +1,12 @@
+name = "Crazy Blue"
+pullPower *= 1.7
+maxHp *= 2.2
+hp = maxHp
+attackSpeed += 0.4
+spd += 3
+range += 25
+combatExperience = 100
+dashPower += 0.5
+level += 5
+baseBonusExperienceRate = 0.5
+isSpecial = true

@@ -1,0 +1,1 @@
+// Stack destroy event

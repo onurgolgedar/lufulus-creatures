@@ -1,0 +1,2 @@
+ds_list_destroy(temp_list)
+ds_list_destroy(temp_hunters)

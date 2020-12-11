@@ -1,0 +1,2 @@
+if (global.drawCursor or (IS_MOBILE and global.gamepad_active)/* or (IS_MOBILE and !is_room_out())*/)
+	draw_sprite_ext(global.cursorSprite, global.cursorIndex, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), image_xscale, image_yscale, 0, image_blend, image_alpha)

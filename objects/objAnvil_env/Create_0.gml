@@ -1,0 +1,1 @@
+npc = instance_nearest(x, y, objUpgrader_npc)

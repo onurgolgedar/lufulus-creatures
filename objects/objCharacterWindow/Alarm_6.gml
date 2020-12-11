@@ -1,0 +1,1 @@
+contMain.gamepad_leftarrow_virtual = true

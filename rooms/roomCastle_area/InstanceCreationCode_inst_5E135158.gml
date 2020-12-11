@@ -1,0 +1,3 @@
+ai_protectors_add(inst_50943B63)
+ai_protectors_add(inst_3F968837)
+ai_protectors_add(inst_47D0305D)

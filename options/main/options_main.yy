@@ -1,0 +1,16 @@
+{
+  "option_gameguid": "{2D416929-46D0-407D-8CB1-B868C592C50A}",
+  "option_game_speed": 60,
+  "option_mips_for_3d_textures": true,
+  "option_draw_colour": 4294967295,
+  "option_window_colour": 255,
+  "option_steam_app_id": "960220",
+  "option_sci_usesci": false,
+  "option_author": "",
+  "option_lastchanged": "10 May 2020 13:25:20",
+  "option_spine_licence": false,
+  "resourceVersion": "1.2",
+  "name": "Main",
+  "tags": [],
+  "resourceType": "GMMainOptions",
+}

@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "sprBroccoli",
+    "path": "sprites/sprBroccoli/sprBroccoli.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "parBonus",
+    "path": "objects/parBonus/parBonus.yy",
+  },
+  "physicsObject": true,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsGroup": 0,
+  "physicsDensity": 1.2,
+  "physicsRestitution": 0.5,
+  "physicsLinearDamping": 2.5,
+  "physicsAngularDamping": 0.8,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [
+    {"x":16.0,"y":16.0,},
+    {"x":16.0,"y":16.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objBroccoli","path":"objects/objBroccoli/objBroccoli.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":2,"collisionObjectId":null,"parent":{"name":"objBroccoli","path":"objects/objBroccoli/objBroccoli.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Other",
+    "path": "folders/Objects/Other.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "objBroccoli",
+  "tags": [],
+  "resourceType": "GMObject",
+}

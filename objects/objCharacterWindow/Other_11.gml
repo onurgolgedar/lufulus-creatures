@@ -1,0 +1,2 @@
+mouseOnBody = device_mouse_x_to_gui(0) > x and device_mouse_x_to_gui(0) < x+horizontalBoxCount*(boxWidth+boxBetween)-boxBetween+offset_x*2+extraWidth and
+device_mouse_y_to_gui(0) > y and device_mouse_y_to_gui(0) < y+verticalBoxCount*(boxHeight+boxBetween)-boxBetween+offset_yTop+offset_yDown+extraHeight

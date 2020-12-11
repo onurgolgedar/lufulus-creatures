@@ -1,0 +1,2 @@
+//draw_outline(sprite_index, -1, objPlayer.x+addX, objPlayer.y+addY, image_xscale*(1+no/25), image_yscale*(1+no/25), image_angle, 0.3, c_black)
+draw_sprite_ext(sprite_index, -1, objPlayer.x+addX, objPlayer.y+addY, image_xscale, image_yscale, image_angle, image_blend, image_alpha)

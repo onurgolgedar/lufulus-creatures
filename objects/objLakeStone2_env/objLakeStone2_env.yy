@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "sprLakeStone2_env",
+    "path": "sprites/sprLakeStone2_env/sprLakeStone2_env.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "parPhysics",
+    "path": "objects/parPhysics/parPhysics.yy",
+  },
+  "physicsObject": true,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsGroup": 0,
+  "physicsDensity": 0.0,
+  "physicsRestitution": 0.5,
+  "physicsLinearDamping": 10.0,
+  "physicsAngularDamping": 7.0,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [
+    {"x":30.0,"y":25.0,},
+    {"x":23.0,"y":25.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"objLakeStone2_env","path":"objects/objLakeStone2_env/objLakeStone2_env.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objLakeStone2_env","path":"objects/objLakeStone2_env/objLakeStone2_env.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Stone",
+    "path": "folders/Objects/Environment/Stone.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "objLakeStone2_env",
+  "tags": [],
+  "resourceType": "GMObject",
+}

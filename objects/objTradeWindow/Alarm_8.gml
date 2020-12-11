@@ -1,0 +1,1 @@
+imaginaryClick = !global.gamepad_active

@@ -1,0 +1,1 @@
+rigidbody_destroy()
