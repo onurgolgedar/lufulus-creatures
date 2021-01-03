@@ -469,11 +469,11 @@ if (global.showGUI) {
 				1, 1, 0, c_black, c_black, c_black, c_black, 1)
 	
 			draw_sprite_general(sprBarSetInside_hp, -1, 0, 0, 135*hp/maxHp, 12, scX-135/2, scY-100,
-			1, 1, 0, c_white, c_white, c_white, c_white, 0.65)
+			1, 1, 0, c_white, c_white, c_white, c_white, 0.75)
 			draw_sprite_general(sprBarSetInside_mana, -1, 0, 0, 134*mana/maxMana, 13, scX-67, scY-88,
-			1, 1, 0, c_white, c_white, c_white, c_white, 0.65)
+			1, 1, 0, c_white, c_white, c_white, c_white, 0.75)
 			draw_sprite_general(sprBarSetInside_energy, -1, 0, 0, 130*energy/100, 37, scX-65, scY-104,
-			1, 1, 0, eneColor, eneColor, eneColor, eneColor, 0.65)
+			1, 1, 0, eneColor, eneColor, eneColor, eneColor, 0.75)
 		
 			if (other.deathEffect) {
 				draw_sprite_general(sprBarSetInside_hp, -1, 135*0.75, 0, 135*0.25-1, 12, scX-135/2+135*0.75+1, scY-100,
