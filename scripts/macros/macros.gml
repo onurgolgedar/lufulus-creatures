@@ -1,5 +1,5 @@
 function macros() {
-#macro IS_MOBILE true//(os_type == os_android or os_type == os_ios)
+#macro IS_MOBILE false//(os_type == os_android or os_type == os_ios)
 #macro JOYSTICK_CENTER_X 190
 #macro JOYSTICK_CENTER_Y display_get_gui_height()-200
 #macro JOYSTICK_R 90

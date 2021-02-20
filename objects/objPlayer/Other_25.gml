@@ -40,6 +40,9 @@ with (parAnimation)
 if (global.gamepad_active)
 	gamepad_set_vibration_ext(0.25, 0.25, sec)
 	
+if (IS_MOBILE)
+	contPlayer.fixedShieldMode = false
+	
 #region RED SCREEN EFFECT
 var redScreenValue = 10
 if (contGUI.redScreenTarget < redScreenValue) {
