@@ -7,8 +7,8 @@ view_set_wport(0, floor(graphicsQuality*aspectRatio))
 view_set_hport(0, graphicsQuality)
 	
 camera_set_view_size(global.camera,
-graphicsQuality*aspectRatio*(isRoomOut ? global.portHeight_real/graphicsQuality : 1),
-graphicsQuality*(isRoomOut ? global.portHeight_real/graphicsQuality : 1))
+floor(graphicsQuality*aspectRatio*(isRoomOut ? global.portHeight_real/graphicsQuality : 1)),
+floor(graphicsQuality*(isRoomOut ? global.portHeight_real/graphicsQuality : 1)))
 
 if (room == roomFPS)
 	set_window_size()

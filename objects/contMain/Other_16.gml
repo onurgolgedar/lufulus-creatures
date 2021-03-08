@@ -1,6 +1,6 @@
 var focus = window_has_focus()
 
-if (!windowHasFocus and focus)
+if (!windowHasFocus and focus and os_type != os_windows)
 	free_all_surfaces()
 
 /*if (period == 10 and fps <= room_speed/2+2 and !is_room_out())

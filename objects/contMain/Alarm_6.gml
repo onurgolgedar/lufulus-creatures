@@ -8,9 +8,11 @@ if (!global.pause) {
 	}
 	
 	if (!IS_MOBILE) {
-		screenSave = create_surface(surface_get_width(application_surface), surface_get_height(application_surface))
-		surface_copy_part(screenSave, 0, 0, application_surface, 0, 0, surface_get_width(application_surface), surface_get_height(application_surface))
-		application_surface_draw_enable(false)
+		if (surface_exists(application_surface)) {
+			screenSave = create_surface(surface_get_width(application_surface), surface_get_height(application_surface))
+			surface_copy_part(screenSave, 0, 0, application_surface, 0, 0, surface_get_width(application_surface), surface_get_height(application_surface))
+			application_surface_draw_enable(false)
+		}
 	}
 	else
 		display_mouse_set/**/(display_get_width()*3/4, display_get_height()*3/4)

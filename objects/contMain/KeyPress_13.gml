@@ -40,7 +40,7 @@ if (global.consoleMode) {
 		with (objPlayer)
 			slide_text(x, y, eng() ? "Executed" : "Uygulandı", c_white, true)
 	}
-	else if (command == "-showgui" and global.cheatCodes) {
+	else if (command == "-showgui") {
 		global.showGUI = value
 		audio_play_sound(sndWindowTick, 0, false)
 		with (objPlayer)
