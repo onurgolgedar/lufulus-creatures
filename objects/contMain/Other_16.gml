@@ -1,15 +1,12 @@
 var focus = window_has_focus()
 
-if (!windowHasFocus and focus and os_type != os_windows)
+if (!windowHasFocus and focus and os_type == os_windows)
 	free_all_surfaces()
-
-/*if (period == 10 and fps <= room_speed/2+2 and !is_room_out())
-	super_refresh()*/
 	
 if ((period mod 3) == 0 and global.fastPhysicsSync_mode
-or period == 10 and global.physics_world_speed != physics_get_optimial_speed()
+or period == 10 and global.physics_world_speed != physics_get_optimal_speed()
 or game_get_fps() == fps_free)
-	physics_world_sync(physics_get_optimial_speed())
+	physics_world_sync(physics_get_optimal_speed())
 
 if (window_get_fullscreen())
 	display_mouse_set(clamp(display_mouse_get_x(), 0, display_get_width()-4), clamp(display_mouse_get_y(), 0, display_get_height()-4))

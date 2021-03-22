@@ -66,7 +66,6 @@
     {"isDnD":false,"eventNum":113,"eventType":9,"collisionObjectId":null,"parent":{"name":"contMain","path":"objects/contMain/contMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"contMain","path":"objects/contMain/contMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":9,"eventType":2,"collisionObjectId":null,"parent":{"name":"contMain","path":"objects/contMain/contMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":115,"eventType":9,"collisionObjectId":null,"parent":{"name":"contMain","path":"objects/contMain/contMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"parent":{"name":"contMain","path":"objects/contMain/contMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":13,"collisionObjectId":null,"parent":{"name":"contMain","path":"objects/contMain/contMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":69,"eventType":13,"collisionObjectId":null,"parent":{"name":"contMain","path":"objects/contMain/contMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

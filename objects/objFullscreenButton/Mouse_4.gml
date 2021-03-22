@@ -1,4 +1,4 @@
-if (objMainMenuDraw.blackScreenAlpha > 0.5)
+if (objMainMenuDraw.blackScreenAlpha > 0.5 or os_type != os_windows)
 	exit
 
 with (objMainMenuDraw) {

@@ -12,9 +12,6 @@ function change_verticalSync() {
 			game_set_fps(global.refreshRate)
 	
 		display_reset(0, argument[0])
-	
-		if (window_get_fullscreen())
-			super_refresh()
 		
 		with (contView)
 			alarm[8] = sec/4

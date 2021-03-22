@@ -1,4 +1,4 @@
-if (!fullscreenLock and room != roomFPS) {
+if (!fullscreenLock and room != roomFPS and os_type == os_windows) {
 	alarm[1] = 1
 	
 	fullscreenLock = true

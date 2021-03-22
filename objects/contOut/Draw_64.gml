@@ -5,7 +5,7 @@ if (room == roomCinematic) {
 	var buttonAlpha = image_alpha*2-1.5
 	
 	if (sprite[page-1] != sprNothingness)
-		draw_rectangle(-10, -10, display_get_width()+10, display_get_gui_height()+10, 0)
+		draw_rectangle(-10, -10, display_get_gui_width()+10, display_get_gui_height()+10, 0)
 	
 	draw_sprite_ext(sprite[page-1], -1, x_mid, y_mid-65+contMain.period/2, 0.86+!IS_MOBILE*0.1, 0.86+!IS_MOBILE*0.1, 0, c_white, image_alpha*3)
 

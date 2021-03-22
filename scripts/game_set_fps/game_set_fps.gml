@@ -6,7 +6,7 @@ function game_set_fps() {
 	if (argument[0] == fps_free) {
 		global.freeFPS_mode = true
 	
-		var worldSpeed = physics_get_optimial_speed()
+		var worldSpeed = physics_get_optimal_speed()
 		if (global.physics_world_speed != worldSpeed and abs(1-global.physics_world_speed/worldSpeed) > 0.97 or (get_nearest_standard_fps(global.physics_world_speed/2.3) != global.physics_world_speed/2.3))
 			physics_world_sync(worldSpeed)
 	}
@@ -17,7 +17,7 @@ function game_set_fps() {
 	if (argument[0] != fps_free) {
 		global.freeFPS_mode = false
 	
-		var worldSpeed = physics_get_optimial_speed()
+		var worldSpeed = physics_get_optimal_speed()
 		if (global.physics_world_speed != worldSpeed and abs(1-global.physics_world_speed/worldSpeed) > 0.97 or (get_nearest_standard_fps(global.physics_world_speed/2.3) != global.physics_world_speed/2.3))
 			physics_world_sync(worldSpeed)
 	}
