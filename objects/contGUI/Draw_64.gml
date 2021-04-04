@@ -658,8 +658,6 @@ if (global.showGUI) {
 			else
 				draw_sprite_ext(sprSkillColor, global.selectedSkillRem[i] == 0, xx, hPort-46, 1, 1, 0, (selectedSkill_colortime[i] == 0) ? c_white : c_purple, 1)
 		}
-		else
-			draw_sprite_ext(sprSkillColor, 4, xx, hPort-46, 1, 1, 0, c_white, 1)
 		
 		if (i == 4)
 			draw_sprite_ext(sprSkillColor, 5, xx, hPort-46, 1, 1, 0, c_white, 1)
