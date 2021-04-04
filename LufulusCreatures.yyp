@@ -665,7 +665,6 @@
     {"id":{"name":"is_castle","path":"scripts/is_castle/is_castle.yy",},"order":37,},
     {"id":{"name":"sync_localstats","path":"scripts/sync_localstats/sync_localstats.yy",},"order":39,},
     {"id":{"name":"eng","path":"scripts/eng/eng.yy",},"order":41,},
-    {"id":{"name":"ExecuteShell","path":"scripts/ExecuteShell/ExecuteShell.yy",},"order":43,},
     {"id":{"name":"attacked","path":"scripts/attacked/attacked.yy",},"order":1,},
     {"id":{"name":"arrow_shoot","path":"scripts/arrow_shoot/arrow_shoot.yy",},"order":3,},
     {"id":{"name":"clickattack_basic_conditions","path":"scripts/clickattack_basic_conditions/clickattack_basic_conditions.yy",},"order":5,},
@@ -2072,9 +2071,6 @@
   ],
   "IncludedFiles": [
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"display.ini","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ExecuteShell.so","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ExecuteShell.dll","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ExecuteShell.dylib","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Mako.ttf","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Allema.ttf","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"RefreshRateLogger.exe","resourceType":"GMIncludedFile",},
@@ -2083,7 +2079,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"LufulusCreaturesLauncher.exe","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.1.542",
+    "IDEVersion": "2.3.2.556",
   },
   "resourceVersion": "1.4",
   "name": "LufulusCreatures",

@@ -1,5 +1,5 @@
-if (os_type == os_windows)
-	ExecuteShell("RefreshRateLogger.exe", false)
+/*if (os_type == os_windows)
+	execute_shell("RefreshRateLogger.exe", false)*/
 	
 if (IS_MOBILE)
 	gesture_drag_time(2)

@@ -51,7 +51,7 @@ ltext_bank = eng() ? "Bank" : "Banka"
 ltext_add = eng() ? "" : ""
 ltext_active = eng() ? "" : ""
 ltext_potential = eng() ? "Potential Revenue: " : "    Potansiyel Kazanç: "
-ltext_activated = eng() ? "Daily Revenue: " : "            Günlük Kazanç: "
+ltext_activated = eng() ? "Daily Revenue: " : "         Günlük Kazanç: "
 ltext_collected = eng() ? "Total Rent: " : "Toplanan Kira: "
 ltext_take = eng() ? "Take" : "Al"
 
