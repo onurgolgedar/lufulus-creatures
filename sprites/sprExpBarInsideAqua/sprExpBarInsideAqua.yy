@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"68cef7d5-c790-48b8-9164-b5f5bea1f9e3","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Exp Bar Set",
     "path": "folders/Sprites/GUI/Bar/Exp Bar Set.yy",

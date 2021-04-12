@@ -146,6 +146,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ec2679d4-1910-447d-93a1-ae1db881138f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "C11",
     "path": "folders/Sprites/Creature/C11.yy",

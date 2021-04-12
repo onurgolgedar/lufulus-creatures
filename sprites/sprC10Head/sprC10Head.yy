@@ -150,6 +150,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"995594e1-e90e-4fc6-bd69-77e264120008","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "C10",
     "path": "folders/Sprites/Creature/C10.yy",

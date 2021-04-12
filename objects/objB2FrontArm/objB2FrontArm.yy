@@ -29,7 +29,7 @@
     {"x":3.0,"y":22.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"parent":{"name":"objB2FrontArm","path":"objects/objB2FrontArm/objB2FrontArm.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

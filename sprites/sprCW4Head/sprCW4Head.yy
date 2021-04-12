@@ -150,6 +150,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e8dc0652-e4b1-4fd4-b423-169c8c6da022","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "CW4",
     "path": "folders/Sprites/Creature/CW4.yy",

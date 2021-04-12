@@ -29,7 +29,7 @@
     {"x":0.0,"y":11.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"parent":{"name":"objC6Arm","path":"objects/objC6Arm/objC6Arm.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

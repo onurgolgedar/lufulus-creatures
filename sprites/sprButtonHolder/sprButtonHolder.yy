@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c66dfd21-6e95-4786-9b3d-32c60209d76b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Main Menu",
     "path": "folders/Sprites/GUI/Menu/Main Menu.yy",

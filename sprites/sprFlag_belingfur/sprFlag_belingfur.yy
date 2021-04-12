@@ -303,6 +303,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Environment",
     "path": "folders/Sprites/Environment.yy",

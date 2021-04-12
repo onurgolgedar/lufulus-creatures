@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9c9bd7b2-a16d-4888-9d4f-5e03bc4a2158","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Main Menu Creature",
     "path": "folders/Sprites/GUI/Menu/Main Menu/Main Menu Creature.yy",

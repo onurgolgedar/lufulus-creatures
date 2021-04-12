@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c2ee6d09-4478-4838-b4b3-2483685bb5fc","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Potion&Kit",
     "path": "folders/Sprites/Item/Potion&Kit.yy",

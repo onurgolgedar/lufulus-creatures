@@ -68,7 +68,18 @@ else if (contPlayer.drawSkill12) {
 		draw_sprite_ext(sprSkillArea, 0, x, y, sscale, sscale, global.skillBar*(2.5+sk12alpha*2), c_white, sk12alpha)
 		
 		sscale = calculate_skill12_range()
-		draw_sprite_ext(sprSkillArea, 1, device_mouse_x(contPlayer.deviceSkill12), device_mouse_y(contPlayer.deviceSkill12), sscale, sscale, global.skillBar*2.5, contPlayer.canReleaseSkill12 ? c_white : c_black, sk12alpha)
+		var xx, yy
+		
+		if (IS_MOBILE) {
+			xx = device_mouse_x(contPlayer.deviceSkill12)
+			yy = device_mouse_y(contPlayer.deviceSkill12)
+		}
+		else {
+			xx = mouse_x
+			yy = mouse_y
+		}
+		
+		draw_sprite_ext(sprSkillArea, 1, xx, yy, sscale, sscale, global.skillBar*2.5, contPlayer.canReleaseSkill12 ? c_white : c_black, sk12alpha)
 	}
 }
 	

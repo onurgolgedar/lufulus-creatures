@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"76c8a5c5-620f-4731-a835-ae9aa25bb110","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Hair",
     "path": "folders/Sprites/Clothes&Hair/Hair.yy",

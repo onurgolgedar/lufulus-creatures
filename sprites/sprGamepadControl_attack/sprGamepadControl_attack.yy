@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c61f6055-9aae-4fea-85c4-0e89f8daaa84","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Gamepad",
     "path": "folders/Sprites/GUI/Gamepad.yy",

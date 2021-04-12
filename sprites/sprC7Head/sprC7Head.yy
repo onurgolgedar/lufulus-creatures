@@ -150,6 +150,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d4ab92eb-a938-4e70-b6f8-87795d5305f9","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "C7",
     "path": "folders/Sprites/Creature/C7.yy",

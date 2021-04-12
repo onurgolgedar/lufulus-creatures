@@ -29,7 +29,7 @@
     {"x":3.0,"y":17.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"parent":{"name":"objHand_rbt1","path":"objects/objHand_rbt1/objHand_rbt1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -146,6 +146,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ce8a6483-3b6a-4ddc-acc1-2bdac9bbdb07","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "B1",
     "path": "folders/Sprites/Creature/B1.yy",

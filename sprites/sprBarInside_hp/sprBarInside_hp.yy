@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d8e7db66-5da7-4012-8faa-641fbff5c21e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Creature Bar Set",
     "path": "folders/Sprites/GUI/Bar/Creature Bar Set.yy",

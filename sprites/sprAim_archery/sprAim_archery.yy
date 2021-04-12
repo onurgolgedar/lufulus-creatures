@@ -154,6 +154,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e400c49d-0309-4b9c-b101-90bb20fec9d2","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Aim",
     "path": "folders/Sprites/GUI/Aim.yy",

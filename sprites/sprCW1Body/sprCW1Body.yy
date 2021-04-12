@@ -146,6 +146,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3c1a2da3-6d35-4e44-a2ef-ea5af9fc5a64","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "CW1",
     "path": "folders/Sprites/Creature/CW1.yy",

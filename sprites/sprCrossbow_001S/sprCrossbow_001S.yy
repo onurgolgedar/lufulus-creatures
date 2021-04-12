@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fdc94f67-d82d-43e7-9b4d-7af0ce3cd721","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "S",
     "path": "folders/Sprites/Item/Crossbow/S.yy",

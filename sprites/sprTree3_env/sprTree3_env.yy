@@ -255,6 +255,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a1861c4c-817e-4732-a7dd-e52665de951d","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Tree",
     "path": "folders/Sprites/Environment/Tree.yy",

@@ -32,7 +32,7 @@
     {"x":2.0,"y":19.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"parent":{"name":"objLufulusHand","path":"objects/objLufulusHand/objLufulusHand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

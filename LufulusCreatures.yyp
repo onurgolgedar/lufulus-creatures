@@ -879,6 +879,7 @@
     {"id":{"name":"poison_initiate","path":"scripts/poison_initiate/poison_initiate.yy",},"order":21,},
     {"id":{"name":"brainattack_initiate","path":"scripts/brainattack_initiate/brainattack_initiate.yy",},"order":23,},
     {"id":{"name":"movingshot_initiate","path":"scripts/movingshot_initiate/movingshot_initiate.yy",},"order":25,},
+    {"id":{"name":"ExecuteShell","path":"extensions/ExecuteShell/ExecuteShell.yy",},"order":1,},
     {"id":{"name":"turtle_change","path":"scripts/turtle_change/turtle_change.yy",},"order":1,},
     {"id":{"name":"slowstone_change","path":"scripts/slowstone_change/slowstone_change.yy",},"order":3,},
     {"id":{"name":"basicheal_change","path":"scripts/basicheal_change/basicheal_change.yy",},"order":5,},

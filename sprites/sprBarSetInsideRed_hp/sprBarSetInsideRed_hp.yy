@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0276af1a-5d95-4bf8-9cd0-ab5f09c0b87e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Player Bar Set",
     "path": "folders/Sprites/GUI/Bar/Player Bar Set.yy",

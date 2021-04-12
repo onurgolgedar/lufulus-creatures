@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"47c1fa39-e47b-4773-a59d-85072b2cf6a9","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Basic Magic",
     "path": "folders/Sprites/Creature/Basic Magic.yy",

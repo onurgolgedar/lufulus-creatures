@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"53f51a04-c5b0-4862-a30a-0c0bd57ecf53","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "pt_shapes_gms2",
     "path": "folders/Sprites/Other/geon_fx/pt_shapes_gms2.yy",

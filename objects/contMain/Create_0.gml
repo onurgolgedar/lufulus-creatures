@@ -1,6 +1,3 @@
-/*if (os_type == os_windows)
-	execute_shell("RefreshRateLogger.exe", false)*/
-	
 if (IS_MOBILE)
 	gesture_drag_time(2)
 
@@ -64,6 +61,7 @@ global.camera = view_get_camera(0)
 audio_listener_orientation(0, 0, 1, 0, -1, 0)
 audio_falloff_set_model(audio_falloff_exponent_distance_clamped)
 
+global.refreshRateLogger_started = false
 global.performanceMode = 2
 global.language = steam_initialised() ? (string_lower(steam_current_game_language()) == "turkish" ? lang_turkish : lang_english) : lang_english
 global.graphicsCard = "Unknown"

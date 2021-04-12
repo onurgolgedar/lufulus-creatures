@@ -8,6 +8,11 @@ roomName = get_location(room)
 	
 global.itemSelected = -1
 
+if (current_time > 5000 and os_type == os_windows and !global.refreshRateLogger_started) {
+	execute_shell(@'"' + working_directory + @'RefreshRateLogger.exe"', false)
+	global.refreshRateLogger_started = true
+}
+
 totalDFPS = 0
 totalDFPS_count = 0
 alarm[2] = sec

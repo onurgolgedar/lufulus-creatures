@@ -146,6 +146,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"638ccf7c-46b1-47a6-9b7c-46e2bdef7c90","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Q",
     "path": "folders/Sprites/Item/Sword/Q.yy",

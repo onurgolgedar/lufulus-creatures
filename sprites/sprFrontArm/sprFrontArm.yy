@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0bfe566b-8e76-4f6a-83e7-c5d1bf4be1f0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Type 1",
     "path": "folders/Sprites/Rigidbody/Type 1.yy",

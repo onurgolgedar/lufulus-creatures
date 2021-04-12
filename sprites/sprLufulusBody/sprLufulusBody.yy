@@ -146,6 +146,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"126217ca-61fe-4f2d-9bd0-2d19b1359506","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Lufulus",
     "path": "folders/Sprites/Creature/Lufulus.yy",

@@ -3,7 +3,17 @@ if (!objPlayer.death) {
 		event_perform(ev_alarm, 10)
 
 	if (contPlayer.canReleaseSkill12) {
-		var explosion = instance_create_layer(device_mouse_x(contPlayer.deviceSkill12), device_mouse_y(contPlayer.deviceSkill12), "lyAir", objSkill12_SO)
+		var xx, yy
+		if (IS_MOBILE) {
+			xx = device_mouse_x(contPlayer.deviceSkill12)
+			yy = device_mouse_y(contPlayer.deviceSkill12)
+		}
+		else {
+			xx = mouse_x
+			yy = mouse_y
+		}
+		
+		var explosion = instance_create_layer(xx, yy, "lyAir", objSkill12_SO)
 		explosion.image_xscale = calculate_skill12_range()*1.3
 		explosion.image_yscale = explosion.image_xscale
 		explosion.bar = global.skillBar
