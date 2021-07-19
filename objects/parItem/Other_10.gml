@@ -52,6 +52,7 @@ if (eng()) {
 	ltext_criticaldamage = "Kritik Hasar: "
 }
 
+
 var color1 = c_white
 
 var moneyText

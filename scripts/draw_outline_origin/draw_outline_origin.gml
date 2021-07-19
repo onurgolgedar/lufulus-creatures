@@ -8,7 +8,6 @@
 /// @param alpha*
 /// @param color*
 function draw_outline_origin() {
-
 	var do_aalpha = image_alpha
 	var do_width = 1
 	var color = c_black
@@ -31,6 +30,4 @@ function draw_outline_origin() {
 		draw_sprite_origin_ext(argument[0], argument[1], argument[2]-sqrt2over2, argument[3]+sqrt2over2, argument[4], argument[5], argument[6], c_black, do_aalpha)
 		draw_sprite_origin_ext(argument[0], argument[1], argument[2]+sqrt2over2, argument[3]-sqrt2over2, argument[4], argument[5], argument[6], c_black, do_aalpha)
 	}
-
-
 }

@@ -1,9 +1,6 @@
 /// @param id*
-function test_upperclick_window() {
-
-	var __window = id
-	if (argument_count != 0)
-		__window = argument[0]
+function test_upperclick_window(_id) {
+	var __window = _id == undefined ? id : _id
 
 	if (instance_exists(objMap) and objMap.depth < depth)
 		return true
@@ -25,6 +22,4 @@ function test_upperclick_window() {
 	}
 
 	return false
-
-
 }
