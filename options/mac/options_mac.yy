@@ -2,7 +2,7 @@
   "option_mac_display_name": "LufulusCreatures",
   "option_mac_app_id": "com.golgedar.lufuluscreatures",
   "option_mac_version": "1.1.4",
-  "option_mac_output_dir": "~/GameMaker-Studio/Lufulus' Creatures",
+  "option_mac_output_dir": "~/GameMakerStudio2/LufulusCreatures",
   "option_mac_team_id": "64FW36LREU",
   "option_mac_signing_identity": "Developer ID Application: UGUR GOLGEDAR",
   "option_mac_copyright": "Golgedar",
