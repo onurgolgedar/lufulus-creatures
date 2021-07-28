@@ -140,6 +140,11 @@ if (global.consoleMode) {
 		with (objPlayer)
 			slide_text(x, y, eng() ? "Executed" : "Uygulandı", c_white, true)
 	}
+	else if (command == "-fix") {
+		audio_play_sound(sndWindowTick, 0, false)
+		if (quest_exists(objQuest_lordLoves) and !item_exists(objPotion_001Q))
+			add_item(objPotion_001Q)
+	}
 	else if (command == "phy_fast_sync" and global.cheatCodes) {
 		global.fastPhysicsSync_mode = value
 		audio_play_sound(sndWindowTick, 0, false)

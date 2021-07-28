@@ -55,21 +55,23 @@ function show_dialoguebox() {
 
 	audio_play_sound(sndWindowTick, 1, 0)
 
+	var _argument
 	for (var i = 6; i < argument_count; i++) {
-		if (argument[i] != "") {
+		_argument[i] = argument[i]
+		if (_argument[i] != "") {
 			if (!eng()) {
-				if (argument[i] == "Cancel")
-					argument[i] = "İptal"
-				else if (argument[i] == "Okay")
-					argument[i] = "Tamam"
-				else if (argument[i] == "Accept")
-					argument[i] = "Kabul Et"
+				if (_argument[i] == "Cancel")
+					_argument[i] = "İptal"
+				else if (_argument[i] == "Okay")
+					_argument[i] = "Tamam"
+				else if (_argument[i] == "Accept")
+					_argument[i] = "Kabul Et"
 			}
 			
 			for (var j = 0; j < 9; j++) {
 				if (but[j] == -1) {
-					but[j] = draw_text_colortags(0, 0, argument[i], false)
-					but_colorful[j] = argument[i]
+					but[j] = draw_text_colortags(0, 0, _argument[i], false)
+					but_colorful[j] = _argument[i]
 					butNo[j] = i-6
 					butCount++
 					break
