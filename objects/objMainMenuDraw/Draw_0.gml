@@ -33,7 +33,7 @@ if (instance_exists(objFullscreenButton)) {
 		shader_reset()
 		
 		if (mouse_check_button_pressed(mb_left) or gamepad_leftpressed()) {
-			if (musicExists) {
+			if (!global.musicStopped or musicExists) {
 				global.musicStopped = true
 				audio_stop_sound(sndMusicBoss)
 				audio_stop_sound(sndMusicCastle)
