@@ -17,7 +17,7 @@ for (i = 0; i < horizontalBoxCount*maxPage; i++) {
 
 event_perform(ev_other, ev_user7)
 		  
-with (parItem) {
+with (paritem) {
     if (owner == other.id)
         instance_destroy()
 }

@@ -22,7 +22,7 @@ if (!destroy) {
             else {
 				if (!mouseOnBox_forUpgrade and item[mouseOnBox_i, mouseOnBox_j].upgrade > 0 and !item[mouseOnBox_i, mouseOnBox_j].passive) {
 					global.itemSelected = item[mouseOnBox_i, mouseOnBox_j]
-					contGUI.tab_index = 2
+					contGUi.tab_index = 2
 					contMain.gamepad_leftarrow_virtual = true
 				
 					if (global.itemSelected != -1) {
@@ -50,7 +50,7 @@ if (!destroy) {
 						for (var i = 0; i < 4; i++) {
 							if (global.selectedSkill[i] == -1) {
 								global.selectedSkill[i] = item[mouseOnBox_i, mouseOnBox_j].object_index
-								with (contGUI) event_perform(ev_other, ev_user0)
+								with (contGUi) event_perform(ev_other, ev_user0)
 								break
 							}
 						}
@@ -60,7 +60,7 @@ if (!destroy) {
 					
 					event_perform(ev_other, ev_user5)
 					
-					with (contGUI)
+					with (contGUi)
 						event_perform(ev_other, ev_user0)
 						
 					with (contPlayer)

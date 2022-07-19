@@ -1,7 +1,7 @@
 if (global.gamepad_active and !IS_MOBILE) {
 	var imageIndex = !eng()
 	var yy = display_get_gui_height()/2
-	var alpha = 1-contGUI.colorScreenAlpha
+	var alpha = 1-contGUi.colorScreenAlpha
 	
 	if (room == roomBeforeRoad)
 		draw_sprite_ext(sprGamepadControl_movement, imageIndex, 0, yy, 1, 1, 0, c_white, alpha)

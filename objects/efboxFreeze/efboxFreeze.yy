@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "sprIce",
-    "path": "sprites/sprIce/sprIce.yy",
+    "name": "sprice",
+    "path": "sprites/sprice/sprice.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "sprEffectBox",
     "path": "sprites/sprEffectBox/sprEffectBox.yy",

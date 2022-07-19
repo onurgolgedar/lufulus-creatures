@@ -10,7 +10,7 @@ if (isQuestion(1)) {
 			add_item(objTheLetter)
 		
 		if (_quest != objQuestRoad_scout) {
-			with (objInvisibleWall)
+			with (objinvisibleWall)
 				if (no == 3)
 					instance_destroy()
 				

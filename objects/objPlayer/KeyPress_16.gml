@@ -1,6 +1,6 @@
 shiftLock_window = false
 
-with (objItemBag) {
+with (objitemBag) {
     event_perform(ev_other, ev_user1)
     event_perform(ev_other, ev_user2)
     if (mouseOnBody) {

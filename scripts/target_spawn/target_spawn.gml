@@ -21,7 +21,7 @@ function target_spawn() {
 			if (physics_test_overlap(rndX, rndY, phy_rotation, parSolid)
 			or physics_test_overlap(rndX, rndY, phy_rotation, parRock)
 			or physics_test_overlap(rndX, rndY, phy_rotation, parTarget)
-			or physics_test_overlap(rndX, rndY, phy_rotation, objInvisibleWall)
+			or physics_test_overlap(rndX, rndY, phy_rotation, objinvisibleWall)
 			or physics_test_overlap(rndX, rndY, phy_rotation, contGridBlock)
 			or place_meeting(rndX, rndY, objWallBuilder)
 			or place_meeting(rndX, rndY, contNoSpawn))

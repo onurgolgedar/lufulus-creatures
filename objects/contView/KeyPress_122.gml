@@ -12,7 +12,7 @@ if (!fullscreenLock and room != roomFPS and os_type == os_windows) {
 	free_all_surfaces()
 
 	if (!instance_exists(objMainMenuDraw)) {
-		with(contGUI) {
+		with(contGUi) {
 			colorScreenAlpha = 1
 			alarm[1] = 1
 		}

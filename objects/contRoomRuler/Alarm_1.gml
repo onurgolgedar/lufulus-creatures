@@ -9,7 +9,7 @@ if (room == roomCamp1 or room == roomRebelWar or room == roomRebelWar2) {
 	
 	if (mapQuest != pointer_null) {
 		var enemyCount = 0
-		with (parAI)
+		with (parAi)
 			if (teamNo == team_enemy and !death)
 				enemyCount++
 			

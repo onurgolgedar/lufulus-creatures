@@ -2,6 +2,7 @@
   "spriteId": null,
   "solid": true,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -53,7 +54,7 @@
     "path": "folders/Objects/Window.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objItemBag",
+  "name": "objitemBag",
   "tags": [],
   "resourceType": "GMObject",
 }

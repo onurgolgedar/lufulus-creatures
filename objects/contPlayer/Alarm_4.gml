@@ -11,7 +11,7 @@ if (is_outfight()) {
 	else
 		delta_alarm(4, sec/2)
 	
-	if (!global.gamepad_active and (!mouse_check_button(mb_left) and !mouse_check_button(mb_right) and !IS_MOBILE or !contGUI.joystick2_hold and IS_MOBILE)
+	if (!global.gamepad_active and (!mouse_check_button(mb_left) and !mouse_check_button(mb_right) and !IS_MOBILE or !contGUi.joystick2_hold and IS_MOBILE)
 		or global.gamepad_active and !gamepad_button_check(global.gamepad, gp_shoulderr) and !gamepad_button_check(global.gamepad, gp_shoulderrb))
 		doingAttack = false
 	

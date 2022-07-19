@@ -38,9 +38,9 @@ if (global.itemSelected == -1 and !destroy or directRun) {
 					var _j = -1
 					var continueAdding = true
 					
-					if (directRun and instance_exists(objItemBag) and (objItemBag.mouseOnPageButton1 or objItemBag.mouseOnPageButton2 or objItemBag.mouseOnPageButton3)) {
-						if (!objItemBag.mouseOnPageButton3) {
-							var wantedPage = objItemBag.mouseOnPageButton1 ? 1 : 2
+					if (directRun and instance_exists(objitemBag) and (objitemBag.mouseOnPageButton1 or objitemBag.mouseOnPageButton2 or objitemBag.mouseOnPageButton3)) {
+						if (!objitemBag.mouseOnPageButton3) {
+							var wantedPage = objitemBag.mouseOnPageButton1 ? 1 : 2
 				
 							for (var j = 0; j < global.bagBoxCount_vertical; j++) {
 								for (var i = global.bagBoxCount_horizontal*(wantedPage-1); i < global.bagBoxCount_horizontal*wantedPage; i++) {
@@ -70,7 +70,7 @@ if (global.itemSelected == -1 and !destroy or directRun) {
 						if (empty_box_exists()) {
 							if (itemClicked.itemLevel <= global.level or directRun or loot) {
 								if (directRun and _i == -1) {
-									with (objItemBag) {
+									with (objitemBag) {
 										event_perform(ev_other, ev_user1)
 										event_perform(ev_other, ev_user2)
 							
@@ -86,7 +86,7 @@ if (global.itemSelected == -1 and !destroy or directRun) {
 								if (itemClicked.isCollectable)
 									increase_collectable_item(itemClicked.object_index, itemClicked.count-1, itemClicked.upgrade)
 		
-								audio_play_sound(sndItemAdded, 10, false)
+								audio_play_sound(snditemAdded, 10, false)
 					
 								if (!loot) {
 									if (ds_list_find_index(global.takenTutorials, 6) == -1)

@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.6,
   "preload": false,
@@ -10,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndItemAdded",
+  "soundFile": "snditemadded",
   "duration": 0.048968,
   "parent": {
     "name": "Tick",
     "path": "folders/Sounds/Tick.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sndItemAdded",
+  "name": "snditemAdded",
   "tags": [],
   "resourceType": "GMSound",
 }

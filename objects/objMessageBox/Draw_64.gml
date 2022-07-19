@@ -88,7 +88,7 @@ draw_set_alpha(mainAlpha) gpu_set_tex_filter(1)
 
 		if (mouseOnButton == i)
 		    if (button[i] != buttonClipped[i]) {
-				draw_set_font(fontItemInfo)
+				draw_set_font(fontiteminfo)
 					show_textbox_tcolor(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), button_colorful[i], string_width(button[i]), string_height(button[i]), mainAlpha)
 				draw_set_font(global.mainFont)
 			}

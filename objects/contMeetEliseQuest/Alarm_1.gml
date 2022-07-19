@@ -6,8 +6,8 @@ if (!objPlayer.death and !objElise_npc.death and
 			global.sl_ambient_light -= 0.025
 		}
 	
-		if (contGUI.image_alpha > 0)
-			contGUI.image_alpha -= 0.05
+		if (contGUi.image_alpha > 0)
+			contGUi.image_alpha -= 0.05
 	}
 	
 	if (followLight == pointer_null and anim_end(objPlayer)) {
@@ -91,7 +91,7 @@ if (!objPlayer.death and !objElise_npc.death and
 		rigidbody_set_definedstance(stShieldMode, 0.5*sec)
 	}
 	
-	with (parAI) {
+	with (parAi) {
 		var angle = point_direction(objPlayer.x, objPlayer.y, phy_com_x, phy_com_y)
 		var dis = point_distance(objPlayer.x, objPlayer.y, phy_com_x, phy_com_y)
 		if (dis < 1500) {

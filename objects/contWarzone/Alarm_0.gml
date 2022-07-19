@@ -1,11 +1,11 @@
 broke_outfight()
 
-with (parAI) {
+with (parAi) {
 	nearList = ds_list_create()
 	var _nearList = nearList
 	
 	for (var dis = 150; dis < 5000; dis *= 1.5) {
-		with (parAI)
+		with (parAi)
 			if (teamNo != other.teamNo and point_distance(x, y, other.x, other.y) < dis)
 				ds_list_add(_nearList, id)
 				
@@ -14,7 +14,7 @@ with (parAI) {
 	}
 }
 
-with (parAI) {
+with (parAi) {
 	if (nearList != pointer_null) {
 		var ds_size = ds_list_size(nearList)
 	

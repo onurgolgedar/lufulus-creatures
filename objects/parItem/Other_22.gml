@@ -12,16 +12,16 @@ if (isQuestion(1)) {
 				if (!is_active(i, j) and global.level >= itemLevel/*-2*/ and (isDeletable or isForQuest == false)) {
 					change_active(type, i, j)
 					
-					if (instance_exists(objItemBag) and from == window_items and !global.gamepad_active) {
+					if (instance_exists(objitemBag) and from == window_items and !global.gamepad_active) {
 						if (!instance_exists(objEquipmentBag)) {
 							if (!IS_MOBILE) {
-								if (objItemBag.y+350 < display_get_gui_height()-60)
-									instance_create_layer(objItemBag.x+240, objItemBag.y+400, "lyWindows", objEquipmentBag)
+								if (objitemBag.y+350 < display_get_gui_height()-60)
+									instance_create_layer(objitemBag.x+240, objitemBag.y+400, "lyWindows", objEquipmentBag)
 								else
 									instance_create_layer(40, 60, "lyWindows", objEquipmentBag)
 							}
 							else
-								instance_create_layer(objItemBag.x+420, objItemBag.y, "lyWindows", objEquipmentBag)
+								instance_create_layer(objitemBag.x+420, objitemBag.y, "lyWindows", objEquipmentBag)
 						}
 					}
 				}
@@ -87,7 +87,7 @@ if (isQuestion(1)) {
 				if (!autoUse)
 					delete_item(i, j)
 					
-				ds_list_clear(contGUI.blueDirectionArrows)
+				ds_list_clear(contGUi.blueDirectionArrows)
 				with (objAdam_npc) {
 					if (tag == (eng() ? "Challenger" : "Söz Muhafızı"))
 						event_user(14)

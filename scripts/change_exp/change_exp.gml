@@ -91,11 +91,11 @@ function change_exp() {
 	#endregion
 	
 	#region NOTIFICATION
-		contGUI.hlCLogoColor = c_lime
-		contGUI.hlCDis = 80
-		contGUI.hlSLogoColor = c_lime
-		contGUI.hlSDis = 80
-		contGUI.alarm[2] = 1
+		contGUi.hlCLogoColor = c_lime
+		contGUi.hlCDis = 80
+		contGUi.hlSLogoColor = c_lime
+		contGUi.hlSDis = 80
+		contGUi.alarm[2] = 1
 	#endregion
 	
 		global.targetExperience = calculate_level_exp(global.level)
@@ -150,7 +150,7 @@ function change_exp() {
 
 #region SHOW EXP BAR
 	if (showBar) {
-		with (contGUI) {
+		with (contGUi) {
 			expBarAlpha = 1
 			delta_alarm(1, 1)
 		}

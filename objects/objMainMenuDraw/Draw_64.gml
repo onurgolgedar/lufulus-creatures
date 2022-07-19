@@ -1,7 +1,7 @@
 var wPort = display_get_gui_width()
 var hPort = display_get_gui_height()
 
-draw_set_font(fontInfo_small)
+draw_set_font(fontinfo_small)
 	draw_set_color(c_orange)
 		draw_text_outline(30, hPort-50, (eng() ? "version " : "sürüm ")+string(VERSION), 2, c_black, 10, 1, 1, 0)
 		

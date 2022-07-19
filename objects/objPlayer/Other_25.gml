@@ -45,10 +45,10 @@ if (IS_MOBILE)
 	
 #region RED SCREEN EFFECT
 var redScreenValue = 10
-if (contGUI.redScreenTarget < redScreenValue) {
-	contGUI.redScreenIncrease = true
-	contGUI.redScreenTarget = redScreenValue
-	contGUI.alarm[1] = 1
+if (contGUi.redScreenTarget < redScreenValue) {
+	contGUi.redScreenIncrease = true
+	contGUi.redScreenTarget = redScreenValue
+	contGUi.alarm[1] = 1
 }			
 #endregion
 

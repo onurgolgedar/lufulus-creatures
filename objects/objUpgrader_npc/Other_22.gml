@@ -2,8 +2,8 @@ var isEnglish = eng()
 
 if (isQuestion(1)) {
 	if (isButton(0)) {
-		if (!instance_exists(objItemBag) and is_outfight())
-			instance_create_layer(20, 245, "lyWindows", objItemBag)
+		if (!instance_exists(objitemBag) and is_outfight())
+			instance_create_layer(20, 245, "lyWindows", objitemBag)
 		
 	    with (objTradeWindow)
 			close_table()
@@ -60,7 +60,7 @@ else if (isQuestion(2)) {
 			if (chance(itemUpgradeChance, 100)) {
 				show_messagebox(200, 400, eng() ? "Item has been successfully upgraded." : "Eşya başarıyla geliştirildi.", eng() ? "Congratulations!" : "Tebrikler!", 1.25*sec)
 				global.itemUpgrade[itemI, itemJ]++
-				objItemBag.itemUpgrade[itemI, itemJ] = global.itemUpgrade[itemI, itemJ]
+				objitemBag.itemUpgrade[itemI, itemJ] = global.itemUpgrade[itemI, itemJ]
 				
 				if (global.item[itemI, itemJ] == objSw_001Q) {
 					if (is_quest_incomplete(objQuest_blacksmith2))
@@ -115,11 +115,11 @@ else if (isQuestion(2)) {
 					show_messagebox(200, 400, isEnglish ? "\nYou have lost the item because\nthe item was +0." : "\nEşyayı kaybettin çünkü gelişim seviyesi +0'dı."
 					, isEnglish ? ("Item lost, [c="+string(c_aqua)+"]\nthe price is refunded.[/c]") : ("Eşya kayboldu, [c="+string(c_aqua)+"]\nücret iade edildi.[/c]"), 5*sec)
 					
-					if (objItemBag.item[itemI, itemJ].specialty >= 50) {
-						show_messagebox(250, 450, isEnglish ? ("I am sorry, the item was really special.\nI pay you the worth of the item.\n\nRefund: "+string(objItemBag.item[itemI, itemJ].worth)+"[/c]")
-						: ("Üzgünüm, bu eşya çok özeldi.\nSana eşyanın ederini aynen veriyorum.\n\nİade: "+string(objItemBag.item[itemI, itemJ].worth)+"[/c]")
+					if (objitemBag.item[itemI, itemJ].specialty >= 50) {
+						show_messagebox(250, 450, isEnglish ? ("I am sorry, the item was really special.\nI pay you the worth of the item.\n\nRefund: "+string(objitemBag.item[itemI, itemJ].worth)+"[/c]")
+						: ("Üzgünüm, bu eşya çok özeldi.\nSana eşyanın ederini aynen veriyorum.\n\nİade: "+string(objitemBag.item[itemI, itemJ].worth)+"[/c]")
 						, isEnglish ? ("[c="+string(c_aqua)+"]Gold Refund[/c]") : ("[c="+string(c_aqua)+"]Altın İadesi[/c]"))
-						change_money(objItemBag.item[itemI, itemJ].worth, true)
+						change_money(objitemBag.item[itemI, itemJ].worth, true)
 					}
 					
 					delete_item(itemI, itemJ)
@@ -128,7 +128,7 @@ else if (isQuestion(2)) {
 					show_messagebox(200, 400, isEnglish ? ("Item has lost 1 upgrade level.") : ("Eşya 1 gelişim seviyesi kaybetti."), isEnglish ? "Failure!" : "Başarısız!", 5*sec)
 					//change_money(-itemUpgradeCost)
 					global.itemUpgrade[itemI, itemJ] -= 1
-					objItemBag.itemUpgrade[itemI, itemJ] = global.itemUpgrade[itemI, itemJ]
+					objitemBag.itemUpgrade[itemI, itemJ] = global.itemUpgrade[itemI, itemJ]
 				}
 
 				itembag_refresh()

@@ -4,17 +4,17 @@ global_tab = false
 
 if (!isRoomOut and !global.pause) {	
 	//if (!test_upperclick_window()) {
-	//	if (contGUI.mouseOnMLogo)
+	//	if (contGUi.mouseOnMLogo)
 	//		event_perform(ev_keypress, ord("M"))
-	//	else if (contGUI.mouseOnSLogo)
+	//	else if (contGUi.mouseOnSLogo)
 	//		event_perform(ev_keypress, ord("Y"))
-	//	else if (contGUI.mouseOnQLogo)
+	//	else if (contGUi.mouseOnQLogo)
 	//		event_perform(ev_keypress, ord("J"))
-	//	else if (contGUI.mouseOnBLogo)
+	//	else if (contGUi.mouseOnBLogo)
 	//		event_perform(ev_keypress, ord("I"))
-	//	else if (contGUI.mouseOnCLogo)
+	//	else if (contGUi.mouseOnCLogo)
 	//		event_perform(ev_keypress, ord("C"))
-	//	else if (contGUI.mouseOnSkillBox[4] and global.selectedSkill[4] == objMainBS) {
+	//	else if (contGUi.mouseOnSkillBox[4] and global.selectedSkill[4] == objMainBS) {
 	//		if (is_room_out() or global.consoleMode)
 	//			exit
 	
@@ -33,8 +33,8 @@ if (!isRoomOut and !global.pause) {
 	//			audio_play_sound(sndWindowTick, 1, 0)
 	//		}
 	//	}
-	//	else if (contGUI.mouseOnFindButton) {
-	//		with (contGUI) {
+	//	else if (contGUi.mouseOnFindButton) {
+	//		with (contGUi) {
 	//			var alreadyExists = -1
 	//			with (objMessageBox) {
 	//				if (owner == other.id) {
@@ -44,7 +44,7 @@ if (!isRoomOut and !global.pause) {
 	//			}
 				
 	//			if (alreadyExists == -1) {
-	//				var messageBox = show_dialoguebox(findButtonX-60, display_get_gui_height()-222, "", eng() ? "Looking for..." : "Ne arıyorsun?", contGUI.id, 1
+	//				var messageBox = show_dialoguebox(findButtonX-60, display_get_gui_height()-222, "", eng() ? "Looking for..." : "Ne arıyorsun?", contGUi.id, 1
 	//				, eng() ? "Sellers" : "Satıcılar", eng() ? "Characters" : "Kişiler", eng() ? "Bank" : "Banka", eng() ? "Doctor" : "Doktor", "Cancel")
 	//				messageBox.specialDesign = true
 	//				findQuestion = true

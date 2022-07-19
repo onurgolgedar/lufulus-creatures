@@ -28,7 +28,7 @@ function creature_spawn_outview() {
 			if (physics_test_overlap(rndX, rndY, phy_rotation, parSolid)
 			or physics_test_overlap(rndX, rndY, phy_rotation, parRock)
 			or physics_test_overlap(rndX, rndY, phy_rotation, parTarget)
-			or physics_test_overlap(rndX, rndY, phy_rotation, objInvisibleWall)
+			or physics_test_overlap(rndX, rndY, phy_rotation, objinvisibleWall)
 			or place_meeting(rndX, rndY, contNoSpawn)
 			or place_meeting(rndX, rndY, objWallBuilder)
 			or is_in_view(rndX, rndY))

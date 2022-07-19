@@ -1,5 +1,5 @@
 #region FIXED
-draw_set_font(fontItemInfo)
+draw_set_font(fontiteminfo)
 
 var upg = upgrade+virtual
 #endregion

@@ -18,7 +18,7 @@ camera_set_view_border(global.camera, floor(viewW/2), floor(viewH/2))
 
 event_perform(ev_other, ev_user1)
 
-with (contGUI) {
+with (contGUi) {
 	var wPort = display_get_gui_width()
 	qLogoX = wPort/2-200
 	bLogoX = wPort/2-270

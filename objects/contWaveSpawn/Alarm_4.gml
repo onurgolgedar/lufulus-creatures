@@ -1,7 +1,7 @@
 if (!objPlayer.noArms or room == roomLufulus) {	
 	blacksmithQuest_exists = is_quest_incomplete(objQuest_blacksmith)
 	if (blacksmithQuest_exists) {
-		with (parAI) {
+		with (parAi) {
 			var myID = id
 			if (hasDropList) {
 				var deleted = remove_dropped(objSw_001Q)

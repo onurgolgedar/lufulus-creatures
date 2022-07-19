@@ -1,7 +1,7 @@
 description = global.defenseLock ? (eng() ? "[c="+string(c_yellow)+"]Safe[/c]\nYou take care to avoid unnecessary damage\naround you.\n\nYou will not harm those who are not enemies.\nField-effect attacks do not harm calm opponents.\n\n[c="+string(c_aqua)+"]"+(IS_MOBILE ? "Tap" : "Click")+" to change the safety state.[/c]" : ("[c="+string(c_yellow)+"]Güvenli[/c]\nHerkese zarar vermemek için kontrollü\ndavranıyorsun.\n\nDüşmanın olmayanlara zarar vermezsin.\nAyrıca, alan etkili saldırıların sakin haldeki\nrakiplere zarar vermez.\n\n[c="+string(c_aqua)+"]Durum değiştirmek için tıkla.[/c]")) : (eng() ? "[c="+string(c_red)+"]Unsafe[/c]\nYour attacks may damage anyone\nwho is not your ally.\n\n[c="+string(c_aqua)+"]"+(IS_MOBILE ? "Tap" : "Click")+" to change the safety state.[/c]" : "[c="+string(c_red)+"]Tehlikeli[/c]\nSaldırıların dostun olmayan herkese zarar\nverebilir.\n\n[c="+string(c_aqua)+"]Durum değiştirmek için "+(IS_MOBILE ? "dokun" : "tıkla")+".[/c]")
 image_index = !global.defenseLock
 
-draw_set_font(fontItemInfo) draw_set_alpha(0)
+draw_set_font(fontiteminfo) draw_set_alpha(0)
 	tbW = string_width(draw_text_colortags(-900, 0, description))
 	tbH = string_height(draw_text_colortags(-900, 0, description))
 draw_set_font(global.mainFont) draw_set_alpha(1)

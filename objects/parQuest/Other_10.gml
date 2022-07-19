@@ -1,4 +1,4 @@
-draw_set_font(fontQuestInfo) draw_set_alpha(0)
+draw_set_font(fontQuestinfo) draw_set_alpha(0)
     
 //var questNo = get_quest_number(object_index)
 
@@ -37,7 +37,7 @@ var description_pure = draw_text_colortags(0, 0, description)
 if (teleport != -1)
 	tbT_r = tbT//string_copy(tbT, pos+2, string_length(tbT)-pos-1)
 
-draw_set_font(fontQuestInfo)
+draw_set_font(fontQuestinfo)
 
 for (var i = 1; i <= string_length(description_pure); i++) {
 	var lineSkip = string_count("\n", string_copy(description_pure, 0, i))

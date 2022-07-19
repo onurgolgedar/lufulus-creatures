@@ -2,12 +2,12 @@ var target = pointer_null
 
 if (isQuestion(1)) {
 	if (isButton(0)) {
-		var messageBox = show_dialoguebox(findButtonX-60, display_get_gui_height()-258-IS_MOBILE*20, "", eng() ? "What kind of seller?" : "Ne tür bir satıcı?", contGUI.id, 2
+		var messageBox = show_dialoguebox(findButtonX-60, display_get_gui_height()-258-IS_MOBILE*20, "", eng() ? "What kind of seller?" : "Ne tür bir satıcı?", contGUi.id, 2
 		, eng() ? "Sword" : "Kılıç", eng() ? "Shield" : "Kalkan", eng() ? "Bow" : "Yay", eng() ? "Armor" : "Zırh", eng() ? "Necklace" : "Kolye", eng() ? "Runes&Cures" : "Rünler&Haplar", "Cancel")
 		messageBox.specialDesign = true
 		findQuestion = true
 	} else if (isButton(1)) {
-		var messageBox = show_dialoguebox(findButtonX-60, display_get_gui_height()-258-IS_MOBILE*20, "", eng() ? "Who?" : "Kim?", contGUI.id, 3
+		var messageBox = show_dialoguebox(findButtonX-60, display_get_gui_height()-258-IS_MOBILE*20, "", eng() ? "Who?" : "Kim?", contGUi.id, 3
 		, "Lord", eng() ? "Bank Manager" : "Banka Görevlisi", eng() ? "Blacksmith" : "Geliştirici", string_return(npc_goore, instance_exists(objGoore_npc)), eng() ? "Stylist" : "Stilist", string_return(npc_senior, instance_exists(objSenior_npc)), string_return(eng() ? "Challenger" : "Söz Muhafızı", room == roomCastle_area), "Cancel")
 		messageBox.specialDesign = true
 		findQuestion = true

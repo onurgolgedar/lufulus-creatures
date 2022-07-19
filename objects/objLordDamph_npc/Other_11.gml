@@ -23,14 +23,14 @@ for (var i = 0; i < ds_list_size(quests); i++) {
 // Exc Mark
 excMark = -1
 
-while (ds_list_find_index(contGUI.redDirectionArrows, id) != -1)
-	ds_list_delete(contGUI.redDirectionArrows, ds_list_find_index(contGUI.redDirectionArrows, id))
-while (ds_list_find_index(contGUI.greenDirectionArrows, id) != -1)
-	ds_list_delete(contGUI.greenDirectionArrows, ds_list_find_index(contGUI.greenDirectionArrows, id))
+while (ds_list_find_index(contGUi.redDirectionArrows, id) != -1)
+	ds_list_delete(contGUi.redDirectionArrows, ds_list_find_index(contGUi.redDirectionArrows, id))
+while (ds_list_find_index(contGUi.greenDirectionArrows, id) != -1)
+	ds_list_delete(contGUi.greenDirectionArrows, ds_list_find_index(contGUi.greenDirectionArrows, id))
 
 if (ds_list_size(finishedQuests) > 0) {
 	excMark = 2
-	ds_list_add(contGUI.greenDirectionArrows, id)
+	ds_list_add(contGUi.greenDirectionArrows, id)
 }
 else {
     var ds_size = ds_list_size(quests)
@@ -49,7 +49,7 @@ else {
 	
 	if (ds_list_size(availableQuests) > 0) {
 		excMark = 1
-		ds_list_add(contGUI.redDirectionArrows, id)
+		ds_list_add(contGUi.redDirectionArrows, id)
 	}
 }
 #endregion

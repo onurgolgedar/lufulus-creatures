@@ -351,7 +351,7 @@ if (room == roomOptions) {
 		draw_set_default() draw_set_alpha(1)
 	}
 	
-	draw_set_halign(fa_right) draw_set_valign(fa_center) draw_set_font(fontMenuButton) draw_set_alpha(image_alpha) draw_set_color(canBeChanged ? cl : c_dkgray)
+	draw_set_halign(fa_right) draw_set_valign(fa_center) draw_set_font(fontMenuButton) draw_set_alpha(image_alpha) draw_set_color(cl)
 		draw_text_outline(rightSide_x-3.7*checkButton_between, offset_y+2, text, 2, c_black, 7, fontSize, fontSize, 0)
 	draw_set_default() draw_set_alpha(1)
 	#endregion

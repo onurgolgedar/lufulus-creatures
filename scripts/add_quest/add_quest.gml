@@ -48,9 +48,9 @@ function add_quest() {
 	
 			if (!contMain.isRoomOut) {
 			#region NOTIFICATION
-				contGUI.hlQLogoColor = c_yellow
-				contGUI.hlQDis = 80
-				contGUI.alarm[2] = 1
+				contGUi.hlQLogoColor = c_yellow
+				contGUi.hlQDis = 80
+				contGUi.alarm[2] = 1
 		
 				audio_play_sound(sndNewQuest, 1, 0)
 			#endregion

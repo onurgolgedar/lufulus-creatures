@@ -20,7 +20,7 @@ if (!global.pause) {
 			if (text == "Main Menu" or text == "Ana Menü")
 				event_perform(ev_other, ev_user1)
 				
-	with (contGUI) {
+	with (contGUi) {
 		if (colorScreenAlpha > 0.1)
 			exit
 	}

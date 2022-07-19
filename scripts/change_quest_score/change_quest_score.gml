@@ -24,9 +24,9 @@ function change_quest_score() {
 	
 			if (!contMain.isRoomOut) {
 			#region NOTIFICATION
-				contGUI.hlQLogoColor = isFailure ? c_red : c_lime
-				contGUI.hlQDis = 80
-				contGUI.alarm[2] = 1
+				contGUi.hlQLogoColor = isFailure ? c_red : c_lime
+				contGUi.hlQDis = 80
+				contGUi.alarm[2] = 1
 			#endregion
 			}
 	

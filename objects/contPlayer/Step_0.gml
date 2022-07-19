@@ -20,13 +20,13 @@ and !objPlayer.noArms) {
 		else if (sk4)
 			skill_use(global.selectedSkill[3], 3)
 		/*else {
-			if (contGUI.mouseOnSkillBox[0])
+			if (contGUi.mouseOnSkillBox[0])
 				skill_use(global.selectedSkill[0], 0)
-			else if (contGUI.mouseOnSkillBox[1])
+			else if (contGUi.mouseOnSkillBox[1])
 				skill_use(global.selectedSkill[1], 1)
-			else if (contGUI.mouseOnSkillBox[2])
+			else if (contGUi.mouseOnSkillBox[2])
 				skill_use(global.selectedSkill[2], 2)
-			else if (contGUI.mouseOnSkillBox[3])
+			else if (contGUi.mouseOnSkillBox[3])
 				skill_use(global.selectedSkill[3], 3)
 			global_tab = false
 		}*/

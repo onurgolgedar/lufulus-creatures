@@ -1,5 +1,5 @@
 var bossExists = false
-with (parAI)
+with (parAi)
 	if (boss and type != type_wisdom)
 		bossExists = true
 		

@@ -7,7 +7,7 @@ function fm_delete() {
 		ds_list_delete(global.fixedMessageActivations, __index)
 		ds_list_delete(global.fixedMessageNos, __index)
 
-		with (contGUI)
+		with (contGUi)
 			event_perform(ev_other, ev_user1)
 	
 		save_fms(global.saveNo)

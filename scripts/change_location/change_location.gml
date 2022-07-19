@@ -13,7 +13,7 @@ function change_location() {
 	contMain.targetRoomName = argument[1]
 	delta_alarm(4, delay, contMain)
 
-	with (contGUI)
+	with (contGUi)
 		colorScreenAlpha = 1.3
 
 	with (parEffectBox)

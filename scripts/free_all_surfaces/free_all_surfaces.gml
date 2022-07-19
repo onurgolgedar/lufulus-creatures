@@ -2,7 +2,7 @@ function free_all_surfaces() {
 	if (surface_exists(global.minimapSurface))
 		free_surface(global.minimapSurface)
 	
-	with (contGUI) {
+	with (contGUi) {
 		if (surface_exists(textShadow_surface))
 			free_surface(textShadow_surface)
 	}

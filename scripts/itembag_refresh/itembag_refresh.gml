@@ -1,5 +1,5 @@
 function itembag_refresh() {
-	with (objItemBag) {
+	with (objitemBag) {
 	    event_perform(ev_other, ev_user4)
 	    event_perform(ev_other, ev_user3)
 	}

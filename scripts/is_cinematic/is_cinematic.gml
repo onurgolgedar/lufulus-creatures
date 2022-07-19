@@ -1,8 +1,8 @@
 function is_cinematic() {
-	if (!instance_exists(contGUI))
+	if (!instance_exists(contGUi))
 		return false
 	
-	return !contGUI.visible
+	return !contGUi.visible
 
 
 }

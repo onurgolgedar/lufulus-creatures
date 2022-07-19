@@ -2,6 +2,7 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -48,7 +49,7 @@
     "path": "folders/Objects/Parent.yy",
   },
   "resourceVersion": "1.0",
-  "name": "parAI",
+  "name": "parAi",
   "tags": [],
   "resourceType": "GMObject",
 }

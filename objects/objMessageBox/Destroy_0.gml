@@ -27,7 +27,7 @@ with (parWindow) {
 }
 
 if (specialDesign) {
-	contGUI.findQuestion = false
+	contGUi.findQuestion = false
 }
 
 if (dialogueID != -1 and pressedButtonClipped != "Cancel" and pressedButtonClipped != "İptal") {

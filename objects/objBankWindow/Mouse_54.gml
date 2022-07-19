@@ -15,7 +15,7 @@ if (global.itemSelected == -1 and !destroy) {
 		    itemClicked.extension[1], -1, -1, true)
 		
 			if (success) {
-				audio_play_sound(sndItemAdded, false, false)
+				audio_play_sound(snditemAdded, false, false)
 			
 				if (instance_exists(itemClicked) and itemClicked.isCollectable)
 					increase_collectable_item(itemClicked.object_index, itemClicked.count-1, itemClicked.upgrade)

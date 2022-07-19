@@ -9,7 +9,7 @@ if (owner.object_index == objPlayer and visible and global.showGUI) {
 	if (mouseOn) {		
 		draw_sprite_ext(sprEfboxOut, 2, xx, 31, 1, 1, 0, c_aqua, 0.3*image_alpha)
 		
-		draw_set_font(fontItemInfo) draw_set_alpha(image_alpha)
+		draw_set_font(fontiteminfo) draw_set_alpha(image_alpha)
 			show_textbox_tcolor(xx-25, 63, description, tbW, tbH)
 		draw_set_font(global.mainFont) draw_set_alpha(1)
 	}

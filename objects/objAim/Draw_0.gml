@@ -23,7 +23,7 @@ else {
 if (global.showGUI) {
 	if (objPlayer.stance != stBasicAttackBase_ohsword_calm and
 	objPlayer.stance != stBasicAttackBase_shieldOnly and !objPlayer.death and !objPlayer.noArms) {
-		var focus = sprite_index == sprAim_archery and (global.gamepad_active or IS_MOBILE or mouse_check_button(mb_right)) and (contPlayer.doingAttack or IS_MOBILE and contGUI.joystick2_hold)
+		var focus = sprite_index == sprAim_archery and (global.gamepad_active or IS_MOBILE or mouse_check_button(mb_right)) and (contPlayer.doingAttack or IS_MOBILE and contGUi.joystick2_hold)
 		var remainingRatio = (1-objPlayer.attackTimer/(sec/global.attackSpeed)*0.4)
 	
 		if (image_index == 2 and global.weaponType != wtype_bow)

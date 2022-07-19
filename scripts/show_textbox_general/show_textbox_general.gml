@@ -30,7 +30,7 @@ function show_textbox_general() {
 	if (argument_count > 8)
 		v_font = argument[8]
 	else
-		v_font = fontItemInfo
+		v_font = fontiteminfo
 
 	/*!*/ // !
 	if (surface_exists(contMain.textbox_surface))

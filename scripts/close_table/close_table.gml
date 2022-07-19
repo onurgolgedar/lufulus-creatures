@@ -5,7 +5,7 @@ function close_table() {
 		alarm[0] = -1
 	}
 
-	if (object_index == objItemBag)
+	if (object_index == objitemBag)
 		with (objEquipmentBag) {
 			alarm[1] = 1
 			alarm[0] = -1

@@ -21,7 +21,7 @@ with (parArrow) {
 		
 // Extra
 if (type == type_wisdom) {
-	with (parAI) {
+	with (parAi) {
 		if (target == other.id)
 			ai_target_destroy()
 	}

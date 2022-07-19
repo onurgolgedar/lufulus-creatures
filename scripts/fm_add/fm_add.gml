@@ -19,7 +19,7 @@ function fm_add() {
 		if (ds_list_size(global.fixedMessages) > 3)
 			fm_delete(ds_list_find_value(global.fixedMessageNos, 0))
 	
-		with (contGUI)
+		with (contGUi)
 			event_perform(ev_other, ev_user1)
 	
 		save_fms(global.saveNo)

@@ -39,7 +39,7 @@ image_alpha = 0
 //objPlayer.viewLock = true
 
 with (objMessageBox) {
-	if (owner != -1 and instance_exists(owner) and object_get_parent(owner.object_index) == parItem and owner.from == window_items)
+	if (owner != -1 and instance_exists(owner) and object_get_parent(owner.object_index) == paritem and owner.from == window_items)
 		close_window()
 }
 

@@ -1,7 +1,7 @@
 function test_upperclick_gui() {
-	return instance_exists(contGUI) and (contGUI.mouseOnMLogo or contGUI.mouseOnSLogo or contGUI.mouseOnQLogo or contGUI.mouseOnBLogo or
-		   contGUI.mouseOnCLogo or contGUI.mouseOnFindButton or contGUI.mouseOnSkillBox[0] or contGUI.mouseOnSkillBox[1] or
-		   contGUI.mouseOnSkillBox[2] or contGUI.mouseOnSkillBox[3] or contGUI.mouseOnSkillBox[4])
+	return instance_exists(contGUi) and (contGUi.mouseOnMLogo or contGUi.mouseOnSLogo or contGUi.mouseOnQLogo or contGUi.mouseOnBLogo or
+		   contGUi.mouseOnCLogo or contGUi.mouseOnFindButton or contGUi.mouseOnSkillBox[0] or contGUi.mouseOnSkillBox[1] or
+		   contGUi.mouseOnSkillBox[2] or contGUi.mouseOnSkillBox[3] or contGUi.mouseOnSkillBox[4])
 
 
 }

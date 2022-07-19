@@ -25,10 +25,10 @@ function change_hp() {
 			#region RED SCREEN EFFECT
 				if (object_index == objPlayer and hp < maxHp/2) {
 					var redScreenValue = -value/maxHp+0.5
-					if (contGUI.redScreenTarget < redScreenValue) {
-						contGUI.redScreenIncrease = true
-						contGUI.redScreenTarget = min(redScreenValue, 1)
-						contGUI.alarm[1] = 1
+					if (contGUi.redScreenTarget < redScreenValue) {
+						contGUi.redScreenIncrease = true
+						contGUi.redScreenTarget = min(redScreenValue, 1)
+						contGUi.alarm[1] = 1
 					}			
 				}
 			#endregion

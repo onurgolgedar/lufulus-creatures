@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "sprInvisibility_efbox",
-    "path": "sprites/sprInvisibility_efbox/sprInvisibility_efbox.yy",
+    "name": "sprinvisibility_efbox",
+    "path": "sprites/sprinvisibility_efbox/sprinvisibility_efbox.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "sprEffectBox",
     "path": "sprites/sprEffectBox/sprEffectBox.yy",
@@ -40,7 +41,7 @@
     "path": "folders/Objects/Effect Box.yy",
   },
   "resourceVersion": "1.0",
-  "name": "efboxInvisibility",
+  "name": "efboxinvisibility",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -6,5 +6,5 @@ if (global.pause) {
 		event_perform(ev_keypress, vk_escape)
 }
 else
-	with (contGUI)
+	with (contGUi)
 		alarm[7] = 2

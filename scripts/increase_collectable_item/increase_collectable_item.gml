@@ -20,7 +20,7 @@ function increase_collectable_item() {
 	            if (global.item[i, j] != -1 and global.item[i, j] == ai_instanceOfItem.object_index and (ai_instanceOfItem.object_index != objUpgradeMaterial or materialUpgrade == global.itemUpgrade[i, j])) {
 	                global.itemCount[i, j] += argument[1]
 				
-					with (objItemBag) {
+					with (objitemBag) {
 						page = (i div global.bagBoxCount_horizontal)+1
 						beforePage = page
 					}

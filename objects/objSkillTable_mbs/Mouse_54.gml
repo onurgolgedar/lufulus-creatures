@@ -9,7 +9,7 @@ if (global.itemSelected == -1) {
             itemClicked = item[mouseOnBox_i, mouseOnBox_j]
         
     if (itemClicked != -1 and itemClicked.upgrade > 0 and !itemClicked.passive) {
-		with (contGUI) {
+		with (contGUi) {
 			for (var i = 0; i < 4; i++) {
 				if (global.selectedSkill[i] == itemClicked.object_index) {
 					skillSprite[i] = -1
@@ -27,7 +27,7 @@ if (global.itemSelected == -1) {
 		for (var i = 0; i < 4; i++) {
 			if (global.selectedSkill[i] == -1) {
 				global.selectedSkill[i] = itemClicked.object_index
-				with (contGUI) event_perform(ev_other, ev_user0)
+				with (contGUi) event_perform(ev_other, ev_user0)
 				break
 			}
 		}

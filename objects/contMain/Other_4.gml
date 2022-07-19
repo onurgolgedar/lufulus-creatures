@@ -21,7 +21,7 @@ ini_open("display.ini")
 	ini_write_real("Display", "refreshRate", IS_MOBILE ? 30 : 60)
 ini_close()
 
-with (contGUI)
+with (contGUi)
 	outFight_alpha = 1
 
 audio_resume_all()
@@ -55,7 +55,7 @@ define_quest_targets()
 
 if (isRoomOut) {	
 	instance_deactivate_object(contPlayer)
-	instance_deactivate_object(contGUI)
+	instance_deactivate_object(contGUi)
 	instance_deactivate_object(contLight)
 	instance_deactivate_object(contFloor)
 	instance_deactivate_object(contRoomRuler)

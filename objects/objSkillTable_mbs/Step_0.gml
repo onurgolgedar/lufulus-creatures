@@ -33,7 +33,7 @@ if (!destroy) {
 						for (var i = 0; i < 4; i++) {
 							if (global.selectedSkill[i] == -1) {
 								global.selectedSkill[i] = item[mouseOnBox_i, mouseOnBox_j].object_index
-								with (contGUI) event_perform(ev_other, ev_user0)
+								with (contGUi) event_perform(ev_other, ev_user0)
 								break
 							}
 						}
@@ -41,7 +41,7 @@ if (!destroy) {
 					
 					event_perform(ev_other, ev_user5)
 					
-					with (contGUI)
+					with (contGUi)
 						event_perform(ev_other, ev_user0)
 						
 					with (contPlayer)

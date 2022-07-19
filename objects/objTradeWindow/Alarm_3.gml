@@ -1,6 +1,6 @@
 delta_alarm(3, sec/20)
 
-if (!loot and !instance_exists(objItemBag))
+if (!loot and !instance_exists(objitemBag))
 	offset_yDown = 45
 else
 	offset_yDown = offset_yDown_base

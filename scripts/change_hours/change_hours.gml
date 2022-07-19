@@ -6,11 +6,11 @@ function change_hours() {
 
 	global.anticheat_hour = recalculate_sha_time()
 
-	with (contGUI)
+	with (contGUi)
 		event_perform(ev_alarm, 5)
 
 	if (get_day() > beforeDay and !is_room_out()) {
-		with (contGUI)
+		with (contGUi)
 			minute = irandom(5)
 		
 	#region RECRUIT EXPENSE

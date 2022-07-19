@@ -2,6 +2,7 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,7 +31,7 @@
     "path": "folders/Objects/Map/Locations.yy",
   },
   "resourceVersion": "1.0",
-  "name": "locIceCage",
+  "name": "lociceCage",
   "tags": [],
   "resourceType": "GMObject",
 }

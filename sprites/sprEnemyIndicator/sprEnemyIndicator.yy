@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0b08046d-1a96-465e-a0bb-4f4d9536a495","path":"sprites/sprEnemyIndicator/sprEnemyIndicator.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0b08046d-1a96-465e-a0bb-4f4d9536a495","path":"sprites/sprEnemyIndicator/sprEnemyIndicator.yy",},"LayerId":{"name":"33e50494-bac5-4bf0-85d4-dce8c8cb6106","path":"sprites/sprEnemyIndicator/sprEnemyIndicator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprEnemyIndicator","path":"sprites/sprEnemyIndicator/sprEnemyIndicator.yy",},"resourceVersion":"1.0","name":"0b08046d-1a96-465e-a0bb-4f4d9536a495","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0b08046d-1a96-465e-a0bb-4f4d9536a495","path":"sprites/sprEnemyindicator/sprEnemyindicator.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0b08046d-1a96-465e-a0bb-4f4d9536a495","path":"sprites/sprEnemyindicator/sprEnemyindicator.yy",},"LayerId":{"name":"33e50494-bac5-4bf0-85d4-dce8c8cb6106","path":"sprites/sprEnemyindicator/sprEnemyindicator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprEnemyindicator","path":"sprites/sprEnemyindicator/sprEnemyindicator.yy",},"resourceVersion":"1.0","name":"0b08046d-1a96-465e-a0bb-4f4d9536a495","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprEnemyIndicator","path":"sprites/sprEnemyIndicator/sprEnemyIndicator.yy",},
+    "spriteId": {"name":"sprEnemyindicator","path":"sprites/sprEnemyindicator/sprEnemyindicator.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -37,12 +37,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"dad26983-58bd-4d2e-a6ac-a06e8281c244","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b08046d-1a96-465e-a0bb-4f4d9536a495","path":"sprites/sprEnemyIndicator/sprEnemyIndicator.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+            {"id":"dad26983-58bd-4d2e-a6ac-a06e8281c244","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b08046d-1a96-465e-a0bb-4f4d9536a495","path":"sprites/sprEnemyindicator/sprEnemyindicator.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,9 +58,9 @@
     "yorigin": 29,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprEnemyIndicator","path":"sprites/sprEnemyIndicator/sprEnemyIndicator.yy",},
+    "parent": {"name":"sprEnemyindicator","path":"sprites/sprEnemyindicator/sprEnemyindicator.yy",},
     "resourceVersion": "1.4",
-    "name": "",
+    "name": "sprEnemyindicator",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprEnemyIndicator",
+  "name": "sprEnemyindicator",
   "tags": [],
   "resourceType": "GMSprite",
 }

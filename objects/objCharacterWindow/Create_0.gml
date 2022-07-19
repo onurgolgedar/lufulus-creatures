@@ -81,7 +81,7 @@ ltext_mpsta = eng() ? "You can increase MP and STA\nby using stat points after s
 
 var text_pure
 
-draw_set_font(fontItemInfo) draw_set_alpha(0)
+draw_set_font(fontiteminfo) draw_set_alpha(0)
 	ltext_strinfo = eng() ? ("[c="+string(c_lime)+"]Increases Strength[/c]\n+1.6% Physical Damage\n+1% Bleeding Damage\n[c="+string(c_aqua)+"](for each)[/c]") : ("[c="+string(c_lime)+"]Kuvvet Arttır[/c]\n+%1.6 Fiziksel Hasar\n+%1 Daha Güçlü Kanama\n[c="+string(c_aqua)+"](adet başına)[/c]")
 	text_pure = draw_text_colortags(0, 0, ltext_strinfo)
 	ltext_strinfo_w = string_width(text_pure)

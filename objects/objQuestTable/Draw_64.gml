@@ -21,7 +21,7 @@ draw_set_alpha(mainAlpha) gpu_set_tex_filter(1)
         draw_text(x+offset_x, y+offset_x+31+IS_MOBILE*4, ltext_quests)
     draw_set_font(global.mainFont) draw_set_color(c_black)
 	
-	draw_set_font(fontInfo_small) draw_set_center()
+	draw_set_font(fontinfo_small) draw_set_center()
 		if (blueBack_start[page] != -1) {			
 			draw_set_color(c_ltblue) draw_set_alpha(mainAlpha*0.35)
 				//draw_rectangle(x+5, y+box_y[page-1, blueBack_start[page]]-boxHeight/2, m_end_x-4, y+box_y[page-1, blueBack_end[page]]+boxHeight/2, 0)
@@ -69,7 +69,7 @@ draw_set_alpha(mainAlpha) gpu_set_tex_filter(1)
 		            xx+boxWidth/2-2, yy+boxHeight/2-1-item[i, j].isSimpleQuest, 0)
 	            draw_set_color(c_black) draw_set_alpha(mainAlpha)
             
-				draw_set_font(fontQuestInfo)
+				draw_set_font(fontQuestinfo)
 			        with (item[i, j]) {
 			            draw_sprite_ext(sprite_index, -1,
 			            xx, yy,

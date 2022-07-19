@@ -105,7 +105,7 @@ if (true) {
 						if (physics_test_overlap(rndX, rndY, phy_rotation, parSolid)
 						or physics_test_overlap(rndX, rndY, phy_rotation, parRock)
 						or physics_test_overlap(rndX, rndY, phy_rotation, parTarget)
-						or physics_test_overlap(rndX, rndY, phy_rotation, objInvisibleWall)
+						or physics_test_overlap(rndX, rndY, phy_rotation, objinvisibleWall)
 						or physics_test_overlap(rndX, rndY, phy_rotation, contGridBlock)
 						or place_meeting(rndX, rndY, contNoSpawn)
 						or place_meeting(rndX, rndY, objWallBuilder))
@@ -135,7 +135,7 @@ if (true) {
 					// Is it boss or not?
 					if (spawnedCreature.boss) {
 						bossSpawned = true
-						show_messagebox(contGUI.mLogoX+220, display_get_gui_height()-243, eng() ? (spawnedCreature.name + " is here! It is\nvery powerful but its reward is huge.") : (spawnedCreature.name + " burada! Çok güçlüdür\nve ödülü çok yüksektir."), eng() ? "Superior Creature (Boss)" : "Üstün Yaratık (Boss)", sec*5)
+						show_messagebox(contGUi.mLogoX+220, display_get_gui_height()-243, eng() ? (spawnedCreature.name + " is here! It is\nvery powerful but its reward is huge.") : (spawnedCreature.name + " burada! Çok güçlüdür\nve ödülü çok yüksektir."), eng() ? "Superior Creature (Boss)" : "Üstün Yaratık (Boss)", sec*5)
 					}
 					
 					// Is it leader or not?

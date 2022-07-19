@@ -46,7 +46,7 @@ hand_obj, hand_dis)
 rigidbody_set_definedstance_type1(stWounded)
 #endregion
 
-leftArm[1].sprite_index = sprFrontArmInjured
+leftArm[1].sprite_index = sprFrontArminjured
 with (leftHand)
 	instance_destroy()
 

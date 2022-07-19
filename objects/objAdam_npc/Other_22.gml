@@ -1,7 +1,7 @@
 if (isQuestion(1)) {
 	if (isButton(0)) {
-		if (!instance_exists(objItemBag) and is_outfight())
-			instance_create_layer(20, 245-IS_MOBILE*180, "lyWindows", objItemBag)
+		if (!instance_exists(objitemBag) and is_outfight())
+			instance_create_layer(20, 245-IS_MOBILE*180, "lyWindows", objitemBag)
 		
 	    with (objTradeWindow)
 			close_table()

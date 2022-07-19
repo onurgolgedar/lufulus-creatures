@@ -16,7 +16,7 @@ if (camera_get_view_height(global.camera) != targetZoom_h) {
 	with (contLight)
 		SL_engine_render()
 	
-	with(contGUI) {
+	with(contGUi) {
 		colorScreenAlpha = 1
 		alarm[1] = 2
 	}

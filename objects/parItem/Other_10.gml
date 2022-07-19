@@ -1,4 +1,4 @@
-draw_set_font(fontItemInfo)
+draw_set_font(fontiteminfo)
 
 var beforeAlpha = draw_get_alpha()
 draw_set_alpha(0)
@@ -86,7 +86,7 @@ if (get_active_item_ij(type, 0) != -1 or from == "Upgrader") {
 		activeItem = owner.im_item[get_active_item_ij(type, 0), get_active_item_ij(type, 1)]
 	}
 	else if (from == "Upgrader") {
-		activeItem = objItemBag.item[i, j]
+		activeItem = objitemBag.item[i, j]
 		upgraderForm = true
 	}
 }
@@ -175,7 +175,7 @@ if (type == type_mweapon or type == type_sweapon)
         ext1+
 		"\n[c="+string(c_ltyellow)+"]"+ltext_segment+get_upgradematerial_name(item_get_upgradematerial_type(itemLevel, specialty))+" ("+string(itemLevel)+(eng() ? " lv" : ". seviye")+")[/c]"+
         moneyText+
-		((is_active(i, j) and (owner.object_index == objItemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : (((type == type_mweapon and global.weaponI != -1 or type == type_sweapon and global.sWeaponI != -1) and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
+		((is_active(i, j) and (owner.object_index == objitemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : (((type == type_mweapon and global.weaponI != -1 or type == type_sweapon and global.sWeaponI != -1) and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
         
 		if (owner.object_index == objBankWindow)
 			tbT += eng() ? ("\n\n[c="+string(c_aqua)+"]Rent Duration: "+string(get_day() - rentTime)+" day(s)\nDaily Return: "+string(floor(cWorth*BANK_RENT_RATIO))+" gold(s) ("+string(round(100*BANK_RENT_RATIO))+"%)[/c]") : ("\n\n[c="+string(c_aqua)+"]Kiradaki Süre: "+string(get_day() - rentTime)+" gün\nGünlük Getirisi: "+string(floor(cWorth*BANK_RENT_RATIO))+" altın (%"+string(round(100*BANK_RENT_RATIO))+")[/c]")
@@ -259,14 +259,14 @@ if (type == type_mweapon or type == type_sweapon)
 	        ext1+
 			"\n[c="+string(c_ltyellow)+"]"+ltext_segment+get_upgradematerial_name(item_get_upgradematerial_type(itemLevel, specialty))+" ("+string(itemLevel)+(eng() ? " lv" : ". seviye")+")[/c]"+
 	        moneyText+
-	        ((is_active(i, j) and (owner.object_index == objItemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : ((global.weaponI != -1 and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
+	        ((is_active(i, j) and (owner.object_index == objitemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : ((global.weaponI != -1 and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
 		}
 		else {
 	        tbT = "[c="+string(color1)+"]"+name+"[/c]"+"\n"+
 	        ext0+
 	        ext1+
 	        moneyText+
-	        ((is_active(i, j) and (owner.object_index == objItemBag or imaginary)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : ((global.weaponI != -1 and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
+	        ((is_active(i, j) and (owner.object_index == objitemBag or imaginary)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : ((global.weaponI != -1 and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
 		}
 		
 		if (owner.object_index == objBankWindow)
@@ -350,7 +350,7 @@ else if (type == type_clothes)
     ext1+
 	"\n[c="+string(c_ltyellow)+"]"+ltext_segment+get_upgradematerial_name(item_get_upgradematerial_type(itemLevel, specialty))+" ("+string(itemLevel)+(eng() ? " lv" : ". seviye")+")[/c]"+
     moneyText+
-    ((is_active(i, j) and (owner.object_index == objItemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : ((global.clothesI != -1 and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
+    ((is_active(i, j) and (owner.object_index == objitemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : ((global.clothesI != -1 and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
     
 		if (owner.object_index == objBankWindow)
 		tbT += eng() ? ("\n\n[c="+string(c_aqua)+"]Rent Duration: "+string(get_day() - rentTime)+" day(s)\nDaily Return: "+string(floor(cWorth*BANK_RENT_RATIO))+" gold(s) ("+string(round(100*BANK_RENT_RATIO))+"%)[/c]") : ("\n\n[c="+string(c_aqua)+"]Kiradaki Süre: "+string(get_day() - rentTime)+" gün\nGünlük Getirisi: "+string(floor(cWorth*BANK_RENT_RATIO))+" altın (%"+string(round(100*BANK_RENT_RATIO))+")[/c]")
@@ -454,7 +454,7 @@ else if (type == type_necklace)
     ext1+
 	"\n[c="+string(c_ltyellow)+"]"+ltext_segment+get_upgradematerial_name(item_get_upgradematerial_type(itemLevel, specialty))+" ("+string(itemLevel)+(eng() ? " lv" : ". seviye")+")[/c]"+
     moneyText+
-    ((is_active(i, j) and (owner.object_index == objItemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : (((type == type_necklace and global.necklaceI != -1 or type == type_medallion and global.medallionI != -1) and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
+    ((is_active(i, j) and (owner.object_index == objitemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : (((type == type_necklace and global.necklaceI != -1 or type == type_medallion and global.medallionI != -1) and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
     
 	if (owner.object_index == objBankWindow)
 		tbT += eng() ? ("\n\n[c="+string(c_aqua)+"]Rent Duration: "+string(get_day() - rentTime)+" day(s)\nDaily Return: "+string(floor(cWorth*BANK_RENT_RATIO))+" gold(s) ("+string(round(100*BANK_RENT_RATIO))+"%)[/c]") : ("\n\n[c="+string(c_aqua)+"]Kiradaki Süre: "+string(get_day() - rentTime)+" gün\nGünlük Getirisi: "+string(floor(cWorth*BANK_RENT_RATIO))+" altın (%"+string(round(100*BANK_RENT_RATIO))+")[/c]")
@@ -517,7 +517,7 @@ else if (type == type_medallion) {
     ext0+
     ext1+
     moneyText+
-    ((is_active(i, j) and (owner.object_index == objItemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : (((type == type_necklace and global.necklaceI != -1 or type == type_medallion and global.medallionI != -1) and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
+    ((is_active(i, j) and (owner.object_index == objitemBag or from == window_imtrade)) ? ("\n[c="+string(c_aqua)+"]"+ltext_equipped+"[/c]") : (((type == type_necklace and global.necklaceI != -1 or type == type_medallion and global.medallionI != -1) and get_active_item_ij(type, false) != -1 and owner.object_index != objUpgrader_npc) ? (""/*"\n[c="+string(c_aqua)+"]<Shift>: Compare\n<Space>: Equivalent[/c]"*/) : ""))
     
 	if (owner.object_index == objBankWindow)
 		tbT += eng() ? ("\n\n[c="+string(c_aqua)+"]Rent Duration: "+string(get_day() - rentTime)+" day(s)\nDaily Return: "+string(floor(cWorth*BANK_RENT_RATIO))+" gold(s) ("+string(round(100*BANK_RENT_RATIO))+"%)[/c]") : ("\n\n[c="+string(c_aqua)+"]Kiradaki Süre: "+string(get_day() - rentTime)+" gün\nGünlük Getirisi: "+string(floor(cWorth*BANK_RENT_RATIO))+" altın (%"+string(round(100*BANK_RENT_RATIO))+")[/c]")

@@ -5,11 +5,11 @@ mouseOn = device_mouse_y_to_gui(0) < 60 and device_mouse_x_to_gui(0) > xx-22 and
 and device_mouse_y_to_gui(0) > 8 and !test_upperclick_window()
 if (mouseOn != beforeMouseOn) {
 	if (mouseOn and !beforeMouseOn) {
-		with (contGUI)
+		with (contGUi)
 			hideSummaryInfo_alpha = 1
 	}
 	else if (!mouseOn and beforeMouseOn) {
-		with (contGUI)
+		with (contGUi)
 			alarm[1] = 1
 	}
 }

@@ -214,6 +214,6 @@ shiftCooldown_extension = false
 shiftHeal_extension = false
 galaxy_extension = false
 
-with (contGUI)
+with (contGUi)
 	event_perform(ev_other, ev_user0)
 event_perform(ev_other, ev_user1)

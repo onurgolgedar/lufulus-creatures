@@ -3,6 +3,7 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+  "applyKerning": 0,
   "fontName": "Century Gothic",
   "styleName": "Regular",
   "size": 28.0,
@@ -20,6 +21,7 @@
     "path": "texturegroups/Default",
   },
   "ascenderOffset": 0,
+  "ascender": 0,
   "glyphs": {
     "32": {"x":2,"y":2,"w":10,"h":46,"character":32,"shift":10,"offset":0,},
     "33": {"x":116,"y":146,"w":5,"h":46,"character":33,"shift":11,"offset":3,},
@@ -168,7 +170,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "fontGUI",
+  "name": "fontGUi",
   "tags": [],
   "resourceType": "GMFont",
 }

@@ -6,7 +6,7 @@ if (isQuestion(1)) {
 			if (ds_list_find_index(global.takenTutorials, 18) == -1)
 				ds_list_add(global.takenTutorials, 18)
 			
-			contGUI.colorScreenAlpha = 1
+			contGUi.colorScreenAlpha = 1
 					
 			if (owner != -1 and owner != pointer_null) {
 				owner.alarm[2] = sec/20
@@ -20,7 +20,7 @@ if (isQuestion(1)) {
 	}
 	else if (isButton(2)) {
 		if (is_outfight() and get_location(givenLocation) != room and givenLocation != pointer_null and givenBy != objPlayer and !(givenLocation == loc_hawmgrad and givenBy == objPlayer)) {
-			contGUI.colorScreenAlpha = 1
+			contGUi.colorScreenAlpha = 1
 					
 			if (owner != -1 and owner != pointer_null) {
 				owner.alarm[2] = sec/20
@@ -34,7 +34,7 @@ if (isQuestion(1)) {
 	}
 	else if (isButton(3)) {
 		if (is_outfight() and teleport == room) {
-			contGUI.colorScreenAlpha = 1
+			contGUi.colorScreenAlpha = 1
 					
 			if (owner != -1 and owner != pointer_null) {
 				owner.alarm[2] = sec/20

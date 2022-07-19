@@ -5,7 +5,7 @@ if (!IS_MOBILE and from == window_quests and !test_upperclick_window(owner)) {
 		else
 			textAlpha = 0.97
 		
-	    textBoxWidth = show_textbox_general(owner.x+owner.box_x[i, j]+176, owner.y+owner.box_y[i, j]+16, teleport != -1 ? tbT_r : tbT, tbW, tbH, c_textbox, textAlpha, false, fontQuestInfo)
+	    textBoxWidth = show_textbox_general(owner.x+owner.box_x[i, j]+176, owner.y+owner.box_y[i, j]+16, teleport != -1 ? tbT_r : tbT, tbW, tbH, c_textbox, textAlpha, false, fontQuestinfo)
 		
     }
 	else

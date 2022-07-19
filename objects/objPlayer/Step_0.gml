@@ -1,7 +1,7 @@
 event_inherited()
 
 /*if (IS_MOBILE) {
-	if (device_mouse_check_button(contGUI.joystick_hold, mb_left))
+	if (device_mouse_check_button(contGUi.joystick_hold, mb_left))
 		event_perform(ev_mouse, ev_left_button)
 }*/
 
@@ -20,10 +20,10 @@ if (!death) {
 						lastRotation = point_direction(0, 0, hor, ver)
 				}
 				else {
-					if (contGUI.joystick2_hold and contGUI.joystick2_dis > 27-(global.weaponType == wtype_crossbow)*5)
-						lastRotation = contGUI.joystick2_dir
-					else if (contGUI.joystick_hold and (global.weaponType != wtype_crossbow and global.weaponType != wtype_bow or isOutFight))
-						lastRotation = contGUI.joystick_dir
+					if (contGUi.joystick2_hold and contGUi.joystick2_dis > 27-(global.weaponType == wtype_crossbow)*5)
+						lastRotation = contGUi.joystick2_dir
+					else if (contGUi.joystick_hold and (global.weaponType != wtype_crossbow and global.weaponType != wtype_bow or isOutFight))
+						lastRotation = contGUi.joystick_dir
 				}
 			}
 			else
@@ -39,16 +39,16 @@ if (!death) {
 					lastRotation = point_direction(0, 0, phy_speed_x, phy_speed_y)
 			}
 			else {
-				if (contGUI.joystick2_hold)
-					lastRotation = contGUI.joystick2_dir
+				if (contGUi.joystick2_hold)
+					lastRotation = contGUi.joystick2_dir
 				else
-					lastRotation = contGUI.joystick_dir
+					lastRotation = contGUi.joystick_dir
 			}
 		}
 		else if (phy_speed > 2*rsFactor and attackTimer == 0)
 			lastRotation = point_direction(0, 0, phy_speed_x, phy_speed_y)
 		
-		turn(lastRotation, 180/(1+0.5*(IS_MOBILE and contGUI.joystick2_hold and !contPlayer.melee)))
+		turn(lastRotation, 180/(1+0.5*(IS_MOBILE and contGUi.joystick2_hold and !contPlayer.melee)))
 	}
 	else
 		turn(lastRotation, 18)
@@ -121,11 +121,11 @@ if (!death) {
 
 	var xDirection, yDirection
 	if (IS_MOBILE or global.gamepad_active) {
-		if (IS_MOBILE and contGUI.joystick_hold) {		
+		if (IS_MOBILE and contGUi.joystick_hold) {		
 			//if (abs(gamepadH) > 0.4 or abs(gamepadV) > 0.4) {
-				var _magnitude = min(contGUI.joystick_dis/JOYSTICK_R, 1)
-				xDirection = lengthdir_x(_magnitude, contGUI.joystick_dir)
-				yDirection = lengthdir_y(_magnitude, contGUI.joystick_dir)
+				var _magnitude = min(contGUi.joystick_dis/JOYSTICK_R, 1)
+				xDirection = lengthdir_x(_magnitude, contGUi.joystick_dir)
+				yDirection = lengthdir_y(_magnitude, contGUi.joystick_dir)
 			/*}
 			else {
 				xDirection = 0
@@ -159,7 +159,7 @@ if (!death) {
 		physics_apply_force(x, y, 17.06*xDirection*spd, 17.06*yDirection*spd)
 }
 
-if (!IS_MOBILE and (mouse_check_button(mb_left) or gamepad_button_check(global.gamepad, gp_shoulderr)) or IS_MOBILE and (contGUI.joystick2_dis > 80 or contGUI.joystick2_hold and contPlayer.doingAttack and contPlayer.melee)) {
+if (!IS_MOBILE and (mouse_check_button(mb_left) or gamepad_button_check(global.gamepad, gp_shoulderr)) or IS_MOBILE and (contGUi.joystick2_dis > 80 or contGUi.joystick2_hold and contPlayer.doingAttack and contPlayer.melee)) {
 	var isOutfight = is_outfight()
 
 	if (!IS_MOBILE and global.mouseControl) {
@@ -196,7 +196,7 @@ if (!IS_MOBILE and (mouse_check_button(mb_left) or gamepad_button_check(global.g
 			crossbowWaitActive = false
 		}*/
 	
-		if ((!isOutfight or alarm[5] < 1) and (!crossbowWaitActive or crossbowWait == 0) and (abs(angle_difference(-phy_rotation, IS_MOBILE ? contGUI.joystick2_dir : point_direction(x, y, mouse_x, mouse_y))) < 3 or (!global.mouseControl and global.gamepad_active))) {
+		if ((!isOutfight or alarm[5] < 1) and (!crossbowWaitActive or crossbowWait == 0) and (abs(angle_difference(-phy_rotation, IS_MOBILE ? contGUi.joystick2_dir : point_direction(x, y, mouse_x, mouse_y))) < 3 or (!global.mouseControl and global.gamepad_active))) {
 			attackSpeed = global.attackSpeed
 	
 			var animationStarted = true
@@ -209,7 +209,7 @@ if (!IS_MOBILE and (mouse_check_button(mb_left) or gamepad_button_check(global.g
 				else if (!IS_MOBILE)
 					dir = point_direction(x, y, mouse_x, mouse_y)
 				else
-					dir = contGUI.joystick2_dir
+					dir = contGUi.joystick2_dir
 			
 				physics_apply_impulse(phy_com_x, phy_com_y, lengthdir_x(10, dir), lengthdir_y(10, dir))
 			}

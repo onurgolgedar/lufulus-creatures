@@ -28,7 +28,7 @@ if (global.showGUI) {
 				var yy = scY_player+lengthdir_y(165+contMain.period, dir)
 		
 				if (point_distance(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), xx, yy) < 30) {
-					draw_set_color(c_lime) draw_set_font(fontInfo_small) draw_set_center()
+					draw_set_color(c_lime) draw_set_font(fontinfo_small) draw_set_center()
 						draw_text_outline(xx, yy-40, eng() ? "Completed\nQuest" : "Tamamlanan\nGörev", 2, c_black, 8, 1, 1, 0)
 					draw_set_default()
 			
@@ -50,7 +50,7 @@ if (global.showGUI) {
 				var yy = scY_player+lengthdir_y(150+contMain.period/2, dir)
 				
 				if (point_distance(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), xx, yy) < 30) {			
-					draw_set_color(c_yellow) draw_set_font(fontInfo_small) draw_set_center()
+					draw_set_color(c_yellow) draw_set_font(fontinfo_small) draw_set_center()
 						draw_text_outline(xx, yy-40, eng() ? "Quest\nTarget" : "Görev\nHedefi", 2, c_black, 8, 1, 1, 0)
 					draw_set_default()
 			
@@ -73,7 +73,7 @@ if (global.showGUI) {
 				var yy = scY_player+lengthdir_y(135+contMain.period/2, dir)
 				
 				if (point_distance(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), xx, yy) < 30) {			
-					draw_set_color(c_red) draw_set_font(fontInfo_small) draw_set_center()
+					draw_set_color(c_red) draw_set_font(fontinfo_small) draw_set_center()
 						draw_text_outline(xx, yy-40, eng() ? "Quest\nOffer" : "Görev\nTeklifi", 2, c_black, 8, 1, 1, 0)
 					draw_set_default()
 			
@@ -96,7 +96,7 @@ if (global.showGUI) {
 				var yy = scY_player+lengthdir_y(120+contMain.period/2, dir)
 				
 				if (point_distance(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), xx, yy) < 30) {			
-					draw_set_color(c_challenge) draw_set_font(fontInfo_small) draw_set_center()
+					draw_set_color(c_challenge) draw_set_font(fontinfo_small) draw_set_center()
 						draw_text_outline(xx, yy-40, eng() ? "Challenge" : "Sözleşme", 2, c_black, 8, 1, 1, 0)
 					draw_set_default()
 			
@@ -166,17 +166,17 @@ if (global.showGUI) {
 					var size = 1+boss*0.3
 					var offsetX = -boss*110*0.15
 					
-					draw_sprite_general(sprBarInside_hp, -1, 0, 0, 110, 9, scX-55+offsetX, scY-60,
+					draw_sprite_general(sprBarinside_hp, -1, 0, 0, 110, 9, scX-55+offsetX, scY-60,
 					size, size, 0, c_black, c_black, c_black, c_black, 0.15)
 			
-					draw_sprite_general(sprBarInsideRed_hp, -1, 0, 0, 110*healthBarP, 9, scX-55+offsetX, scY-60,
+					draw_sprite_general(sprBarinsideRed_hp, -1, 0, 0, 110*healthBarP, 9, scX-55+offsetX, scY-60,
 					size, size, 0, c_white, c_white, c_white, c_white, 0.35)
 			
 					if (healthBarP != 1)
-						draw_sprite_general(sprBarInside_hp, -1, 110*healthBarP, 0, 2, 9, scX-55+110*healthBarP*size+offsetX, scY-60,
+						draw_sprite_general(sprBarinside_hp, -1, 110*healthBarP, 0, 2, 9, scX-55+110*healthBarP*size+offsetX, scY-60,
 						size, size, 0, c_black, c_black, c_black, c_black, 1)
 	
-					draw_sprite_general(sprBarInside_hp, -1, 0, 0, 110*hp/maxHp, 9, scX-55+offsetX, scY-60,
+					draw_sprite_general(sprBarinside_hp, -1, 0, 0, 110*hp/maxHp, 9, scX-55+offsetX, scY-60,
 					size, size, 0, c_white, c_white, c_white, c_white, 0.5)
 					draw_sprite_ext(sprBar, -1, scX, scY-60,
 					size, size, 0, c_white, 1)
@@ -323,17 +323,17 @@ if (global.showGUI) {
 					var size = 1+boss*0.3
 					var offsetX = -boss*110*0.15
 					
-					draw_sprite_general(sprBarInside_hp, -1, 0, 0, 110, 9, scX-55+offsetX, scY-60,
+					draw_sprite_general(sprBarinside_hp, -1, 0, 0, 110, 9, scX-55+offsetX, scY-60,
 					size, size, 0, c_black, c_black, c_black, c_black, 0.15)
 			
-					draw_sprite_general(sprBarInsideRed_hp, -1, 0, 0, 110*healthBarP, 9, scX-55+offsetX, scY-60,
+					draw_sprite_general(sprBarinsideRed_hp, -1, 0, 0, 110*healthBarP, 9, scX-55+offsetX, scY-60,
 					size, size, 0, c_white, c_white, c_white, c_white, 0.35)
 			
 					if (healthBarP != 1)
-						draw_sprite_general(sprBarInside_hp, -1, 110*healthBarP, 0, 2, 9, scX-55+110*healthBarP*size+offsetX, scY-60,
+						draw_sprite_general(sprBarinside_hp, -1, 110*healthBarP, 0, 2, 9, scX-55+110*healthBarP*size+offsetX, scY-60,
 						size, size, 0, c_black, c_black, c_black, c_black, 1)
 	
-					draw_sprite_general(sprBarInside_hp, -1, 0, 0, 110*hp/maxHp, 9, scX-55+offsetX, scY-60,
+					draw_sprite_general(sprBarinside_hp, -1, 0, 0, 110*hp/maxHp, 9, scX-55+offsetX, scY-60,
 					size, size, 0, c_white, c_white, c_white, c_white, 0.5)
 					draw_sprite_ext(sprBar, -1, scX, scY-60,
 					size, size, 0, c_white, 1)
@@ -447,40 +447,40 @@ if (global.showGUI) {
 			draw_sprite_ext(sprStunEffect, -1, scX, scY-38, 1, 1, current_time/10 mod 360, c_white, 0.8)
 	
 		//if (!isOutFight or hp != maxHp or mana != maxMana or energy != 100) {
-			var secInsideSprite = healthBarP <= hp/maxHp ? sprBarSetInside_hp : sprBarSetInsideRed_hp
+			var secInsideSprite = healthBarP <= hp/maxHp ? sprBarSetinside_hp : sprBarSetinsideRed_hp
 		
 			draw_sprite_general(secInsideSprite, -1, 0, 0, 135*healthBarP, 12, scX-135/2, scY-100,
 			1, 1, 0, c_white, c_white, c_white, c_white, 0.5)
-			draw_sprite_general(sprBarSetInside_mana, -1, 0, 0, 134*manaBarP, 13, scX-67, scY-88,
+			draw_sprite_general(sprBarSetinside_mana, -1, 0, 0, 134*manaBarP, 13, scX-67, scY-88,
 			1, 1, 0, c_white, c_white, c_white, c_white, 0.5)
 	
 			var eneColor = energy == 100 ? c_white : c_ltgray
 
 			if (healthBarP != 1)
-				draw_sprite_general(sprBarSetInsideRed_hp, -1, 135*healthBarP, 0, 2, 12, scX-135/2+135*healthBarP, scY-100,
+				draw_sprite_general(sprBarSetinsideRed_hp, -1, 135*healthBarP, 0, 2, 12, scX-135/2+135*healthBarP, scY-100,
 				1, 1, 0, c_black, c_black, c_black, c_black, 1)
 	
 			if (manaBarP != 1)
-				draw_sprite_general(sprBarSetInside_mana, -1, 134*manaBarP, 0, 2, 13, scX-67+134*manaBarP, scY-88,
+				draw_sprite_general(sprBarSetinside_mana, -1, 134*manaBarP, 0, 2, 13, scX-67+134*manaBarP, scY-88,
 				1, 1, 0, c_black, c_black, c_black, c_black, 1)
 	
 			if (energyBarP < 0.98)
-				draw_sprite_general(sprBarSetInside_energy, -1, 130*energy/100, 0, 2, 37, scX-65+130*energy/100, scY-104,
+				draw_sprite_general(sprBarSetinside_energy, -1, 130*energy/100, 0, 2, 37, scX-65+130*energy/100, scY-104,
 				1, 1, 0, c_black, c_black, c_black, c_black, 1)
 	
-			draw_sprite_general(sprBarSetInside_hp, -1, 0, 0, 135*hp/maxHp, 12, scX-135/2, scY-100,
+			draw_sprite_general(sprBarSetinside_hp, -1, 0, 0, 135*hp/maxHp, 12, scX-135/2, scY-100,
 			1, 1, 0, c_white, c_white, c_white, c_white, 0.75)
-			draw_sprite_general(sprBarSetInside_mana, -1, 0, 0, 134*mana/maxMana, 13, scX-67, scY-88,
+			draw_sprite_general(sprBarSetinside_mana, -1, 0, 0, 134*mana/maxMana, 13, scX-67, scY-88,
 			1, 1, 0, c_white, c_white, c_white, c_white, 0.75)
-			draw_sprite_general(sprBarSetInside_energy, -1, 0, 0, 130*energy/100, 37, scX-65, scY-104,
+			draw_sprite_general(sprBarSetinside_energy, -1, 0, 0, 130*energy/100, 37, scX-65, scY-104,
 			1, 1, 0, eneColor, eneColor, eneColor, eneColor, 0.75)
 		
 			if (other.deathEffect) {
-				draw_sprite_general(sprBarSetInside_hp, -1, 135*0.75, 0, 135*0.25-1, 12, scX-135/2+135*0.75+1, scY-100,
+				draw_sprite_general(sprBarSetinside_hp, -1, 135*0.75, 0, 135*0.25-1, 12, scX-135/2+135*0.75+1, scY-100,
 				1, 1, 0, c_red, c_red, c_red, c_red, 0.7)
 			
 				if (global.performanceMode != 0)
-					draw_sprite_general(sprBarSetInside_hp, -1, 135*0.75-1, 0, 2, 12, scX-135/2+135*0.75-1, scY-100,
+					draw_sprite_general(sprBarSetinside_hp, -1, 135*0.75-1, 0, 2, 12, scX-135/2+135*0.75-1, scY-100,
 					1, 1, 0, c_black, c_black, c_black, c_black, 1)
 			}
 	
@@ -522,7 +522,7 @@ if (global.showGUI) {
 					yy *= -1
 				}
 			
-				draw_sprite_ext(sprEnemyIndicator, -1,
+				draw_sprite_ext(sprEnemyindicator, -1,
 				wPort/2+xx, hPort/2-43-yy, 1, 1, dir, c_white, 0.7)
 			}
 		}
@@ -562,7 +562,7 @@ if (global.showGUI) {
 	}
 	
 	if (outFight_alpha > 0 or IS_MOBILE) {
-		var _outFight_alpha = IS_MOBILE ? (outFight_alpha-(IS_MOBILE and (contGUI.joystick_hold or contGUI.joystick2_hold))/1.5)*(1-hideSummaryInfo_alpha) : 1-!isOutFight/1.5
+		var _outFight_alpha = IS_MOBILE ? (outFight_alpha-(IS_MOBILE and (contGUi.joystick_hold or contGUi.joystick2_hold))/1.5)*(1-hideSummaryInfo_alpha) : 1-!isOutFight/1.5
 		draw_sprite_ext(sprMapLogo, -1, mLogoX, mapY, 1+IS_MOBILE*0.15, 1+IS_MOBILE*0.15, 0, c_white, _outFight_alpha)
 		if (mouseOnMLogo) {
 			draw_sprite_ext(sprMapLogo, -1, mLogoX, mapY, 1.15+IS_MOBILE*0.15+contMain.period/50, 1.15+IS_MOBILE*0.15+contMain.period/50, 0, c_white, 0.35*_outFight_alpha)
@@ -576,7 +576,7 @@ if (global.showGUI) {
 	}
 	
 	if (IS_MOBILE) {
-		var _pauseAlpha = 1-(IS_MOBILE and (contGUI.joystick_hold or contGUI.joystick2_hold))/1.5
+		var _pauseAlpha = 1-(IS_MOBILE and (contGUi.joystick_hold or contGUi.joystick2_hold))/1.5
 		draw_sprite_ext(sprPauseLogo, -1, pauseLogoX, mapY-90, 1+IS_MOBILE*0.15, 1+IS_MOBILE*0.15, 0, c_white, _pauseAlpha)
 		if (mouseOnPauseLogo) {
 			draw_sprite_ext(sprPauseLogo, -1, pauseLogoX, mapY-90, 1.15+IS_MOBILE*0.15+contMain.period/50, 1.15+IS_MOBILE*0.15+contMain.period/50, 0, c_white, _pauseAlpha*0.35)
@@ -589,7 +589,7 @@ if (global.showGUI) {
 		}
 	}
 
-	var skillLogoAlpha = 1-(!isOutFight or IS_MOBILE and (contGUI.joystick_hold or contGUI.joystick2_hold))/1.5
+	var skillLogoAlpha = 1-(!isOutFight or IS_MOBILE and (contGUi.joystick_hold or contGUi.joystick2_hold))/1.5
 	if (findButton_exists) {
 		draw_sprite_ext(sprFindButton, !v_isEnglish, findButtonX, hPort-35, 1, 1, 0, isOutFight ? c_white : c_gray, skillLogoAlpha)
 		if (mouseOnFindButton or findQuestion) {
@@ -606,7 +606,7 @@ if (global.showGUI) {
 	draw_sprite_ext(sprSkillsLogo, -1, sLogoX, hPort-27, 1-!mouseOnSLogo*0.2, 1-!mouseOnSLogo*0.2, 0, isActive_skills ? c_white : c_dkgray, skillLogoAlpha)
 
 	draw_sprite_ext(sprWindowLogoBack, mouseOnCLogo, cLogoX, hPort-27, 1, 1, 0, c_white, 1)
-	draw_sprite_ext(sprCharInfoLogo, -1, cLogoX, hPort-27, 1-!mouseOnCLogo*0.2, 1-!mouseOnCLogo*0.2, 0, c_white, skillLogoAlpha)
+	draw_sprite_ext(sprCharinfoLogo, -1, cLogoX, hPort-27, 1-!mouseOnCLogo*0.2, 1-!mouseOnCLogo*0.2, 0, c_white, skillLogoAlpha)
 
 	draw_sprite_ext(sprWindowLogoBack, mouseOnBLogo, bLogoX, hPort-27, 1, 1, 0, c_white, 1)
 	draw_sprite_ext(sprBagLogo, -1, bLogoX, hPort-27, 1-!mouseOnBLogo*0.2, 1-!mouseOnBLogo*0.2, 0, c_white, skillLogoAlpha)
@@ -694,7 +694,7 @@ if (global.showGUI) {
 
 	draw_sprite(sprSkillTable, -1, wPort/2, hPort-45)
 
-	draw_set_center() draw_set_font(fontInfo_small)
+	draw_set_center() draw_set_font(fontinfo_small)
 	for (var i = 0; i < 5; i++) {
 		var xx = wPort/2-118+i*119/2
 	
@@ -713,7 +713,7 @@ if (global.showGUI) {
 
 	if (global.skillBar > 0) {
 		var barL = 322/100*global.skillBar
-		draw_sprite_general(sprSkillBarInside, 0, 3, 0, barL, 104, wPort/2-158, hPort-104, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
+		draw_sprite_general(sprSkillBarinside, 0, 3, 0, barL, 104, wPort/2-158, hPort-104, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
 	}
 
 	if (my > hPort-200) {
@@ -745,7 +745,7 @@ if (global.showGUI) {
 
 	if (expBarAlpha != 0) {
 		var hasComboText =  global.comboCount > 1
-		draw_set_alpha(expBarAlpha) draw_set_font(fontGUI) draw_set_color(hasComboText ? c_aqua : c_yellow) draw_set_halign(fa_center) draw_set_valign(fa_center)
+		draw_set_alpha(expBarAlpha) draw_set_font(fontGUi) draw_set_color(hasComboText ? c_aqua : c_yellow) draw_set_halign(fa_center) draw_set_valign(fa_center)
 			var expText_size = hasComboText ? (expBarAlpha > 1 ? expBarAlpha : 1) : 0.95
 			draw_text_outline(wPort/2, 48, hasComboText ? (ltext_combo+": "+string(global.comboCount)) : ltext_barexperience, 2, c_black, global.performanceOutFidelty, expText_size, expText_size, 0)
 		draw_set_alpha(1) draw_set_default()
@@ -756,15 +756,15 @@ if (global.showGUI) {
 		if (global.comboCount > 1) {
 			var expWithComboLength = min(320, 320*(global.experience+calculate_givenexperience(global.comboExperience))/global.targetExperience)
 		
-			draw_sprite_general(sprExpBarInsideAqua, -1, expLength, 0, expWithComboLength-expLength, 17, wPort/2-160*1.5+expLength*1.5, 80, 1.5, 1.5, 0, c_white, c_white, c_white, c_white, 0.7*expBarAlpha)
-			draw_sprite_general(sprExpBarInside, -1, expWithComboLength-1, 0, 2, 17, wPort/2-160*1.5+expWithComboLength*1.5-1, 80, 1.5, 1.5, 0, c_black, c_black, c_black, c_black, expBarAlpha)
+			draw_sprite_general(sprExpBarinsideAqua, -1, expLength, 0, expWithComboLength-expLength, 17, wPort/2-160*1.5+expLength*1.5, 80, 1.5, 1.5, 0, c_white, c_white, c_white, c_white, 0.7*expBarAlpha)
+			draw_sprite_general(sprExpBarinside, -1, expWithComboLength-1, 0, 2, 17, wPort/2-160*1.5+expWithComboLength*1.5-1, 80, 1.5, 1.5, 0, c_black, c_black, c_black, c_black, expBarAlpha)
 		}
 	
-		draw_sprite_general(sprExpBarInside, -1, 0, 0, expLength, 17, wPort/2-160*1.5, 80, 1.5, 1.5, 0, c_white, c_white, c_white, c_white, 0.7*expBarAlpha)
-		draw_sprite_general(sprExpBarInside, -1, 0, 0, previousExpLength, 17, wPort/2-160*1.5, 80, 1.5, 1.5, 0, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 0.5*expBarAlpha)
+		draw_sprite_general(sprExpBarinside, -1, 0, 0, expLength, 17, wPort/2-160*1.5, 80, 1.5, 1.5, 0, c_white, c_white, c_white, c_white, 0.7*expBarAlpha)
+		draw_sprite_general(sprExpBarinside, -1, 0, 0, previousExpLength, 17, wPort/2-160*1.5, 80, 1.5, 1.5, 0, c_dkgray, c_dkgray, c_dkgray, c_dkgray, 0.5*expBarAlpha)
 	
-		draw_sprite_general(sprExpBarInside, -1, expLength-1, 0, 2, 17, wPort/2-160*1.5+expLength*1.5-1, 80, 1.5, 1.5, 0, c_black, c_black, c_black, c_black, expBarAlpha)
-		draw_sprite_general(sprExpBarInside, -1, previousExpLength-1, 0, 2, 17, wPort/2-160*1.5+previousExpLength*1.5-1, 80, 1.5, 1.5, 0, c_black, c_black, c_black, c_black, expBarAlpha)
+		draw_sprite_general(sprExpBarinside, -1, expLength-1, 0, 2, 17, wPort/2-160*1.5+expLength*1.5-1, 80, 1.5, 1.5, 0, c_black, c_black, c_black, c_black, expBarAlpha)
+		draw_sprite_general(sprExpBarinside, -1, previousExpLength-1, 0, 2, 17, wPort/2-160*1.5+previousExpLength*1.5-1, 80, 1.5, 1.5, 0, c_black, c_black, c_black, c_black, expBarAlpha)
 	
 		draw_sprite_ext(sprExpBar, -1, wPort/2, 80, 1.5, 1.5, 0, c_white, expBarAlpha)
 	}

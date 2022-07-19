@@ -75,7 +75,7 @@ if (room == roomCamp1) {
 	
 #region Rebel War Quests
 if (room == roomRebelWar or room == roomRebelWar2) {
-	with (parAI) {
+	with (parAi) {
 		if (type == type_npc) {
 			if (teamNo == team_player) {
 				shoulders.sprite_index = sprClothes4_npc
@@ -90,7 +90,7 @@ if (room == roomRebelWar or room == roomRebelWar2) {
 		}
 	}
 		
-	with (parAI) {
+	with (parAi) {
 		if (teamNo == team_player) {
 			maxHp *= 2
 			hp = maxHp
@@ -196,7 +196,7 @@ else if (room == roomCastle_area) {
 if (global.level > 1) {
 	var text = eng() ? ("Stat Points\nUse your stat points\nafter you level up.") :
 	("Gelişim Puanları\nSeviye atladıktan sonra\ngelişim puanlarını kullan.")
-	var tutorialBox = tutorial_box_point(contGUI.cLogoX, display_get_gui_height()-103, "", text, 11)
+	var tutorialBox = tutorial_box_point(contGUi.cLogoX, display_get_gui_height()-103, "", text, 11)
 	if (tutorialBox != pointer_null) {
 		tutorialBox.offset_y -= 149
 		tutorialBox.image_xscale = 0.85
@@ -232,7 +232,7 @@ if (global.level > 5) {
 if (global.level > 1) {
 	var text = eng() ? ("Quests\nYou can check your quests here.\nSome quests are added automatically.\nCheck this frequently.") :
 	("Görevler\nBuradan görevlerine bakabilirsin, bazı\ngörevler otomatik olarak eklenir.\nBurayı sıkça kontrol et.")
-	var tutorialBox = tutorial_box_point(contGUI.qLogoX, display_get_gui_height()-106, "", text, 18)
+	var tutorialBox = tutorial_box_point(contGUi.qLogoX, display_get_gui_height()-106, "", text, 18)
 	if (tutorialBox != pointer_null) {
 		tutorialBox.offset_y -= 170
 		tutorialBox.image_xscale = 0.85
@@ -244,7 +244,7 @@ if (global.level > 1) {
 if (global.selectedSkill[4] == objMainBS) {
 	var text = eng() ? ("Skill Points\nUse your skill points\nafter you level up.") :
 	("Beceri Puanları\nSeviye atladıktan sonra\nbeceri puanlarını kullan.")
-	var tutorialBox = tutorial_box_point(contGUI.sLogoX, display_get_gui_height()-103, "", text, 12)
+	var tutorialBox = tutorial_box_point(contGUi.sLogoX, display_get_gui_height()-103, "", text, 12)
 	if (tutorialBox != pointer_null) {
 		tutorialBox.offset_y -= 149
 		tutorialBox.image_xscale = 0.85

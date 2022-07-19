@@ -3,7 +3,7 @@ var beforeMode = global.mode
 if (!is_room_out())
 	global.mode = (!objPlayer.noArms and (global.sWeaponSprite != sprNothingness or !(global.weaponSprite == sprTorch or global.weaponSprite == sprNothingness))) ? md_attack : md_calm
 
-with (contGUI) {
+with (contGUi) {
 	if (beforeMode != global.mode) {
 		if (colorScreenAlpha == 0) {
 			audio_play_sound(global.mode == md_attack ? sndWeaponUp : sndWeaponDown, 1, 0)

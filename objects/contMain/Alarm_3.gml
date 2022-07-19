@@ -36,10 +36,10 @@ if (!isRoomOut and !global.pause) {
 		}
 		draw_set_alpha(1)
 		
-		with (objInvisibleWall)
+		with (objinvisibleWall)
 			draw_sprite_ext(sprNoWalk, 0, 5+x/room_width*_miniMap_width, 5+y/room_height*_miniMap_height, 1/room_width*_miniMap_width*image_xscale, 1/room_height*_miniMap_height*image_yscale, image_angle, c_red, 1)
 		
-		with (parAI) {
+		with (parAi) {
 			if (death) {
 				if (hasDropList and ds_list_size(droppedList) > 0) {
 					draw_set_color(c_blue) draw_set_alpha(0.2+(contMain.period > 3 and contMain.period < 9)*0.6)
@@ -71,10 +71,10 @@ if (!isRoomOut and !global.pause) {
 			}
 		}
 		
-		if (instance_exists(contGUI)) {
-			var ds_size_yellow = ds_list_size(contGUI.yellowDirectionArrows)
+		if (instance_exists(contGUi)) {
+			var ds_size_yellow = ds_list_size(contGUi.yellowDirectionArrows)
 			for (var i = 0; i < ds_size_yellow; i++) {
-				var dirObj = ds_list_find_value(contGUI.yellowDirectionArrows, i)
+				var dirObj = ds_list_find_value(contGUi.yellowDirectionArrows, i)
 	
 				if (instance_exists(dirObj)) {
 					draw_set_color(c_yellow) draw_set_alpha(0.4+(contMain.period > 3 and contMain.period < 9)*0.4)
@@ -137,7 +137,7 @@ if (!isRoomOut and !global.pause) {
 	}
 	#endregion
 	
-	with (parAI) {
+	with (parAi) {
 		if (is_in_view(x, y)) {
 			inView = true
 			

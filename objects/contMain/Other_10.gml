@@ -1,5 +1,5 @@
 instance_activate_object(contPlayer)
-instance_activate_object(contGUI)
+instance_activate_object(contGUi)
 instance_activate_object(contLight)
 instance_activate_object(contFloor)
 instance_activate_object(contRoomRuler)

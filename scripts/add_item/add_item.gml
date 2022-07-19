@@ -18,8 +18,8 @@ function add_item() {
 	var startFromPage = !reverseAdd and argument_count > 8 and argument[8] != false
 	if (startFromPage)
 		currentPage = argument[8]
-	else if (!reverseAdd and argument_count <= 8 and instance_exists(objItemBag) and objItemBag.page != 3) {
-		currentPage = objItemBag.page
+	else if (!reverseAdd and argument_count <= 8 and instance_exists(objitemBag) and objitemBag.page != 3) {
+		currentPage = objitemBag.page
 		startFromPage = true
 	}
 
@@ -56,7 +56,7 @@ function add_item() {
 								show_messagebox(200, 200, eng() ? "The item has been added to Item Bag's\nNew section because there other pages are full." : "Eklenen eşya çantanın yeni eklenenler sayfasına\neklendi. Çünkü diğer sayfalar doluydu.", eng() ? "Warning" : "Uyarı", sec*1.5)
 						}
 					
-						with (objItemBag) {
+						with (objitemBag) {
 							page = currentPage
 							beforePage = currentPage
 						}

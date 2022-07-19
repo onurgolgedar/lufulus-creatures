@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "sprInfoCircle",
-    "path": "sprites/sprInfoCircle/sprInfoCircle.yy",
+    "name": "sprinfoCircle",
+    "path": "sprites/sprinfoCircle/sprinfoCircle.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

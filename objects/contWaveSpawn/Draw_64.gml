@@ -1,4 +1,4 @@
-if (isBreak and room != roomLufulus and wave_no != wave_maxNo and objPlayer.noArms and alarm[10] == -1 and contGUI.colorScreenAlpha == 0) {
+if (isBreak and room != roomLufulus and wave_no != wave_maxNo and objPlayer.noArms and alarm[10] == -1 and contGUi.colorScreenAlpha == 0) {
 	draw_set_color(c_black) draw_set_font(fontBeautiful)
 		if (!eng())
 			var text = string(wave_no+1)+". dalga için [c="+string(c_black)+"]"+(global.gamepad_active ? "<Y Tuşu>'na" : (IS_MOBILE ? "buraya" : "<Q>'ya"))+"[/c]\nbas, silahını çek."

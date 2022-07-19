@@ -1,5 +1,5 @@
 event_inherited()
 
-contGUI.deathEffect = false
+contGUi.deathEffect = false
 
 fm_delete(14)

@@ -8,7 +8,7 @@ if (global.itemSelected != -1) {
 	mouseOnSkillBox = -1
     
 	#region Clicked toWhere
-    with (objItemBag) {
+    with (objitemBag) {
         event_perform(ev_other, ev_user1)
         event_perform(ev_other, ev_user2)
         if (mouseOnBody and (other.toWhere == pointer_null or front)) {
@@ -79,22 +79,22 @@ if (global.itemSelected != -1) {
 	}
 		
 	for (var i = 0; i < 4; i ++) {
-		if (contGUI.mouseOnSkillBox[i]) {
+		if (contGUi.mouseOnSkillBox[i]) {
 			mouseOnSkillBox = i
 			toWhere = "Skill Boxes"
 			break
 		}
-		else if (i == 3 and contGUI.mouseOnSkillBar)
+		else if (i == 3 and contGUi.mouseOnSkillBar)
 			toWhere = "Skill Bar"
 	}
 	#endregion
 
     if (global.itemSelected.from == window_items) {
         if (toWhere == window_items) {
-			if (instance_exists(objItemBag) and (objItemBag.mouseOnPageButton1 or objItemBag.mouseOnPageButton2 or objItemBag.mouseOnPageButton3)) {
+			if (instance_exists(objitemBag) and (objitemBag.mouseOnPageButton1 or objitemBag.mouseOnPageButton2 or objitemBag.mouseOnPageButton3)) {
 				var added = false
-				if (!objItemBag.mouseOnPageButton3) {
-					var wantedPage = objItemBag.mouseOnPageButton1 ? 1 : 2
+				if (!objitemBag.mouseOnPageButton3) {
+					var wantedPage = objitemBag.mouseOnPageButton1 ? 1 : 2
 					
 					for (var j = 0; j < global.bagBoxCount_vertical; j++) {
 						for (var i = global.bagBoxCount_horizontal*(wantedPage-1); i < global.bagBoxCount_horizontal*wantedPage; i++) {
@@ -115,7 +115,7 @@ if (global.itemSelected != -1) {
 				else
 					show_messagebox(230, 230, eng() ? "You cannot move items to \"Loot\" page." : "Eşyalarınızı \"Ganimet\" sayfasına taşıyamazsınız.", eng() ? "Not Allowed" : "İşlem Gerçekleştirilemedi", sec*1.5)
 			
-				with (objItemBag) {
+				with (objitemBag) {
 					if (page != beforePage) {
 						audio_play_sound(sndWindowTick, 10, false)
 						page = beforePage
@@ -123,7 +123,7 @@ if (global.itemSelected != -1) {
 				}
 			}
 			else if (mouseOnBox_i != -1) {
-	            with (objItemBag) {
+	            with (objitemBag) {
 					if (mouseOnBox_i < (global.bagMaxPage-1)*global.bagBoxCount_horizontal or global.itemSelected.i >= (global.bagMaxPage-1)*global.bagBoxCount_horizontal) {
 						if ((mouseOnBox_i div global.bagBoxCount_horizontal) == (global.itemSelected.i div global.bagBoxCount_horizontal)
 						or item[mouseOnBox_i, mouseOnBox_j] == -1
@@ -166,7 +166,7 @@ if (global.itemSelected != -1) {
 			}
         }
 	    else if (toWhere == "Skill Boxes") {
-			show_messagebox(contGUI.sLogoX-450, display_get_gui_height()-220,
+			show_messagebox(contGUi.sLogoX-450, display_get_gui_height()-220,
 							eng() ? "These boxes can only be used for skills." : "Bu bölge sadece yetenek kullanımı içindir.",
 							eng() ? "Not Appropriate" : "Uygun Değil", sec*3)
 		}
@@ -212,7 +212,7 @@ if (global.itemSelected != -1) {
 				}
 			
 				if (success) {
-					audio_play_sound(sndItemAdded, false, false)
+					audio_play_sound(snditemAdded, false, false)
 					
 	                if (global.itemSelected.isCollectable)
 						decrease_collectable_item(global.itemSelected.object_index, 1, global.itemSelected.upgrade)
@@ -270,13 +270,13 @@ if (global.itemSelected != -1) {
 	}
 	else if (global.itemSelected.from == window_actives) {
 		if (toWhere == window_items) {
-			if (instance_exists(objItemBag) and (objItemBag.mouseOnPageButton1 or objItemBag.mouseOnPageButton2 or objItemBag.mouseOnPageButton3)) {
-				if (!objItemBag.mouseOnPageButton3) {
+			if (instance_exists(objitemBag) and (objitemBag.mouseOnPageButton1 or objitemBag.mouseOnPageButton2 or objitemBag.mouseOnPageButton3)) {
+				if (!objitemBag.mouseOnPageButton3) {
 					var itemI = get_active_item_ij(global.itemSelected.type, 0)
 					var itemJ = get_active_item_ij(global.itemSelected.type, 1)
 					var itemType = global.itemSelected.type
 					var done = false
-					var wantedPage = objItemBag.mouseOnPageButton1 ? 1 : 2
+					var wantedPage = objitemBag.mouseOnPageButton1 ? 1 : 2
 				
 					var added = false
 					for (var j = 0; j < global.bagBoxCount_vertical; j++) {
@@ -315,7 +315,7 @@ if (global.itemSelected != -1) {
 				
 				if (mouseOnBox_i != -1 and global.item[mouseOnBox_i, mouseOnBox_j] == -1) {
 					if (mouseOnBox_i < (global.bagMaxPage-1)*global.bagBoxCount_horizontal or global.itemSelected.i >= (global.bagMaxPage-1)*global.bagBoxCount_horizontal) {
-						global.itemSelected = objItemBag.item[itemI, itemJ]
+						global.itemSelected = objitemBag.item[itemI, itemJ]
 						global.itemSelected.from = window_items
 			
 						event_perform(ev_mouse, ev_global_left_release)
@@ -356,7 +356,7 @@ if (global.itemSelected != -1) {
 
 					itembag_refresh()
 					
-					with (objItemBag)
+					with (objitemBag)
 						beforePage = page
 				}
 			}
@@ -442,9 +442,9 @@ if (global.itemSelected != -1) {
 		else if (toWhere == window_items) {
 			if (global.debt == 0) {
 				var success = false
-				if (instance_exists(objItemBag) and (objItemBag.mouseOnPageButton1 or objItemBag.mouseOnPageButton2 or objItemBag.mouseOnPageButton3)) {
-					if (!objItemBag.mouseOnPageButton3) {
-						var wantedPage = objItemBag.mouseOnPageButton1 ? 1 : 2
+				if (instance_exists(objitemBag) and (objitemBag.mouseOnPageButton1 or objitemBag.mouseOnPageButton2 or objitemBag.mouseOnPageButton3)) {
+					if (!objitemBag.mouseOnPageButton3) {
+						var wantedPage = objitemBag.mouseOnPageButton1 ? 1 : 2
 					
 						for (var j = 0; j < global.bagBoxCount_vertical; j++) {
 							for (var i = global.bagBoxCount_horizontal*(wantedPage-1); i < global.bagBoxCount_horizontal*wantedPage; i++) {
@@ -485,7 +485,7 @@ if (global.itemSelected != -1) {
 				}
 			
 				if (success) {
-					audio_play_sound(sndItemAdded, false, false)
+					audio_play_sound(snditemAdded, false, false)
 				
 			        if (global.itemSelected.isCollectable)
 			            increase_collectable_item(global.itemSelected.object_index, global.itemSelected.count-1, global.itemSelected.upgrade)
@@ -499,7 +499,7 @@ if (global.itemSelected != -1) {
 	}
 	else if (global.itemSelected.from == window_skills) {
 	    if (toWhere == "Skill Boxes") {
-			with (contGUI) {
+			with (contGUi) {
 				for (var i = 0; i < 4; i++) {
 					if (global.selectedSkill[i] == global.itemSelected.object_index) {
 						skillSprite[i] = -1
@@ -515,7 +515,7 @@ if (global.itemSelected != -1) {
 			}
 			
 			global.selectedSkill[mouseOnSkillBox] = global.itemSelected.object_index
-			with (contGUI) event_perform(ev_other, ev_user0)
+			with (contGUi) event_perform(ev_other, ev_user0)
 			save_skills(global.saveNo)
 		}
 	}
@@ -534,7 +534,7 @@ if (global.itemSelected != -1) {
 			
 			global.selectedSkill[mouseOnSkillBox] = global.itemSelected.object_index
 			
-			with (contGUI) {
+			with (contGUi) {
 				skillSprite[global.itemSelected.i] = -1
 				global.selectedSkillMaxRem[global.itemSelected.i] = -1
 				global.selectedSkillRem[global.itemSelected.i] = -1
@@ -549,7 +549,7 @@ if (global.itemSelected != -1) {
 			
 			if (tempSkill != -1) {
 				global.selectedSkill[tempPos] = tempSkill
-				with (contGUI) event_perform(ev_other, ev_user0)
+				with (contGUi) event_perform(ev_other, ev_user0)
 			}
 			
 			global.selectedSkillRem[mouseOnSkillBox] = tempRem
@@ -559,7 +559,7 @@ if (global.itemSelected != -1) {
 		}
 		else if (toWhere == pointer_null) {
 			if (!IS_MOBILE or device_mouse_y_to_gui(0) < display_get_gui_height()-80) {
-				with (contGUI) {
+				with (contGUi) {
 					skillSprite[global.itemSelected.i] = -1
 					global.selectedSkillMaxRem[global.itemSelected.i] = -1
 					global.selectedSkillRem[global.itemSelected.i] = -1
@@ -579,7 +579,7 @@ if (global.itemSelected != -1) {
 	
 	if (global.itemSelected != -1 and instance_exists(global.itemSelected)) {
 		if (global.itemSelected.from == window_items) {
-			with (objItemBag)
+			with (objitemBag)
 				page = beforePage
 		}
 		else if (global.itemSelected.from == window_bank) {

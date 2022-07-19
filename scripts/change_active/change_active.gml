@@ -180,7 +180,7 @@ function change_active() {
 				        if (global.item[i, j] == -1) {
 							item_move(0, oldActive_j, i, j)
 						
-							/*with (objItemBag) {
+							/*with (objitemBag) {
 								page = currentPage
 								beforePage = currentPage
 							}*/
@@ -230,7 +230,7 @@ function change_active() {
 		with (objTradeWindow)
 			compareitems_refresh()
 		
-		with (objItemBag)
+		with (objitemBag)
 			compareitems_refresh()
 		
 		with (objBankWindow)
@@ -242,7 +242,7 @@ function change_active() {
 		with (objPlayer)
 			attacktimer_set_max()
 		
-		with (parItem)
+		with (paritem)
 			isTextUpdated = false
 		
 		global.classicItem_count = 0

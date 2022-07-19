@@ -3,6 +3,7 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+  "applyKerning": 0,
   "fontName": "Candara",
   "styleName": "Bold",
   "size": 13.0,
@@ -20,6 +21,7 @@
     "path": "texturegroups/Default",
   },
   "ascenderOffset": 0,
+  "ascender": 0,
   "glyphs": {
     "32": {"x":2,"y":2,"w":4,"h":21,"character":32,"shift":4,"offset":0,},
     "33": {"x":22,"y":71,"w":4,"h":21,"character":33,"shift":4,"offset":0,},
@@ -367,7 +369,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "fontInfo_small",
+  "name": "fontinfo_small",
   "tags": [],
   "resourceType": "GMFont",
 }

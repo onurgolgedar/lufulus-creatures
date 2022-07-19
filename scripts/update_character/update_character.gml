@@ -21,7 +21,7 @@ function update_character() {
 
 		global.anticheat_resultValues = recalculate_sha_resultValues()
 
-		with (contGUI)
+		with (contGUi)
 			event_perform(ev_other, ev_user0)
 		
 		with (objPlayer) {

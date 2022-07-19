@@ -2,6 +2,7 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": true,
   "parentObjectId": null,
@@ -47,7 +48,7 @@
     "path": "folders/Objects/Control.yy",
   },
   "resourceVersion": "1.0",
-  "name": "contGUI",
+  "name": "contGUi",
   "tags": [],
   "resourceType": "GMObject",
 }

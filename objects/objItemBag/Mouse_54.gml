@@ -10,7 +10,7 @@ if (global.itemSelected == -1) {
         
     if (itemClicked != -1) {
 		with (objMessageBox)
-			if (owner != -1 and instance_exists(owner) and object_get_parent(owner.object_index) == parItem and owner.from == window_items)
+			if (owner != -1 and instance_exists(owner) and object_get_parent(owner.object_index) == paritem and owner.from == window_items)
 				close_window()
 
 		var name_with_upgrade = itemClicked.name
@@ -81,6 +81,6 @@ if (global.itemSelected == -1) {
 			}
     }
         
-    /*with (parItem)
+    /*with (paritem)
 		event_perform(ev_other, ev_user0)*/
 }

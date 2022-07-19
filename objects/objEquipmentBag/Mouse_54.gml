@@ -21,7 +21,7 @@ if (global.itemSelected == -1 and !destroy) {
 						i = 999
 						j = 999
 						
-						with (objItemBag) {
+						with (objitemBag) {
 							page = currentPage
 							beforePage = currentPage
 						}

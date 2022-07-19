@@ -6,7 +6,7 @@ if (!isShowed_ready_info and pwr == 1) {
 }
 
 if (!((mouse_check_button(mb_left) and !mouse_check_button(mb_right) and !global.gamepad_active and !IS_MOBILE)
-	or (contGUI.joystick2_hold and !global.gamepad_active and IS_MOBILE)
+	or (contGUi.joystick2_hold and !global.gamepad_active and IS_MOBILE)
 	or (gamepad_button_check(global.gamepad, gp_shoulderr) and !gamepad_button_check(global.gamepad, gp_shoulderrb) and global.gamepad_active))) {
 	event_perform(ev_other, ev_user5)
 

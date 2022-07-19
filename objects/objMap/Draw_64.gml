@@ -56,7 +56,7 @@ with (parLocation) {
 				draw_roundrect(other.travelX+5, other.travelY+3, other.travelX2-7, other.travelY2-3, false)
 			draw_set_alpha(1) draw_set_color(c_black)
 		
-			draw_set_center() draw_set_font(fontGUI) draw_set_alpha(aalpha*other.travelButton_alpha)
+			draw_set_center() draw_set_font(fontGUi) draw_set_alpha(aalpha*other.travelButton_alpha)
 				draw_text((other.travelX+other.travelX2)/2, (other.travelY+other.travelY2)/2, unlocked ? (eng() ? "Travel" : "Git") : (eng() ? "Locked" : "Kilitli"))
 			draw_set_default() draw_set_alpha(1)
 		}
@@ -81,7 +81,7 @@ with (parLocation) {
 	}
 	
 	if (!(isBig and level <= global.level)) {
-		draw_set_center() draw_set_font(fontInfo_small)
+		draw_set_center() draw_set_font(fontinfo_small)
 			var str = string(level)+"-"+string(level+4)+"lv"
 			
 			//draw_set_alpha((1-other.upTextBox_alpha*(1.5-!mouseOn*0.8))*objMap.image_alpha)
@@ -183,7 +183,7 @@ with (parLocation) {
 
 with (parLocation) {
 	if (mouseOn and !IS_MOBILE or other.location_lastSelected == id and IS_MOBILE) {			
-		draw_set_font(fontGUI) draw_set_color(c_orange) draw_set_alpha(other.bottomTextBox_alpha*objMap.image_alpha)
+		draw_set_font(fontGUi) draw_set_color(c_orange) draw_set_alpha(other.bottomTextBox_alpha*objMap.image_alpha)
 			draw_set_halign(IS_MOBILE ? fa_right : fa_left)
 			draw_text_outline(objMap.x-73-IS_MOBILE*20, objMap.y-380+IS_MOBILE*80, name, 3, c_black, global.performanceOutFidelty, 1.1, 1.1, 0)
 			draw_set_halign(fa_left)

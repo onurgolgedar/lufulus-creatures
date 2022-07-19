@@ -1,4 +1,4 @@
-if (is_room_out() or global.consoleMode or contGUI.roomNameAlpha > 0.6)
+if (is_room_out() or global.consoleMode or contGUi.roomNameAlpha > 0.6)
 	exit
 	
 if (global.pause)

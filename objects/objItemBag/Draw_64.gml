@@ -48,7 +48,7 @@ draw_set_alpha(mainAlpha) gpu_set_tex_filter(1)
 			
 			var cellIndex = 0
 			var cellBlend = c_white
-			if (item[i, j] == -1 or (instance_exists(item[i, j]) and item[i, j].object_index == objNoItem)) {
+			if (item[i, j] == -1 or (instance_exists(item[i, j]) and item[i, j].object_index == objNoitem)) {
 				cellIndex = 1
 
 	            if (mouseOnBox_i == i and mouseOnBox_j == j)
@@ -166,7 +166,7 @@ draw_set_alpha(mainAlpha) gpu_set_tex_filter(1)
 					draw_text((stX_draw+endX_draw)/2, (stY_draw+endY_draw)/2+20, string(global.itemSelected.cWorth))
 			}
 				
-			draw_set_font(fontGUI) draw_set_color(c_black)
+			draw_set_font(fontGUi) draw_set_color(c_black)
 				draw_text((stX_draw+endX_draw)/2-8, (stY_draw+endY_draw)/2-17, global.itemSelected.from == window_trade ? ltext_buy : (global.itemSelected.from == window_actives ? ltext_putout : ltext_take))
 
 		draw_set_default() draw_set_alpha(mainAlpha)

@@ -16,7 +16,7 @@ if (global.debugMode) {
 }
 
 /*if (room == roomForceFactorTest) {
-	with (parAI) {
+	with (parAi) {
 		draw_text(x, y-80, forceFactor)
 		draw_text(x, y-120, string(phy_speed)+"/"+string(activeSpeed))
 	}

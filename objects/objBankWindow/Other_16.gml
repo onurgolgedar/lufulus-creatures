@@ -1,6 +1,6 @@
 for (i = 0; i < horizontalBoxCount*maxPage; i++) {
     for (j = 0; j < verticalBoxCount; j++) {
-		if (item[i, j] != -1 and item[i, j].object_index != objNoItem) {
+		if (item[i, j] != -1 and item[i, j].object_index != objNoitem) {
 			// Compare item
             compare_item[i, j] = instance_create(-50, -50, item[i, j].object_index)
 			

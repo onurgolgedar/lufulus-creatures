@@ -14,7 +14,7 @@ or from == "Loot" or from == window_bank or from == window_actives)) {
 				other.textBoxWidth = show_textbox_general(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0),
 		        tbT, tbW, tbH, imaginary ? c_dkblue : c_textbox, (other.textAlpha > 0.4) ? other.textAlpha : 0)
 			} else {
-				draw_set_font(fontItemInfo)
+				draw_set_font(fontiteminfo)
 				var text = eng() ? "Numeric upgrade is needed for both\nactive item and this item.\n\nTheir upgrades must be like +1, +2, +3 etc.\nfor the comparison."
 				: "Bu eşya veya kullandığın eşya geliştirilemez olduğu için\nönizleme yapılamıyor.\n\nİkisinin de gelişim düzeyi +1 +2 +3 gibi tam sayı olmalı."
 				other.textBoxWidth = show_textbox_general(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0),
@@ -30,7 +30,7 @@ or from == "Loot" or from == window_bank or from == window_actives)) {
 		(type == type_mweapon and weaponType == wtype_shield and has_active_mweapon() and global.weaponType == wtype_shield and global.weaponSprite != sprTorch) or 
         (type == type_sweapon and has_active_sweapon() and global.sWeaponType == weaponType) or 
         (type == type_necklace and global.necklaceI != -1) or 
-        (type == type_clothes and global.clothesI != -1)) and !(is_active(i, j) and owner.object_index == objItemBag)
+        (type == type_clothes and global.clothesI != -1)) and !(is_active(i, j) and owner.object_index == objitemBag)
 		and from != window_actives and object_index != objTorch
 		and keyboard_check(vk_shift)) {
 			var _infoFromType = type
@@ -39,8 +39,8 @@ or from == "Loot" or from == window_bank or from == window_actives)) {
 			else if (type == type_mweapon and (weaponType == wtype_bow or weaponType == wtype_crossbow) and (!has_active_mweapon() or global.weaponType == wtype_shield) and has_active_sweapon())
 				_infoFromType = type_sweapon
 			
-			if (instance_exists(objItemBag))
-				var infoFrom = objItemBag.item[get_active_item_ij(_infoFromType, 0), get_active_item_ij(_infoFromType, 1)]
+			if (instance_exists(objitemBag))
+				var infoFrom = objitemBag.item[get_active_item_ij(_infoFromType, 0), get_active_item_ij(_infoFromType, 1)]
 			else if (instance_exists(objTradeWindow))
 				var infoFrom = objTradeWindow.im_item[get_active_item_ij(_infoFromType, 0), get_active_item_ij(_infoFromType, 1)]
 			else if (instance_exists(objBankWindow))

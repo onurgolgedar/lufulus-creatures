@@ -11,10 +11,10 @@ function test_quest_target() {
 	}*/
 
 	if (type == type_npc and isQuestTarget) {
-		while (ds_list_find_index(contGUI.yellowDirectionArrows, id) != -1)
-			ds_list_delete(contGUI.yellowDirectionArrows, ds_list_find_index(contGUI.yellowDirectionArrows, id))
+		while (ds_list_find_index(contGUi.yellowDirectionArrows, id) != -1)
+			ds_list_delete(contGUi.yellowDirectionArrows, ds_list_find_index(contGUi.yellowDirectionArrows, id))
 		
-		ds_list_add(contGUI.yellowDirectionArrows, id)
+		ds_list_add(contGUi.yellowDirectionArrows, id)
 	}
 
 

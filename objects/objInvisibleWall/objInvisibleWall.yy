@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -36,7 +37,7 @@
     "path": "folders/Objects/Level Design.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objInvisibleWall",
+  "name": "objinvisibleWall",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -25,13 +25,13 @@ if (inView and !is_cinematic() and global.showGUI) {
 		var yy = y-offset_y
 
 		if (mouseNear and !mouse_ison_window) {
-			draw_sprite_ext(sprInfoCircle, imageNumber+2, xx, yy, image_xscale, image_yscale, 0, c_white, image_alpha)
+			draw_sprite_ext(sprinfoCircle, imageNumber+2, xx, yy, image_xscale, image_yscale, 0, c_white, image_alpha)
 		
 			draw_set_color(c_yellow)
 		}
 		
 		draw_set_alpha(image_alpha)
 		
-		draw_sprite_ext(sprInfoCircle, imageNumber, xx, yy, image_xscale, image_yscale, 0, c_white, image_alpha)
+		draw_sprite_ext(sprinfoCircle, imageNumber, xx, yy, image_xscale, image_yscale, 0, c_white, image_alpha)
 	draw_set_default() draw_set_alpha(1)
 }

@@ -5,7 +5,7 @@ function ai_protectors_attention() {
 		var _target = pointer_null
 	
 		if (friend.target == pointer_null) {
-			with (parAI) {
+			with (parAi) {
 				if (object_index != objLufulusWisdom) {
 					if (_target != pointer_null and irandom(3) == 0)
 						break

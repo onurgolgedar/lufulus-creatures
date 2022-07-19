@@ -9,31 +9,31 @@ if (!isRoomOut and !global.pause) {
 				global.selectedSkillRem[i] -= decrease
 			else if (global.selectedSkillRem[i]-decrease <= 0 and global.selectedSkillRem[i] != 0) {
 				global.selectedSkillRem[i] = 0
-				contGUI.selectedSkill_colortime[i] = sec/6
+				contGUi.selectedSkill_colortime[i] = sec/6
 				audio_play_sound(sndReady_skill, 5, false)
 			}
 			
-			if (contGUI.selectedSkill_colortime[i] > 0)
-				contGUI.selectedSkill_colortime[i] -= 1
+			if (contGUi.selectedSkill_colortime[i] > 0)
+				contGUi.selectedSkill_colortime[i] -= 1
 		}
 	}
 
 	if (((mouse_check_button_pressed(mb_left) or gamepad_leftpressed()) and !IS_MOBILE or global_tab_step and IS_MOBILE) and !test_upperclick_window()) {
 		global_tab_step = false
 		
-		if (contGUI.mouseOnMLogo)
+		if (contGUi.mouseOnMLogo)
 			event_perform(ev_keypress, ord("M"))
-		else if (contGUI.mouseOnPauseLogo)
+		else if (contGUi.mouseOnPauseLogo)
 			event_perform(ev_keypress, ord("P"))
-		else if (contGUI.mouseOnSLogo)
+		else if (contGUi.mouseOnSLogo)
 			event_perform(ev_keypress, ord("Y"))
-		else if (contGUI.mouseOnQLogo)
+		else if (contGUi.mouseOnQLogo)
 			event_perform(ev_keypress, ord("J"))
-		else if (contGUI.mouseOnBLogo)
+		else if (contGUi.mouseOnBLogo)
 			event_perform(ev_keypress, ord("I"))
-		else if (contGUI.mouseOnCLogo)
+		else if (contGUi.mouseOnCLogo)
 			event_perform(ev_keypress, ord("C"))
-		else if (contGUI.mouseOnSkillBox[4] and global.selectedSkill[4] == objMainBS) {
+		else if (contGUi.mouseOnSkillBox[4] and global.selectedSkill[4] == objMainBS) {
 			if (is_room_out() or global.consoleMode)
 				exit
 	
@@ -52,8 +52,8 @@ if (!isRoomOut and !global.pause) {
 				audio_play_sound(sndWindowTick, 1, 0)
 			}
 		}
-		else if (contGUI.mouseOnFindButton) {
-			with (contGUI) {
+		else if (contGUi.mouseOnFindButton) {
+			with (contGUi) {
 				var alreadyExists = -1
 				with (objMessageBox) {
 					if (owner == other.id) {
@@ -63,7 +63,7 @@ if (!isRoomOut and !global.pause) {
 				}
 				
 				if (alreadyExists == -1) {
-					var messageBox = show_dialoguebox(findButtonX-60, display_get_gui_height()-222, "", eng() ? "Looking for..." : "Ne arıyorsun?", contGUI.id, 1
+					var messageBox = show_dialoguebox(findButtonX-60, display_get_gui_height()-222, "", eng() ? "Looking for..." : "Ne arıyorsun?", contGUi.id, 1
 					, eng() ? "Sellers" : "Satıcılar", eng() ? "Characters" : "Kişiler", eng() ? "Bank" : "Banka", eng() ? "Doctor" : "Doktor", "Cancel")
 					messageBox.specialDesign = true
 					findQuestion = true
@@ -346,13 +346,13 @@ if (!IS_MOBILE) {
 						mouse_set_position(x+buttonPosition_x[tab_index]+buttonWidth/2, y+buttonPosition_y[tab_index]+buttonHeight/2)
 						_break = true
 					}
-					else if (object_index == objItemBag or object_index == objBankWindow or object_index == objTradeWindow
+					else if (object_index == objitemBag or object_index == objBankWindow or object_index == objTradeWindow
 					or object_index == objQuestTable or object_index == objCharacterWindow or object_index == objEquipmentBag) {
 						var maxPage = (object_index == objTradeWindow and loot) ? 0 : id.maxPage
 						var page = id.page
 						var hMax, vMax
 						var add = 0
-						if (object_index == objItemBag) { hMax = global.bagBoxCount_horizontal vMax = global.bagBoxCount_vertical add = !instance_exists(objEquipmentBag) }
+						if (object_index == objitemBag) { hMax = global.bagBoxCount_horizontal vMax = global.bagBoxCount_vertical add = !instance_exists(objEquipmentBag) }
 						else if (object_index == objTradeWindow) { hMax = horizontalBoxCount vMax = verticalBoxCount }
 						else if (object_index == objBankWindow) { hMax = global.bagBoxCount_horizontal vMax = global.bagBoxCount_vertical add = 1}
 						else if (object_index == objQuestTable) { hMax = 1 vMax = 8 }
@@ -408,7 +408,7 @@ if (!IS_MOBILE) {
 						}
 						else if (tab_index_before == hMax*vMax+maxPage+add and isDown)
 							tab_index = 0
-						else if (object_index == objItemBag and !instance_exists(objEquipmentBag)) {
+						else if (object_index == objitemBag and !instance_exists(objEquipmentBag)) {
 							if (tab_index_before-maxPage-1 > hMax*(vMax-1) and isDown)
 								tab_index = hMax*vMax+maxPage+add
 							else if (tab_index_before < maxPage+1 and isUp)
@@ -418,13 +418,13 @@ if (!IS_MOBILE) {
 							tab_index = maxPage+1
 						}
 					
-						var isItemBag = object_index == objItemBag
+						var isItemBag = object_index == objitemBag
 						if (tab_index < maxPage+1) {
 							if (tab_index == maxPage)
 								mouse_set_position(exitButton_x+exitButtonEdge/2, exitButton_y+exitButtonEdge/2)
 							else {
 								if (object_index != objEquipmentBag and !(object_index == objTradeWindow and loot)) {
-									if (tab_index == 0 and object_index == objItemBag) // for New Items
+									if (tab_index == 0 and object_index == objitemBag) // for New Items
 										mouse_set_position(pageButton_x[tab_index+!isItemBag]+pageButtonWidth[tab_index+!isItemBag]/2, pageButton_y[tab_index+!isItemBag]+pageButtonHeight[tab_index+!isItemBag]/2)
 									else
 										mouse_set_position(pageButton_x[tab_index+!isItemBag]+pageButtonEdge[tab_index+!isItemBag]/2, pageButton_y[tab_index+!isItemBag]+pageButtonEdge[tab_index+!isItemBag]/2)
@@ -489,7 +489,7 @@ if (!IS_MOBILE) {
 							else
 								mouse_set_position(x+box_x[i/*+(page-1)*hMax*/, j]+7, y+box_y[i/*+(page-1)*hMax*/, j]+7)
 							
-							if (object_index == objItemBag and !instance_exists(objEquipmentBag) and tab_index == hMax*vMax+maxPage+add)
+							if (object_index == objitemBag and !instance_exists(objEquipmentBag) and tab_index == hMax*vMax+maxPage+add)
 								mouse_set_position(equipmentButton_x+equipmentButtonEdge/2, equipmentButton_y+10)
 						}
 
@@ -692,39 +692,39 @@ if (!IS_MOBILE) {
 								mouse_set_position(screen_point(x, 0)-110, screen_point(y, 1))
 					}
 				}
-				else if (instance_exists(contGUI)) {
-					contGUI.tab_index += isRight - isLeft + isUp - isDown
-					while (contGUI.tab_index < 0)
-						contGUI.tab_index += (7+contGUI.findButton_exists+IS_MOBILE)
-					contGUI.tab_index = contGUI.tab_index mod (7+IS_MOBILE+contGUI.findButton_exists)
+				else if (instance_exists(contGUi)) {
+					contGUi.tab_index += isRight - isLeft + isUp - isDown
+					while (contGUi.tab_index < 0)
+						contGUi.tab_index += (7+contGUi.findButton_exists+IS_MOBILE)
+					contGUi.tab_index = contGUi.tab_index mod (7+IS_MOBILE+contGUi.findButton_exists)
 			
 					var mY = display_get_gui_height()-27
 			
-					var mX = contGUI.bLogoX
-					if (contGUI.tab_index == 0)
-						mX = contGUI.bLogoX
-					else if (contGUI.tab_index == 1)
-						mX = contGUI.qLogoX
-					else if (contGUI.tab_index == 2)
+					var mX = contGUi.bLogoX
+					if (contGUi.tab_index == 0)
+						mX = contGUi.bLogoX
+					else if (contGUi.tab_index == 1)
+						mX = contGUi.qLogoX
+					else if (contGUi.tab_index == 2)
 						mX = display_get_gui_width()/2-118+0*119/2
-					else if (contGUI.tab_index == 3)
+					else if (contGUi.tab_index == 3)
 						mX = display_get_gui_width()/2-118+4*119/2
-					else if (contGUI.tab_index == 4)
-						mX = contGUI.cLogoX
-					else if (contGUI.tab_index == 5)
-						mX = contGUI.sLogoX
-					else if (contGUI.tab_index == 6) {
-						mX = contGUI.mLogoX
+					else if (contGUi.tab_index == 4)
+						mX = contGUi.cLogoX
+					else if (contGUi.tab_index == 5)
+						mX = contGUi.sLogoX
+					else if (contGUi.tab_index == 6) {
+						mX = contGUi.mLogoX
 						if (IS_MOBILE)
 							mY = 100
 					}
-					else if (contGUI.tab_index == 6+IS_MOBILE) {
-						mX = contGUI.pauseLogoX
+					else if (contGUi.tab_index == 6+IS_MOBILE) {
+						mX = contGUi.pauseLogoX
 						if (IS_MOBILE)
 							mY = 160
 					}
-					else if (contGUI.tab_index == 7+IS_MOBILE)
-						mX = contGUI.findButtonX
+					else if (contGUi.tab_index == 7+IS_MOBILE)
+						mX = contGUi.findButtonX
 				
 					mouse_set_position(mX, mY)
 				}

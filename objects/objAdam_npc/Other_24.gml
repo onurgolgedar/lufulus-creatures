@@ -13,7 +13,7 @@ var questItem
 var questItem_instance
 challengeCount = 0
 
-questItem = objChallengeItem_bloodyRolf
+questItem = objChallengeitem_bloodyRolf
 questItem_instance = instance_create(-50, -50, questItem)
 if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem_instance.challenge) and global.level <= questItem_instance.maxLevel) {
 	add_item_local(questItem, 0)
@@ -22,10 +22,10 @@ if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem
 		challengeCount++
 }
 else
-	add_item_local(objNoItem, 0)
+	add_item_local(objNoitem, 0)
 instance_destroy(questItem_instance)
 
-questItem = objChallengeItem_rebelWar
+questItem = objChallengeitem_rebelWar
 questItem_instance = instance_create(-50, -50, questItem)
 if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem_instance.challenge) and global.level <= questItem_instance.maxLevel) {
 	add_item_local(questItem, 0)
@@ -34,10 +34,10 @@ if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem
 		challengeCount++
 }
 else
-	add_item_local(objNoItem, 0)
+	add_item_local(objNoitem, 0)
 instance_destroy(questItem_instance)
 
-questItem = objChallengeItem_wave
+questItem = objChallengeitem_wave
 questItem_instance = instance_create(-50, -50, questItem)
 if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem_instance.challenge) and global.level <= questItem_instance.maxLevel) {
 	add_item_local(questItem, 0)
@@ -46,10 +46,10 @@ if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem
 		challengeCount++
 }
 else
-	add_item_local(objNoItem, 0)
+	add_item_local(objNoitem, 0)
 instance_destroy(questItem_instance)
 
-questItem = objChallengeItem_firstFight
+questItem = objChallengeitem_firstFight
 questItem_instance = instance_create(-50, -50, questItem)
 if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem_instance.challenge) and global.level <= questItem_instance.maxLevel) {
 	add_item_local(questItem, 0)
@@ -58,10 +58,10 @@ if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem
 		challengeCount++
 }
 else
-	add_item_local(objNoItem, 0)
+	add_item_local(objNoitem, 0)
 instance_destroy(questItem_instance)
 
-questItem = objChallengeItem_kazrin
+questItem = objChallengeitem_kazrin
 questItem_instance = instance_create(-50, -50, questItem)
 if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem_instance.challenge) and global.level <= questItem_instance.maxLevel) {
 	add_item_local(questItem, 0)
@@ -70,10 +70,10 @@ if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem
 		challengeCount++
 }
 else
-	add_item_local(objNoItem, 0)
+	add_item_local(objNoitem, 0)
 instance_destroy(questItem_instance)
 
-questItem = objChallengeItem_wisdom
+questItem = objChallengeitem_wisdom
 questItem_instance = instance_create(-50, -50, questItem)
 if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem_instance.challenge) and global.level <= questItem_instance.maxLevel) {
 	add_item_local(questItem, 0)
@@ -82,10 +82,10 @@ if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem
 		challengeCount++
 }
 else
-	add_item_local(objNoItem, 0)
+	add_item_local(objNoitem, 0)
 instance_destroy(questItem_instance)
 
-questItem = objChallengeItem_leaderVurac
+questItem = objChallengeitem_leaderVurac
 questItem_instance = instance_create(-50, -50, questItem)
 if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem_instance.challenge) and global.level <= questItem_instance.maxLevel) {
 	add_item_local(questItem, 0)
@@ -94,10 +94,10 @@ if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem
 		challengeCount++
 }
 else
-	add_item_local(objNoItem, 0)
+	add_item_local(objNoitem, 0)
 instance_destroy(questItem_instance)
 
-questItem = objChallengeItem_rebelWar2
+questItem = objChallengeitem_rebelWar2
 questItem_instance = instance_create(-50, -50, questItem)
 if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem_instance.challenge) and global.level <= questItem_instance.maxLevel) {
 	add_item_local(questItem, 0)
@@ -106,10 +106,10 @@ if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem
 		challengeCount++
 }
 else
-	add_item_local(objNoItem, 0)
+	add_item_local(objNoitem, 0)
 instance_destroy(questItem_instance)
 
-questItem = objChallengeItem_leaderPinkSrada
+questItem = objChallengeitem_leaderPinkSrada
 questItem_instance = instance_create(-50, -50, questItem)
 if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem_instance.challenge) and global.level <= questItem_instance.maxLevel) {
 	add_item_local(questItem, 0)
@@ -118,11 +118,11 @@ if (!is_quest_finished(questItem_instance.challenge) and !quest_exists(questItem
 		challengeCount++
 }
 else
-	add_item_local(objNoItem, 0)
+	add_item_local(objNoitem, 0)
 instance_destroy(questItem_instance)
 
-var index = ds_list_find_index(contGUI.blueDirectionArrows, id)
+var index = ds_list_find_index(contGUi.blueDirectionArrows, id)
 if (challengeCount > 0 and index == -1)
-	ds_list_add(contGUI.blueDirectionArrows, id)
+	ds_list_add(contGUi.blueDirectionArrows, id)
 else if (challengeCount == 0 and index != -1)
-	ds_list_delete(contGUI.blueDirectionArrows, index)
+	ds_list_delete(contGUi.blueDirectionArrows, index)

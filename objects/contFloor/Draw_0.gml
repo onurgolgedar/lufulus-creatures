@@ -5,7 +5,7 @@ if (drawPaths)
 	with (objPath_env)
 		draw_self()
 
-with (parAI) {
+with (parAi) {
 	if (inView) {
 		if (mode == md_calm and (leader != pointer_null or isLeader) and !death) {
 			draw_set_alpha(0.57)

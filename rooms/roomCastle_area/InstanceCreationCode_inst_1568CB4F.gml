@@ -11,8 +11,8 @@ add_item_local(objSw_007, 1)
 add_item_local(objSw_008, 1)
 add_item_local(objSw_009, 1)
 add_item_local(objSw_010, 1)
-add_item_local(objNoItem)
-add_item_local(objNoItem)
+add_item_local(objNoitem)
+add_item_local(objNoitem)
 
 name = "Adam"
 tag = eng() ? "Sword Shop" : "Kılıç Satıcısı"

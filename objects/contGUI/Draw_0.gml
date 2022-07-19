@@ -93,7 +93,7 @@ with (parBonus) {
 }
 
 /*if (global.debugMode) {
-	with (parAI) {
+	with (parAi) {
 		if (target != pointer_null and targetLock > 0) {
 			draw_set_alpha((targetLock/30)*(targetLock/30)) draw_set_color(c_red)
 				draw_line_width(x, y, target.x, target.y, 3)

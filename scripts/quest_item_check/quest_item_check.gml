@@ -13,7 +13,7 @@ function quest_item_check() {
 	if (argument[0].object_index == objBloodMineral_second and !is_quest_finished(objQuest_bloodMineral) and !quest_exists(objQuest_bloodMineral)) {
 		add_quest(objQuest_bloodMineral)
 	
-		with (parAI) {
+		with (parAi) {
 			if (hasDropList) {
 				var foundIndex = ds_list_find_index(droppedList, objBloodMineral_second)
 				if (foundIndex != -1) {

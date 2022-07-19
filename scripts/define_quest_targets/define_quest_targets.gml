@@ -6,7 +6,7 @@ function define_quest_targets() {
 		global.questTargetObjects = ds_list_create()
 		global.activeQuestCount = 0
 
-		ds_list_clear(contGUI.yellowDirectionArrows)
+		ds_list_clear(contGUi.yellowDirectionArrows)
 
 		for (var i = 0; i < 40; i++) {
 			if (global.quest[i] != -1) {

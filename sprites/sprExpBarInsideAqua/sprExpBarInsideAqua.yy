@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d3461b5f-5a81-495c-81f3-4535d1e808d9","path":"sprites/sprExpBarInsideAqua/sprExpBarInsideAqua.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d3461b5f-5a81-495c-81f3-4535d1e808d9","path":"sprites/sprExpBarInsideAqua/sprExpBarInsideAqua.yy",},"LayerId":{"name":"68cef7d5-c790-48b8-9164-b5f5bea1f9e3","path":"sprites/sprExpBarInsideAqua/sprExpBarInsideAqua.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprExpBarInsideAqua","path":"sprites/sprExpBarInsideAqua/sprExpBarInsideAqua.yy",},"resourceVersion":"1.0","name":"d3461b5f-5a81-495c-81f3-4535d1e808d9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d3461b5f-5a81-495c-81f3-4535d1e808d9","path":"sprites/sprExpBarinsideAqua/sprExpBarinsideAqua.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d3461b5f-5a81-495c-81f3-4535d1e808d9","path":"sprites/sprExpBarinsideAqua/sprExpBarinsideAqua.yy",},"LayerId":{"name":"68cef7d5-c790-48b8-9164-b5f5bea1f9e3","path":"sprites/sprExpBarinsideAqua/sprExpBarinsideAqua.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprExpBarinsideAqua","path":"sprites/sprExpBarinsideAqua/sprExpBarinsideAqua.yy",},"resourceVersion":"1.0","name":"d3461b5f-5a81-495c-81f3-4535d1e808d9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprExpBarInsideAqua","path":"sprites/sprExpBarInsideAqua/sprExpBarInsideAqua.yy",},
+    "spriteId": {"name":"sprExpBarinsideAqua","path":"sprites/sprExpBarinsideAqua/sprExpBarinsideAqua.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -37,12 +37,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"28fe13fd-8d9f-4755-a73a-92d1b7a14ac7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3461b5f-5a81-495c-81f3-4535d1e808d9","path":"sprites/sprExpBarInsideAqua/sprExpBarInsideAqua.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+            {"id":"28fe13fd-8d9f-4755-a73a-92d1b7a14ac7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3461b5f-5a81-495c-81f3-4535d1e808d9","path":"sprites/sprExpBarinsideAqua/sprExpBarinsideAqua.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,9 +58,9 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprExpBarInsideAqua","path":"sprites/sprExpBarInsideAqua/sprExpBarInsideAqua.yy",},
+    "parent": {"name":"sprExpBarinsideAqua","path":"sprites/sprExpBarinsideAqua/sprExpBarinsideAqua.yy",},
     "resourceVersion": "1.4",
-    "name": "",
+    "name": "sprExpBarinsideAqua",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/GUI/Bar/Exp Bar Set.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprExpBarInsideAqua",
+  "name": "sprExpBarinsideAqua",
   "tags": [],
   "resourceType": "GMSprite",
 }

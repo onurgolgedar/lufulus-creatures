@@ -48,7 +48,7 @@ if (alarm[2] == -1) {
 				var cellBlend = c_white
 				var cellVisible = true
 				
-				if (item[i, j] == -1 or (instance_exists(item[i, j]) and item[i, j].object_index == objNoItem)) {
+				if (item[i, j] == -1 or (instance_exists(item[i, j]) and item[i, j].object_index == objNoitem)) {
 					cellIndex = 1
 					
 					if (mouseOnBox_i == i and mouseOnBox_j == j)
@@ -181,7 +181,7 @@ if (alarm[2] == -1) {
 					draw_rectangle((stX_draw+endX_draw)/2-goldText_width/2-41, (stY_draw+endY_draw)/2+7, (stX_draw+endX_draw)/2+goldText_width/2+14,
 					(stY_draw+endY_draw)/2+33, 0)
 				
-				draw_set_font(fontGUI) draw_set_alpha(mainAlpha) draw_set_color(c_black)
+				draw_set_font(fontGUi) draw_set_alpha(mainAlpha) draw_set_color(c_black)
 					draw_text((stX_draw+endX_draw)/2-8, (stY_draw+endY_draw)/2-17, ltext_sell)
 				
 				draw_set_font(goldFont) draw_set_color(c_gold)

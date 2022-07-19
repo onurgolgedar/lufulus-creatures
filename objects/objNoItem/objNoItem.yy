@@ -5,11 +5,12 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "parItem",
-    "path": "objects/parItem/parItem.yy",
+    "name": "paritem",
+    "path": "objects/paritem/paritem.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +34,7 @@
     "path": "folders/Objects/Item/Others.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objNoItem",
+  "name": "objNoitem",
   "tags": [],
   "resourceType": "GMObject",
 }

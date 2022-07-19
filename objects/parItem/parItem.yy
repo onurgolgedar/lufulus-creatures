@@ -2,6 +2,7 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -31,7 +32,7 @@
     "path": "folders/Objects/Parent.yy",
   },
   "resourceVersion": "1.0",
-  "name": "parItem",
+  "name": "paritem",
   "tags": [],
   "resourceType": "GMObject",
 }

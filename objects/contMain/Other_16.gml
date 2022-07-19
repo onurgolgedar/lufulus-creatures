@@ -14,18 +14,18 @@ if (window_get_fullscreen())
 windowHasFocus = focus
 isActive_skills = global.selectedSkill[4] == objMainBS
 
-#region contGUI Optimizations
-if (instance_exists(contGUI)) {
+#region contGUi Optimizations
+if (instance_exists(contGUi)) {
 	// ? CPU
 	var _showFPS = false
 	if (abs(room_speed-fps) > 2 and !global.debugMode and game_get_fps() != 0)
 		_showFPS = true
-	contGUI.showFPS = _showFPS
+	contGUi.showFPS = _showFPS
 	
 	var _showArrows = true
 	var _ds_size_green, _ds_size_red, _ds_size_yellow
 	var _greenDirectionArrows, _redDirectionArrows, _yellowDirectionArrows
-	with (contGUI) {
+	with (contGUi) {
 		_ds_size_green = ds_list_size(greenDirectionArrows)
 		_ds_size_red = ds_list_size(redDirectionArrows)
 		_ds_size_yellow = ds_list_size(yellowDirectionArrows)
@@ -49,7 +49,7 @@ if (instance_exists(contGUI)) {
 		if (instance_exists(arrowTarget) and point_distance(objPlayer.x, objPlayer.y, arrowTarget.x, arrowTarget.y) < 170)
 			_showArrows = false
 	}
-	contGUI.showArrows = _showArrows
+	contGUi.showArrows = _showArrows
 }
 #endregion
 
@@ -87,16 +87,16 @@ if (!global.pause and !isRoomOut) {
 	}
 
 	if (!is_outfight()) {
-		if (contGUI.outFight_alpha-0.07 > 0)
-			contGUI.outFight_alpha -= 0.07
+		if (contGUi.outFight_alpha-0.07 > 0)
+			contGUi.outFight_alpha -= 0.07
 		else
-			contGUI.outFight_alpha = 0
+			contGUi.outFight_alpha = 0
 	}
 	else {
-		if (contGUI.outFight_alpha+0.07 < 1)
-			contGUI.outFight_alpha += 0.07
+		if (contGUi.outFight_alpha+0.07 < 1)
+			contGUi.outFight_alpha += 0.07
 		else
-			contGUI.outFight_alpha = 1
+			contGUi.outFight_alpha = 1
 	}
 
 	x = objPlayer.x

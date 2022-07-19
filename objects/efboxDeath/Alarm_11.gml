@@ -1,3 +1,3 @@
-contGUI.deathEffect = true
+contGUi.deathEffect = true
 global.levels_withoutDying = 0
 save_dyings(global.saveNo)

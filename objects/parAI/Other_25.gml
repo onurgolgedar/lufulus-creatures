@@ -104,8 +104,8 @@ if (playerKilledMe and (!abilitySoul or !soulMode)) {
 		
 		if (global.comboExperience > global.targetExperience/500) {
 			#region SHOW EXP BAR
-			contGUI.expBarAlpha = 1+min(global.comboCount*0.15, 0.6)
-			delta_alarm(1, 1, contGUI)
+			contGUi.expBarAlpha = 1+min(global.comboCount*0.15, 0.6)
+			delta_alarm(1, 1, contGUi)
 			#endregion
 		}
 	}
@@ -118,7 +118,7 @@ if (playerKilledMe and (!abilitySoul or !soulMode)) {
 #endregion
 
 if (extension_exists(ext_fearofdeath)) {
-	with (parAI) {
+	with (parAi) {
 		if (!boss and point_distance(x, y, other.x, other.y) < 400) {
 			combatExperience = clamp(combatExperience-10, 0, 100)
 		}
@@ -173,7 +173,7 @@ if (death) {
 	ai_delete_mypose()
 	ai_target_destroy()
 	
-	with (parAI)
+	with (parAi)
 		if (target == other.id)
 			ai_target_destroy()
 	

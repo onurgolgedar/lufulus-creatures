@@ -26,7 +26,7 @@ alarm[0] = 1
 alarm[1] = 1
 alarm[7] = 2
 
-with (contGUI)
+with (contGUi)
 	if (colorScreenAlpha > 0)
 		delta_alarm(7, sec, other)
 

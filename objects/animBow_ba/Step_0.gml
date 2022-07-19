@@ -5,7 +5,7 @@ if (alarm[0] == -1 and alarm[1] > 0)
 
 if (((!mouse_check_button(mb_left) or mouse_check_button(mb_right) and pwr_l > 0.5) and !IS_MOBILE and !global.gamepad_active
 	or (!gamepad_button_check(global.gamepad, gp_shoulderr) or gamepad_button_check(global.gamepad, gp_shoulderrb) and pwr_l > 0.5) and global.gamepad_active
-	or !contGUI.joystick2_hold and IS_MOBILE and !global.gamepad_active)
+	or !contGUi.joystick2_hold and IS_MOBILE and !global.gamepad_active)
 	and !released) {
 	released = true
 

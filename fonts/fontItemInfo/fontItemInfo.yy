@@ -3,6 +3,7 @@
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+  "applyKerning": 0,
   "fontName": "Bahnschrift",
   "styleName": "Regular",
   "size": 13.0,
@@ -20,6 +21,7 @@
     "path": "texturegroups/Default",
   },
   "ascenderOffset": 0,
+  "ascender": 0,
   "glyphs": {
     "32": {"x":2,"y":2,"w":5,"h":21,"character":32,"shift":5,"offset":0,},
     "33": {"x":70,"y":71,"w":3,"h":21,"character":33,"shift":5,"offset":1,},
@@ -167,7 +169,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "fontItemInfo",
+  "name": "fontiteminfo",
   "tags": [],
   "resourceType": "GMFont",
 }
