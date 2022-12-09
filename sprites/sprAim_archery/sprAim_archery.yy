@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprAim_archery",
   "bboxMode": 2,
   "collisionKind": 2,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 78,
   "height": 78,
   "textureGroupId": {
@@ -103,18 +107,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dcc7236a-4ac4-480a-8812-73c3b487591f","path":"sprites/sprAim_archery/sprAim_archery.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dcc7236a-4ac4-480a-8812-73c3b487591f","path":"sprites/sprAim_archery/sprAim_archery.yy",},"LayerId":{"name":"e400c49d-0309-4b9c-b101-90bb20fec9d2","path":"sprites/sprAim_archery/sprAim_archery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAim_archery","path":"sprites/sprAim_archery/sprAim_archery.yy",},"resourceVersion":"1.0","name":"dcc7236a-4ac4-480a-8812-73c3b487591f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1c7f210b-059f-4131-b358-a38ceb44f3ae","path":"sprites/sprAim_archery/sprAim_archery.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1c7f210b-059f-4131-b358-a38ceb44f3ae","path":"sprites/sprAim_archery/sprAim_archery.yy",},"LayerId":{"name":"e400c49d-0309-4b9c-b101-90bb20fec9d2","path":"sprites/sprAim_archery/sprAim_archery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAim_archery","path":"sprites/sprAim_archery/sprAim_archery.yy",},"resourceVersion":"1.0","name":"1c7f210b-059f-4131-b358-a38ceb44f3ae","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fd57c7bc-782f-4582-a450-cdec51ae09fb","path":"sprites/sprAim_archery/sprAim_archery.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fd57c7bc-782f-4582-a450-cdec51ae09fb","path":"sprites/sprAim_archery/sprAim_archery.yy",},"LayerId":{"name":"e400c49d-0309-4b9c-b101-90bb20fec9d2","path":"sprites/sprAim_archery/sprAim_archery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprAim_archery","path":"sprites/sprAim_archery/sprAim_archery.yy",},"resourceVersion":"1.0","name":"fd57c7bc-782f-4582-a450-cdec51ae09fb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dcc7236a-4ac4-480a-8812-73c3b487591f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c7f210b-059f-4131-b358-a38ceb44f3ae",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fd57c7bc-782f-4582-a450-cdec51ae09fb",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprAim_archery","path":"sprites/sprAim_archery/sprAim_archery.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -125,11 +125,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"deb11a79-aedb-4589-a33c-2f7cf6a9ff74","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dcc7236a-4ac4-480a-8812-73c3b487591f","path":"sprites/sprAim_archery/sprAim_archery.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"32cf86cd-edf0-4c62-a9ab-46ceb2bf3e70","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1c7f210b-059f-4131-b358-a38ceb44f3ae","path":"sprites/sprAim_archery/sprAim_archery.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6c3ea426-2a7f-4aa9-8c03-be45c7a98703","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd57c7bc-782f-4582-a450-cdec51ae09fb","path":"sprites/sprAim_archery/sprAim_archery.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -145,22 +145,13 @@
     "yorigin": 39,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprAim_archery","path":"sprites/sprAim_archery/sprAim_archery.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e400c49d-0309-4b9c-b101-90bb20fec9d2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e400c49d-0309-4b9c-b101-90bb20fec9d2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Aim",
     "path": "folders/Sprites/GUI/Aim.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprAim_archery",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

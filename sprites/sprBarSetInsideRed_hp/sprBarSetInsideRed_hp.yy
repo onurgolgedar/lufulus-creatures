@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprBarSetinsideRed_hp",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 135,
   "height": 12,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"eef8f329-5ad7-4df1-b046-695f60f30214","path":"sprites/sprBarSetinsideRed_hp/sprBarSetinsideRed_hp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eef8f329-5ad7-4df1-b046-695f60f30214","path":"sprites/sprBarSetinsideRed_hp/sprBarSetinsideRed_hp.yy",},"LayerId":{"name":"0276af1a-5d95-4bf8-9cd0-ab5f09c0b87e","path":"sprites/sprBarSetinsideRed_hp/sprBarSetinsideRed_hp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprBarSetinsideRed_hp","path":"sprites/sprBarSetinsideRed_hp/sprBarSetinsideRed_hp.yy",},"resourceVersion":"1.0","name":"eef8f329-5ad7-4df1-b046-695f60f30214","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eef8f329-5ad7-4df1-b046-695f60f30214",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprBarSetinsideRed_hp","path":"sprites/sprBarSetinsideRed_hp/sprBarSetinsideRed_hp.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sprBarSetinsideRed_hp",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -37,12 +41,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"eb7c102b-ab76-42d8-8fe1-6e05d65f4a0a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eef8f329-5ad7-4df1-b046-695f60f30214","path":"sprites/sprBarSetinsideRed_hp/sprBarSetinsideRed_hp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"eb7c102b-ab76-42d8-8fe1-6e05d65f4a0a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eef8f329-5ad7-4df1-b046-695f60f30214","path":"sprites/sprBarSetinsideRed_hp/sprBarSetinsideRed_hp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 6,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprBarSetinsideRed_hp","path":"sprites/sprBarSetinsideRed_hp/sprBarSetinsideRed_hp.yy",},
-    "resourceVersion": "1.4",
-    "name": "sprBarSetinsideRed_hp",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0276af1a-5d95-4bf8-9cd0-ab5f09c0b87e","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0276af1a-5d95-4bf8-9cd0-ab5f09c0b87e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Player Bar Set",
     "path": "folders/Sprites/GUI/Bar/Player Bar Set.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprBarSetinsideRed_hp",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

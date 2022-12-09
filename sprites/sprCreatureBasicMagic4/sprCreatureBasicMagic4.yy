@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprCreatureBasicMagic4",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 17,
   "height": 14,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7532ef9a-c6aa-4e12-9644-a0148c72f921","path":"sprites/sprCreatureBasicMagic4/sprCreatureBasicMagic4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7532ef9a-c6aa-4e12-9644-a0148c72f921","path":"sprites/sprCreatureBasicMagic4/sprCreatureBasicMagic4.yy",},"LayerId":{"name":"3add74f3-0655-4ea8-b812-8847614a8ce6","path":"sprites/sprCreatureBasicMagic4/sprCreatureBasicMagic4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprCreatureBasicMagic4","path":"sprites/sprCreatureBasicMagic4/sprCreatureBasicMagic4.yy",},"resourceVersion":"1.0","name":"7532ef9a-c6aa-4e12-9644-a0148c72f921","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7532ef9a-c6aa-4e12-9644-a0148c72f921",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprCreatureBasicMagic4","path":"sprites/sprCreatureBasicMagic4/sprCreatureBasicMagic4.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"2dfd0229-3145-4254-ba36-be21494b635c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7532ef9a-c6aa-4e12-9644-a0148c72f921","path":"sprites/sprCreatureBasicMagic4/sprCreatureBasicMagic4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 6,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprCreatureBasicMagic4","path":"sprites/sprCreatureBasicMagic4/sprCreatureBasicMagic4.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3add74f3-0655-4ea8-b812-8847614a8ce6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3add74f3-0655-4ea8-b812-8847614a8ce6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Basic Magic",
     "path": "folders/Sprites/Creature/Basic Magic.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprCreatureBasicMagic4",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

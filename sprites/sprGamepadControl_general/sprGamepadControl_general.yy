@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprGamepadControl_general",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 400,
   "height": 250,
   "textureGroupId": {
@@ -24,15 +28,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"201d2c0f-e2f7-4fc4-b30a-491fe8f82b0b","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"201d2c0f-e2f7-4fc4-b30a-491fe8f82b0b","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"LayerId":{"name":"4c31714a-2f34-4233-a1a5-0e8e645f8b27","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprGamepadControl_general","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"resourceVersion":"1.0","name":"201d2c0f-e2f7-4fc4-b30a-491fe8f82b0b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7d14253f-70f3-4764-9851-2e3bd49504f5","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7d14253f-70f3-4764-9851-2e3bd49504f5","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"LayerId":{"name":"4c31714a-2f34-4233-a1a5-0e8e645f8b27","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprGamepadControl_general","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"resourceVersion":"1.0","name":"7d14253f-70f3-4764-9851-2e3bd49504f5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"201d2c0f-e2f7-4fc4-b30a-491fe8f82b0b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d14253f-70f3-4764-9851-2e3bd49504f5",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprGamepadControl_general","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -43,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e97b279f-fbab-4e53-8abb-6efc191576fb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"201d2c0f-e2f7-4fc4-b30a-491fe8f82b0b","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b69e2565-dd49-4fb5-9708-c7136b068b44","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7d14253f-70f3-4764-9851-2e3bd49504f5","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +64,13 @@
     "yorigin": 125,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprGamepadControl_general","path":"sprites/sprGamepadControl_general/sprGamepadControl_general.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4c31714a-2f34-4233-a1a5-0e8e645f8b27","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4c31714a-2f34-4233-a1a5-0e8e645f8b27","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Gamepad",
     "path": "folders/Sprites/GUI/Gamepad.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprGamepadControl_general",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

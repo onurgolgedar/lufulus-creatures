@@ -6,9 +6,9 @@ function SL_engine_draw() {
 	var cam = global.camera
 
 	if sl_buffer_sync
-	{sl_view_xspeed = camera_get_view_x(cam)-sl_view_xprevious;
-	 sl_view_yspeed = camera_get_view_y(cam)-sl_view_yprevious};
-	else { sl_view_xspeed=0 sl_view_yspeed=0 };
+	{sl_view_xspeed = camera_get_view_x(cam)-sl_view_xprevious
+	 sl_view_yspeed = camera_get_view_y(cam)-sl_view_yprevious}
+	else { sl_view_xspeed=0 sl_view_yspeed=0 }
 
 	// Affichage des buffers
 	if surface_exists(sl_buffer_surface1)

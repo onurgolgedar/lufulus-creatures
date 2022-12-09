@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprFlag_hawmgrad",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 128,
   "textureGroupId": {
@@ -24,189 +28,71 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"01480bdb-563f-46cf-b93d-bbda3f3deebb","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"01480bdb-563f-46cf-b93d-bbda3f3deebb","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"01480bdb-563f-46cf-b93d-bbda3f3deebb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"70b67941-02ae-4664-9017-22994b2a977d","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"70b67941-02ae-4664-9017-22994b2a977d","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"70b67941-02ae-4664-9017-22994b2a977d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e5e15f3f-f2a8-4068-9567-6d942a63e03c","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e5e15f3f-f2a8-4068-9567-6d942a63e03c","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"e5e15f3f-f2a8-4068-9567-6d942a63e03c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"288916ae-7f4b-4783-ac2c-1eedf8838448","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"288916ae-7f4b-4783-ac2c-1eedf8838448","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"288916ae-7f4b-4783-ac2c-1eedf8838448","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fedf1575-cca5-4109-84c2-a48a3df2d8c4","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fedf1575-cca5-4109-84c2-a48a3df2d8c4","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"fedf1575-cca5-4109-84c2-a48a3df2d8c4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ec335318-ea77-4bb1-99b4-8ea04d13a598","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ec335318-ea77-4bb1-99b4-8ea04d13a598","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"ec335318-ea77-4bb1-99b4-8ea04d13a598","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"06fce285-0db0-4a9f-a70a-58743b43f939","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"06fce285-0db0-4a9f-a70a-58743b43f939","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"06fce285-0db0-4a9f-a70a-58743b43f939","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e502f357-1e5d-4b6c-8434-063c1bf777a0","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e502f357-1e5d-4b6c-8434-063c1bf777a0","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"e502f357-1e5d-4b6c-8434-063c1bf777a0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"86e91dfe-0cf9-4739-b985-7db274ca3fa4","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"86e91dfe-0cf9-4739-b985-7db274ca3fa4","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"86e91dfe-0cf9-4739-b985-7db274ca3fa4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f45cd9bc-a4e9-4502-92cb-96fb31450ab2","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f45cd9bc-a4e9-4502-92cb-96fb31450ab2","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"f45cd9bc-a4e9-4502-92cb-96fb31450ab2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1b664551-07b3-4da7-966c-5e29735d46d7","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b664551-07b3-4da7-966c-5e29735d46d7","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"1b664551-07b3-4da7-966c-5e29735d46d7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"67aea1cc-cacc-40a4-8f21-9e3f0cf4f0a4","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"67aea1cc-cacc-40a4-8f21-9e3f0cf4f0a4","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"67aea1cc-cacc-40a4-8f21-9e3f0cf4f0a4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5b2c44b8-799a-48be-972b-4247596e0065","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5b2c44b8-799a-48be-972b-4247596e0065","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"5b2c44b8-799a-48be-972b-4247596e0065","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a8817536-eb2a-4ee0-9b6c-b0621eca3a2d","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a8817536-eb2a-4ee0-9b6c-b0621eca3a2d","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"a8817536-eb2a-4ee0-9b6c-b0621eca3a2d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c7853455-b6bc-4d38-b067-f4ff65a3a703","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c7853455-b6bc-4d38-b067-f4ff65a3a703","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"c7853455-b6bc-4d38-b067-f4ff65a3a703","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"48ebf4bf-0b6d-4606-9654-c03a264c53a5","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"48ebf4bf-0b6d-4606-9654-c03a264c53a5","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"48ebf4bf-0b6d-4606-9654-c03a264c53a5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"719ec482-7a21-455e-be1e-359afe99da64","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"719ec482-7a21-455e-be1e-359afe99da64","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"719ec482-7a21-455e-be1e-359afe99da64","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"38b3e1ee-263b-420b-90a6-aa1da0ead20b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"38b3e1ee-263b-420b-90a6-aa1da0ead20b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"38b3e1ee-263b-420b-90a6-aa1da0ead20b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d0016549-c16d-46b4-bf4c-04aedbe9b01e","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d0016549-c16d-46b4-bf4c-04aedbe9b01e","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"d0016549-c16d-46b4-bf4c-04aedbe9b01e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d71d2eaf-dcdf-4d5b-b452-370eeb738abf","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d71d2eaf-dcdf-4d5b-b452-370eeb738abf","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"d71d2eaf-dcdf-4d5b-b452-370eeb738abf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bae06519-0985-4406-8fea-00c1a7eb6c0c","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bae06519-0985-4406-8fea-00c1a7eb6c0c","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"bae06519-0985-4406-8fea-00c1a7eb6c0c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c63a7a99-c076-418f-bd4d-ac01214f907b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c63a7a99-c076-418f-bd4d-ac01214f907b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"c63a7a99-c076-418f-bd4d-ac01214f907b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"61683446-ac18-41cb-96b2-23063b7900c6","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"61683446-ac18-41cb-96b2-23063b7900c6","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"61683446-ac18-41cb-96b2-23063b7900c6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1ef6e999-d6c9-481a-9905-06b053376378","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1ef6e999-d6c9-481a-9905-06b053376378","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"1ef6e999-d6c9-481a-9905-06b053376378","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5b5b8d11-86e8-4023-b6a1-69247108abd1","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5b5b8d11-86e8-4023-b6a1-69247108abd1","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"5b5b8d11-86e8-4023-b6a1-69247108abd1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"270453ce-3d54-424b-8aa6-d45298ae0e7e","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"270453ce-3d54-424b-8aa6-d45298ae0e7e","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"270453ce-3d54-424b-8aa6-d45298ae0e7e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8cfc2e1e-103f-465f-9c23-2e6c5d2f2675","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8cfc2e1e-103f-465f-9c23-2e6c5d2f2675","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"8cfc2e1e-103f-465f-9c23-2e6c5d2f2675","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c8084320-c1a1-43c4-b144-2d06b642b5e9","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c8084320-c1a1-43c4-b144-2d06b642b5e9","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"c8084320-c1a1-43c4-b144-2d06b642b5e9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1ab2f247-b08d-40e6-8ebd-909ec9c36b27","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1ab2f247-b08d-40e6-8ebd-909ec9c36b27","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"1ab2f247-b08d-40e6-8ebd-909ec9c36b27","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3ad07ce2-b5fe-48ad-a71b-6945c0b7ad4e","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ad07ce2-b5fe-48ad-a71b-6945c0b7ad4e","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"3ad07ce2-b5fe-48ad-a71b-6945c0b7ad4e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6c9d7214-a28b-4b80-be24-6fef40eaf9cb","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6c9d7214-a28b-4b80-be24-6fef40eaf9cb","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"6c9d7214-a28b-4b80-be24-6fef40eaf9cb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a7d71800-fbd6-42c0-9817-b2c1ea14b4b5","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a7d71800-fbd6-42c0-9817-b2c1ea14b4b5","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"a7d71800-fbd6-42c0-9817-b2c1ea14b4b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"52b38620-bd1b-4d30-a965-3419ae174577","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"52b38620-bd1b-4d30-a965-3419ae174577","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"52b38620-bd1b-4d30-a965-3419ae174577","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1211d347-dbd5-476d-94ee-103d2559ae65","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1211d347-dbd5-476d-94ee-103d2559ae65","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"1211d347-dbd5-476d-94ee-103d2559ae65","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"290d96a9-dd73-45ea-9532-30c4e3e9c82e","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"290d96a9-dd73-45ea-9532-30c4e3e9c82e","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"290d96a9-dd73-45ea-9532-30c4e3e9c82e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a3880044-59bb-425a-b17d-0dc18df96c46","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a3880044-59bb-425a-b17d-0dc18df96c46","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"a3880044-59bb-425a-b17d-0dc18df96c46","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"176df285-6dd7-463d-a822-fae3a0afe0cb","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"176df285-6dd7-463d-a822-fae3a0afe0cb","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"176df285-6dd7-463d-a822-fae3a0afe0cb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"26d8c967-507c-4dcb-b540-5dbf6e220b80","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26d8c967-507c-4dcb-b540-5dbf6e220b80","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"26d8c967-507c-4dcb-b540-5dbf6e220b80","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d046b741-d902-40a3-b774-9cdd1c4148d8","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d046b741-d902-40a3-b774-9cdd1c4148d8","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"d046b741-d902-40a3-b774-9cdd1c4148d8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"16ed27b4-c5f1-4235-a441-af4840f1ad78","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"16ed27b4-c5f1-4235-a441-af4840f1ad78","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"16ed27b4-c5f1-4235-a441-af4840f1ad78","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a2faedf8-3de0-4c75-a1a1-859892bbbe52","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a2faedf8-3de0-4c75-a1a1-859892bbbe52","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"a2faedf8-3de0-4c75-a1a1-859892bbbe52","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e26dadae-4b7c-444c-bea1-ce74fd58987b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e26dadae-4b7c-444c-bea1-ce74fd58987b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"e26dadae-4b7c-444c-bea1-ce74fd58987b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"26ec715a-33e2-4e5c-b189-0345622200e2","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26ec715a-33e2-4e5c-b189-0345622200e2","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"26ec715a-33e2-4e5c-b189-0345622200e2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8f960468-6a5e-4ecf-8330-19bff7fc87ea","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8f960468-6a5e-4ecf-8330-19bff7fc87ea","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"8f960468-6a5e-4ecf-8330-19bff7fc87ea","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"81aaecd3-79b3-4496-9837-da9a5f35bd15","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"81aaecd3-79b3-4496-9837-da9a5f35bd15","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"81aaecd3-79b3-4496-9837-da9a5f35bd15","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d0887b0a-1a6d-4cc9-80f3-6e0e8b4aaf14","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d0887b0a-1a6d-4cc9-80f3-6e0e8b4aaf14","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"d0887b0a-1a6d-4cc9-80f3-6e0e8b4aaf14","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f9275f54-9eb5-4428-9a9e-a26a259e5fc5","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f9275f54-9eb5-4428-9a9e-a26a259e5fc5","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"f9275f54-9eb5-4428-9a9e-a26a259e5fc5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"070688bf-ac40-4f46-a29d-85112fa4f69d","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"070688bf-ac40-4f46-a29d-85112fa4f69d","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"070688bf-ac40-4f46-a29d-85112fa4f69d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f4015b0b-f68c-4836-a7f3-9edf63c88a88","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f4015b0b-f68c-4836-a7f3-9edf63c88a88","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"f4015b0b-f68c-4836-a7f3-9edf63c88a88","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"020f15bb-093d-48fe-a486-eafbfd7c79b2","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"020f15bb-093d-48fe-a486-eafbfd7c79b2","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"020f15bb-093d-48fe-a486-eafbfd7c79b2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"267627fa-4a61-477b-9a57-7797f9784112","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"267627fa-4a61-477b-9a57-7797f9784112","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"267627fa-4a61-477b-9a57-7797f9784112","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ae57094d-4c4e-48f4-9c8d-6fbb9235bab3","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ae57094d-4c4e-48f4-9c8d-6fbb9235bab3","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"ae57094d-4c4e-48f4-9c8d-6fbb9235bab3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cc218fc9-891c-44b4-835c-124db48f80cc","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cc218fc9-891c-44b4-835c-124db48f80cc","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"cc218fc9-891c-44b4-835c-124db48f80cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"05d8e406-edb3-4d50-ae7c-a2d3cd7c56d0","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"05d8e406-edb3-4d50-ae7c-a2d3cd7c56d0","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"05d8e406-edb3-4d50-ae7c-a2d3cd7c56d0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5a7fdfdb-92ef-4fc1-a96e-2094203a329c","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5a7fdfdb-92ef-4fc1-a96e-2094203a329c","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"5a7fdfdb-92ef-4fc1-a96e-2094203a329c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5b09a925-3152-4d59-bb08-5e4cfd1ce339","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5b09a925-3152-4d59-bb08-5e4cfd1ce339","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"5b09a925-3152-4d59-bb08-5e4cfd1ce339","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"caea516d-1428-449b-b7a8-7e19df4e10af","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"caea516d-1428-449b-b7a8-7e19df4e10af","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"caea516d-1428-449b-b7a8-7e19df4e10af","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"aa936375-6f8b-4b70-8ba3-6f068a75bb19","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"aa936375-6f8b-4b70-8ba3-6f068a75bb19","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"aa936375-6f8b-4b70-8ba3-6f068a75bb19","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a7b2ae77-ee4f-43b7-ad33-6fadb220ed5a","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a7b2ae77-ee4f-43b7-ad33-6fadb220ed5a","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"a7b2ae77-ee4f-43b7-ad33-6fadb220ed5a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9cffcbc0-bb16-4089-8a30-c07644ce7322","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9cffcbc0-bb16-4089-8a30-c07644ce7322","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"LayerId":{"name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","name":"9cffcbc0-bb16-4089-8a30-c07644ce7322","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01480bdb-563f-46cf-b93d-bbda3f3deebb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"70b67941-02ae-4664-9017-22994b2a977d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e5e15f3f-f2a8-4068-9567-6d942a63e03c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"288916ae-7f4b-4783-ac2c-1eedf8838448",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fedf1575-cca5-4109-84c2-a48a3df2d8c4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ec335318-ea77-4bb1-99b4-8ea04d13a598",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"06fce285-0db0-4a9f-a70a-58743b43f939",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e502f357-1e5d-4b6c-8434-063c1bf777a0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86e91dfe-0cf9-4739-b985-7db274ca3fa4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f45cd9bc-a4e9-4502-92cb-96fb31450ab2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b664551-07b3-4da7-966c-5e29735d46d7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"67aea1cc-cacc-40a4-8f21-9e3f0cf4f0a4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b2c44b8-799a-48be-972b-4247596e0065",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a8817536-eb2a-4ee0-9b6c-b0621eca3a2d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7853455-b6bc-4d38-b067-f4ff65a3a703",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48ebf4bf-0b6d-4606-9654-c03a264c53a5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"719ec482-7a21-455e-be1e-359afe99da64",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"38b3e1ee-263b-420b-90a6-aa1da0ead20b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d0016549-c16d-46b4-bf4c-04aedbe9b01e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d71d2eaf-dcdf-4d5b-b452-370eeb738abf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bae06519-0985-4406-8fea-00c1a7eb6c0c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c63a7a99-c076-418f-bd4d-ac01214f907b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"61683446-ac18-41cb-96b2-23063b7900c6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1ef6e999-d6c9-481a-9905-06b053376378",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b5b8d11-86e8-4023-b6a1-69247108abd1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"270453ce-3d54-424b-8aa6-d45298ae0e7e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8cfc2e1e-103f-465f-9c23-2e6c5d2f2675",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c8084320-c1a1-43c4-b144-2d06b642b5e9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1ab2f247-b08d-40e6-8ebd-909ec9c36b27",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3ad07ce2-b5fe-48ad-a71b-6945c0b7ad4e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c9d7214-a28b-4b80-be24-6fef40eaf9cb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a7d71800-fbd6-42c0-9817-b2c1ea14b4b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"52b38620-bd1b-4d30-a965-3419ae174577",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1211d347-dbd5-476d-94ee-103d2559ae65",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"290d96a9-dd73-45ea-9532-30c4e3e9c82e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a3880044-59bb-425a-b17d-0dc18df96c46",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"176df285-6dd7-463d-a822-fae3a0afe0cb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"26d8c967-507c-4dcb-b540-5dbf6e220b80",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d046b741-d902-40a3-b774-9cdd1c4148d8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"16ed27b4-c5f1-4235-a441-af4840f1ad78",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a2faedf8-3de0-4c75-a1a1-859892bbbe52",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e26dadae-4b7c-444c-bea1-ce74fd58987b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"26ec715a-33e2-4e5c-b189-0345622200e2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8f960468-6a5e-4ecf-8330-19bff7fc87ea",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"81aaecd3-79b3-4496-9837-da9a5f35bd15",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d0887b0a-1a6d-4cc9-80f3-6e0e8b4aaf14",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9275f54-9eb5-4428-9a9e-a26a259e5fc5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"070688bf-ac40-4f46-a29d-85112fa4f69d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f4015b0b-f68c-4836-a7f3-9edf63c88a88",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"020f15bb-093d-48fe-a486-eafbfd7c79b2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"267627fa-4a61-477b-9a57-7797f9784112",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ae57094d-4c4e-48f4-9c8d-6fbb9235bab3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cc218fc9-891c-44b4-835c-124db48f80cc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"05d8e406-edb3-4d50-ae7c-a2d3cd7c56d0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5a7fdfdb-92ef-4fc1-a96e-2094203a329c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b09a925-3152-4d59-bb08-5e4cfd1ce339",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"caea516d-1428-449b-b7a8-7e19df4e10af",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aa936375-6f8b-4b70-8ba3-6f068a75bb19",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a7b2ae77-ee4f-43b7-ad33-6fadb220ed5a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9cffcbc0-bb16-4089-8a30-c07644ce7322",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 50.0,
@@ -217,7 +103,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e48ff119-ab5d-47b8-a039-c19234e78590","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01480bdb-563f-46cf-b93d-bbda3f3deebb","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"eb695e24-93e9-456a-8ae3-ba65376e4aaf","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"70b67941-02ae-4664-9017-22994b2a977d","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"210924d0-fb1f-4f70-b751-38c7aa0b5a6e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e5e15f3f-f2a8-4068-9567-6d942a63e03c","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -278,7 +164,7 @@
             {"id":"5075842b-c952-4e83-ab17-80a96f0b1dd2","Key":57.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aa936375-6f8b-4b70-8ba3-6f068a75bb19","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f5ad4007-6a44-4ca3-ba6a-c7e9eb6bacd2","Key":58.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7b2ae77-ee4f-43b7-ad33-6fadb220ed5a","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"53869885-ade7-401c-9195-6b9c205c9e77","Key":59.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9cffcbc0-bb16-4089-8a30-c07644ce7322","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -294,22 +180,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprFlag_hawmgrad","path":"sprites/sprFlag_hawmgrad/sprFlag_hawmgrad.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"687572b4-6e4c-4b24-91e8-0d3a3eed345b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Environment",
     "path": "folders/Sprites/Environment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprFlag_hawmgrad",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

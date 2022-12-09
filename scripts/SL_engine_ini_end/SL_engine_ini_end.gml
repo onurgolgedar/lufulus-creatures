@@ -19,9 +19,9 @@ function SL_engine_ini_end() {
 
 	// Variables relatives à la synchronisation affichage/buffer
 	if sl_buffer_sync
-	{if sl_buffer_xmargin = -1 { if camera_get_view_speed_x(cam)>=0 sl_buffer_xmargin=camera_get_view_speed_x(cam)+5 else sl_buffer_xmargin=10 }; // Marges du buffer
-	 if sl_buffer_ymargin = -1 { if camera_get_view_speed_y(cam)>=0 sl_buffer_ymargin=camera_get_view_speed_y(cam)+5 else sl_buffer_ymargin=10 }};
-	else { sl_buffer_xmargin = 0 sl_buffer_ymargin = 0 };
+	{if sl_buffer_xmargin = -1 { if camera_get_view_speed_x(cam)>=0 sl_buffer_xmargin=camera_get_view_speed_x(cam)+5 else sl_buffer_xmargin=10 } // Marges du buffer
+	 if sl_buffer_ymargin = -1 { if camera_get_view_speed_y(cam)>=0 sl_buffer_ymargin=camera_get_view_speed_y(cam)+5 else sl_buffer_ymargin=10 }}
+	else { sl_buffer_xmargin = 0 sl_buffer_ymargin = 0 }
 	sl_view_xprevious = camera_get_view_x(cam); // Coordonnées de la view au step précédent
 	sl_view_yprevious = camera_get_view_y(cam);
 	sl_view_xspeed    = 0; // Vitesse de déplacement de la view

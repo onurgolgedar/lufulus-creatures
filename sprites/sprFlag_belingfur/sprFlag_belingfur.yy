@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sprFlag_belingfur",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 128,
   "textureGroupId": {
@@ -24,189 +28,71 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a8304684-ddc3-4a46-9461-971a3835c067","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a8304684-ddc3-4a46-9461-971a3835c067","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"a8304684-ddc3-4a46-9461-971a3835c067","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a0e85b58-c968-40a3-aea4-0748271aa6fd","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a0e85b58-c968-40a3-aea4-0748271aa6fd","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"a0e85b58-c968-40a3-aea4-0748271aa6fd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6c51b7e5-743d-4063-a0a6-e8cb70b6296e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6c51b7e5-743d-4063-a0a6-e8cb70b6296e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"6c51b7e5-743d-4063-a0a6-e8cb70b6296e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8a4c9636-95e6-43b0-a08e-bdef50e3017c","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8a4c9636-95e6-43b0-a08e-bdef50e3017c","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"8a4c9636-95e6-43b0-a08e-bdef50e3017c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c554d244-4674-4bab-83f2-6648e0ad944e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c554d244-4674-4bab-83f2-6648e0ad944e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"c554d244-4674-4bab-83f2-6648e0ad944e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7008ef49-13cb-4cfc-8552-25e8c8ba4a4c","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7008ef49-13cb-4cfc-8552-25e8c8ba4a4c","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"7008ef49-13cb-4cfc-8552-25e8c8ba4a4c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9cd1adb1-a83a-4894-a686-53f178622feb","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9cd1adb1-a83a-4894-a686-53f178622feb","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"9cd1adb1-a83a-4894-a686-53f178622feb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4da9cacf-f6e6-4756-b9b7-03bc30f423a3","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4da9cacf-f6e6-4756-b9b7-03bc30f423a3","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"4da9cacf-f6e6-4756-b9b7-03bc30f423a3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"291bd20d-a56d-40cb-9f4a-d871ca54ea69","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"291bd20d-a56d-40cb-9f4a-d871ca54ea69","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"291bd20d-a56d-40cb-9f4a-d871ca54ea69","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"742940d2-d60b-42dd-b7aa-9bd3a202d2dc","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"742940d2-d60b-42dd-b7aa-9bd3a202d2dc","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"742940d2-d60b-42dd-b7aa-9bd3a202d2dc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a1ac1848-aa32-462a-a46a-8da829c0e3e2","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a1ac1848-aa32-462a-a46a-8da829c0e3e2","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"a1ac1848-aa32-462a-a46a-8da829c0e3e2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8f492a52-8d7f-48fc-ad96-0bed8bddd577","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8f492a52-8d7f-48fc-ad96-0bed8bddd577","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"8f492a52-8d7f-48fc-ad96-0bed8bddd577","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"aff2c5aa-d946-4057-9424-c8730ecab82d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"aff2c5aa-d946-4057-9424-c8730ecab82d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"aff2c5aa-d946-4057-9424-c8730ecab82d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"66e0d612-e7e7-45ca-8ba8-3a263946c480","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66e0d612-e7e7-45ca-8ba8-3a263946c480","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"66e0d612-e7e7-45ca-8ba8-3a263946c480","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"34f177eb-51fa-486d-9c55-a058481cc426","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"34f177eb-51fa-486d-9c55-a058481cc426","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"34f177eb-51fa-486d-9c55-a058481cc426","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1ed56ae9-d58a-4647-bb95-b95530cf2b14","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1ed56ae9-d58a-4647-bb95-b95530cf2b14","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"1ed56ae9-d58a-4647-bb95-b95530cf2b14","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ea2f9ddd-14e4-4a03-a1c7-93e10825af34","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ea2f9ddd-14e4-4a03-a1c7-93e10825af34","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"ea2f9ddd-14e4-4a03-a1c7-93e10825af34","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a8390358-b66b-44b1-bdd9-824a9237c89a","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a8390358-b66b-44b1-bdd9-824a9237c89a","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"a8390358-b66b-44b1-bdd9-824a9237c89a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"06131c66-a911-42fc-afb2-42af8741c09b","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"06131c66-a911-42fc-afb2-42af8741c09b","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"06131c66-a911-42fc-afb2-42af8741c09b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f0028706-b991-42c3-9466-59027b14951e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f0028706-b991-42c3-9466-59027b14951e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"f0028706-b991-42c3-9466-59027b14951e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4c756898-6bb7-4bb1-917b-2b23ef71b2a6","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c756898-6bb7-4bb1-917b-2b23ef71b2a6","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"4c756898-6bb7-4bb1-917b-2b23ef71b2a6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6a787cdb-f8a2-401b-b5e5-e43da5da718b","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6a787cdb-f8a2-401b-b5e5-e43da5da718b","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"6a787cdb-f8a2-401b-b5e5-e43da5da718b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4269bb3f-2066-4eb9-8be5-5e8e4dc5524f","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4269bb3f-2066-4eb9-8be5-5e8e4dc5524f","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"4269bb3f-2066-4eb9-8be5-5e8e4dc5524f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"66d3014b-d7ee-4c18-8c11-62d10dd7c8eb","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66d3014b-d7ee-4c18-8c11-62d10dd7c8eb","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"66d3014b-d7ee-4c18-8c11-62d10dd7c8eb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7ad145a1-9b2a-4a86-8305-1648ea29a6e0","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7ad145a1-9b2a-4a86-8305-1648ea29a6e0","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"7ad145a1-9b2a-4a86-8305-1648ea29a6e0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e0cb5ec1-d9b6-492b-8978-0b7942c1d601","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e0cb5ec1-d9b6-492b-8978-0b7942c1d601","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"e0cb5ec1-d9b6-492b-8978-0b7942c1d601","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b7d4020c-fb40-4b28-b23c-5e549be42ec1","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b7d4020c-fb40-4b28-b23c-5e549be42ec1","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"b7d4020c-fb40-4b28-b23c-5e549be42ec1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"68844566-bda9-4e4e-a42e-25bea3f3e0d2","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"68844566-bda9-4e4e-a42e-25bea3f3e0d2","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"68844566-bda9-4e4e-a42e-25bea3f3e0d2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b0eebd40-94b8-4ac3-91cf-6f9540e75df0","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b0eebd40-94b8-4ac3-91cf-6f9540e75df0","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"b0eebd40-94b8-4ac3-91cf-6f9540e75df0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ab3d8f20-57bd-4708-88cc-4e672302bdd5","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ab3d8f20-57bd-4708-88cc-4e672302bdd5","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"ab3d8f20-57bd-4708-88cc-4e672302bdd5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4fc94cdd-161e-4b34-b590-2eaf3df37923","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4fc94cdd-161e-4b34-b590-2eaf3df37923","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"4fc94cdd-161e-4b34-b590-2eaf3df37923","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ebdd1f9f-4aa6-482c-ab7d-009932d75a7e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ebdd1f9f-4aa6-482c-ab7d-009932d75a7e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"ebdd1f9f-4aa6-482c-ab7d-009932d75a7e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fdd0d52d-1feb-4f35-9f8c-f07667e8becc","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fdd0d52d-1feb-4f35-9f8c-f07667e8becc","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"fdd0d52d-1feb-4f35-9f8c-f07667e8becc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3fd5645a-a04c-4112-9ff6-e8ddf17ffc69","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3fd5645a-a04c-4112-9ff6-e8ddf17ffc69","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"3fd5645a-a04c-4112-9ff6-e8ddf17ffc69","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bb5f5fc2-fc8a-4c56-8b8a-211c0e763184","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bb5f5fc2-fc8a-4c56-8b8a-211c0e763184","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"bb5f5fc2-fc8a-4c56-8b8a-211c0e763184","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2cb083ed-1160-4aa5-9fab-71676532faf9","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2cb083ed-1160-4aa5-9fab-71676532faf9","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"2cb083ed-1160-4aa5-9fab-71676532faf9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"de591fed-252e-4e1f-9999-27e3138762eb","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"de591fed-252e-4e1f-9999-27e3138762eb","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"de591fed-252e-4e1f-9999-27e3138762eb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"48f2a0f2-0104-4238-84b0-b2707ac777d0","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"48f2a0f2-0104-4238-84b0-b2707ac777d0","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"48f2a0f2-0104-4238-84b0-b2707ac777d0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3b35846e-bce6-4216-bde4-4a9c560d0e93","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3b35846e-bce6-4216-bde4-4a9c560d0e93","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"3b35846e-bce6-4216-bde4-4a9c560d0e93","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e531827f-f615-411c-9d0d-16d5b68ee352","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e531827f-f615-411c-9d0d-16d5b68ee352","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"e531827f-f615-411c-9d0d-16d5b68ee352","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"91cc8427-710f-496e-80a4-09779b1e559a","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"91cc8427-710f-496e-80a4-09779b1e559a","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"91cc8427-710f-496e-80a4-09779b1e559a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a5d909a6-d31a-4e94-aab9-0ea48fac77d1","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a5d909a6-d31a-4e94-aab9-0ea48fac77d1","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"a5d909a6-d31a-4e94-aab9-0ea48fac77d1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b2a0181f-f7bf-4b49-8006-9ac8a9a9c71d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b2a0181f-f7bf-4b49-8006-9ac8a9a9c71d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"b2a0181f-f7bf-4b49-8006-9ac8a9a9c71d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"eb999393-0521-47cd-a645-7fd7439bce95","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eb999393-0521-47cd-a645-7fd7439bce95","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"eb999393-0521-47cd-a645-7fd7439bce95","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0be0f802-f30e-4cdd-a700-d19dbf1277e1","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0be0f802-f30e-4cdd-a700-d19dbf1277e1","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"0be0f802-f30e-4cdd-a700-d19dbf1277e1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1266a76f-53b6-419e-a5a5-7eb244f4811d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1266a76f-53b6-419e-a5a5-7eb244f4811d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"1266a76f-53b6-419e-a5a5-7eb244f4811d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d1617e69-1476-4db8-8a38-d4ad77344892","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d1617e69-1476-4db8-8a38-d4ad77344892","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"d1617e69-1476-4db8-8a38-d4ad77344892","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3b5a478b-aa47-4484-b7fe-bfb0ec165b91","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3b5a478b-aa47-4484-b7fe-bfb0ec165b91","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"3b5a478b-aa47-4484-b7fe-bfb0ec165b91","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1b2d8f77-e186-4f44-93da-411115a75f92","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b2d8f77-e186-4f44-93da-411115a75f92","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"1b2d8f77-e186-4f44-93da-411115a75f92","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"06b4a047-7e55-4620-9100-b77fe5d11196","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"06b4a047-7e55-4620-9100-b77fe5d11196","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"06b4a047-7e55-4620-9100-b77fe5d11196","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4681aead-6880-4d4c-9de8-81c12460670e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4681aead-6880-4d4c-9de8-81c12460670e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"4681aead-6880-4d4c-9de8-81c12460670e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"08da417f-f931-4205-9d95-39f716364c4a","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08da417f-f931-4205-9d95-39f716364c4a","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"08da417f-f931-4205-9d95-39f716364c4a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5c721f37-c328-4bff-9016-85ce12d6f4b4","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5c721f37-c328-4bff-9016-85ce12d6f4b4","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"5c721f37-c328-4bff-9016-85ce12d6f4b4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"37714283-a508-4ade-bb42-2bfe54aaac57","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"37714283-a508-4ade-bb42-2bfe54aaac57","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"37714283-a508-4ade-bb42-2bfe54aaac57","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"abc301d0-0241-45f5-850c-eb2d906d8e46","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"abc301d0-0241-45f5-850c-eb2d906d8e46","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"abc301d0-0241-45f5-850c-eb2d906d8e46","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"86f8d2f6-807f-4405-9d82-a4d14665a1c7","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"86f8d2f6-807f-4405-9d82-a4d14665a1c7","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"86f8d2f6-807f-4405-9d82-a4d14665a1c7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"655fb5a8-6c8a-4b33-8d50-fd0bdaacbb57","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"655fb5a8-6c8a-4b33-8d50-fd0bdaacbb57","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"655fb5a8-6c8a-4b33-8d50-fd0bdaacbb57","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e177aa7e-e3f4-443e-8a87-57be8926dc4d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e177aa7e-e3f4-443e-8a87-57be8926dc4d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"e177aa7e-e3f4-443e-8a87-57be8926dc4d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f8a219f1-de22-41c3-9079-285783db4219","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f8a219f1-de22-41c3-9079-285783db4219","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"f8a219f1-de22-41c3-9079-285783db4219","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"162d3666-4052-4853-b2de-273a5d8db162","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"162d3666-4052-4853-b2de-273a5d8db162","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"LayerId":{"name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","name":"162d3666-4052-4853-b2de-273a5d8db162","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a8304684-ddc3-4a46-9461-971a3835c067",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a0e85b58-c968-40a3-aea4-0748271aa6fd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c51b7e5-743d-4063-a0a6-e8cb70b6296e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8a4c9636-95e6-43b0-a08e-bdef50e3017c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c554d244-4674-4bab-83f2-6648e0ad944e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7008ef49-13cb-4cfc-8552-25e8c8ba4a4c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9cd1adb1-a83a-4894-a686-53f178622feb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4da9cacf-f6e6-4756-b9b7-03bc30f423a3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"291bd20d-a56d-40cb-9f4a-d871ca54ea69",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"742940d2-d60b-42dd-b7aa-9bd3a202d2dc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a1ac1848-aa32-462a-a46a-8da829c0e3e2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8f492a52-8d7f-48fc-ad96-0bed8bddd577",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aff2c5aa-d946-4057-9424-c8730ecab82d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"66e0d612-e7e7-45ca-8ba8-3a263946c480",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34f177eb-51fa-486d-9c55-a058481cc426",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1ed56ae9-d58a-4647-bb95-b95530cf2b14",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ea2f9ddd-14e4-4a03-a1c7-93e10825af34",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a8390358-b66b-44b1-bdd9-824a9237c89a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"06131c66-a911-42fc-afb2-42af8741c09b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f0028706-b991-42c3-9466-59027b14951e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c756898-6bb7-4bb1-917b-2b23ef71b2a6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a787cdb-f8a2-401b-b5e5-e43da5da718b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4269bb3f-2066-4eb9-8be5-5e8e4dc5524f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"66d3014b-d7ee-4c18-8c11-62d10dd7c8eb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7ad145a1-9b2a-4a86-8305-1648ea29a6e0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e0cb5ec1-d9b6-492b-8978-0b7942c1d601",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b7d4020c-fb40-4b28-b23c-5e549be42ec1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"68844566-bda9-4e4e-a42e-25bea3f3e0d2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b0eebd40-94b8-4ac3-91cf-6f9540e75df0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab3d8f20-57bd-4708-88cc-4e672302bdd5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4fc94cdd-161e-4b34-b590-2eaf3df37923",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ebdd1f9f-4aa6-482c-ab7d-009932d75a7e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fdd0d52d-1feb-4f35-9f8c-f07667e8becc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3fd5645a-a04c-4112-9ff6-e8ddf17ffc69",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bb5f5fc2-fc8a-4c56-8b8a-211c0e763184",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2cb083ed-1160-4aa5-9fab-71676532faf9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"de591fed-252e-4e1f-9999-27e3138762eb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48f2a0f2-0104-4238-84b0-b2707ac777d0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3b35846e-bce6-4216-bde4-4a9c560d0e93",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e531827f-f615-411c-9d0d-16d5b68ee352",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"91cc8427-710f-496e-80a4-09779b1e559a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a5d909a6-d31a-4e94-aab9-0ea48fac77d1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2a0181f-f7bf-4b49-8006-9ac8a9a9c71d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eb999393-0521-47cd-a645-7fd7439bce95",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0be0f802-f30e-4cdd-a700-d19dbf1277e1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1266a76f-53b6-419e-a5a5-7eb244f4811d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1617e69-1476-4db8-8a38-d4ad77344892",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3b5a478b-aa47-4484-b7fe-bfb0ec165b91",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b2d8f77-e186-4f44-93da-411115a75f92",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"06b4a047-7e55-4620-9100-b77fe5d11196",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4681aead-6880-4d4c-9de8-81c12460670e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08da417f-f931-4205-9d95-39f716364c4a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c721f37-c328-4bff-9016-85ce12d6f4b4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"37714283-a508-4ade-bb42-2bfe54aaac57",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"abc301d0-0241-45f5-850c-eb2d906d8e46",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86f8d2f6-807f-4405-9d82-a4d14665a1c7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"655fb5a8-6c8a-4b33-8d50-fd0bdaacbb57",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e177aa7e-e3f4-443e-8a87-57be8926dc4d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f8a219f1-de22-41c3-9079-285783db4219",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"162d3666-4052-4853-b2de-273a5d8db162",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 50.0,
@@ -217,7 +103,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5f6fdbda-d7a1-4ccb-a9f3-670a14b6d973","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a8304684-ddc3-4a46-9461-971a3835c067","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9a03888d-7a0f-43f4-829c-423bb1b0c676","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a0e85b58-c968-40a3-aea4-0748271aa6fd","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0adf3ff6-1340-4131-92f5-0729cf86b726","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c51b7e5-743d-4063-a0a6-e8cb70b6296e","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -278,7 +164,7 @@
             {"id":"e491e293-4fb9-4b86-b1c7-43322beef3a3","Key":57.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e177aa7e-e3f4-443e-8a87-57be8926dc4d","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b12a1378-cb16-4bf3-aefd-6373f4b7c1fd","Key":58.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8a219f1-de22-41c3-9079-285783db4219","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e83d8a5a-814d-4c06-a1fc-d3bd1db41761","Key":59.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"162d3666-4052-4853-b2de-273a5d8db162","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -294,22 +180,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprFlag_belingfur","path":"sprites/sprFlag_belingfur/sprFlag_belingfur.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3ff5f770-cd66-48a2-bb4f-40c75684061d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Environment",
     "path": "folders/Sprites/Environment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sprFlag_belingfur",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
