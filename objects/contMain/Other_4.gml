@@ -196,3 +196,8 @@ if (is_castle(room)) {
 	transporter.image_blend = c_ltgray
 	#endregion
 }
+
+if (room == roomCastle2_area) {
+	if (global.performanceMode != 0)
+		instance_create_depth(0, 0, layer_get_depth("lyBelowGUI"), efSnow)
+}

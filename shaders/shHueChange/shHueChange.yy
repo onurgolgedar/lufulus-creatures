@@ -1,11 +1,10 @@
 {
-  "type": 1,
+  "resourceType": "GMShader",
+  "resourceVersion": "1.0",
+  "name": "shHueChange",
   "parent": {
     "name": "Shaders",
     "path": "folders/Scripts/Shaders.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "shHueChange",
-  "tags": [],
-  "resourceType": "GMShader",
+  "type": 1,
 }

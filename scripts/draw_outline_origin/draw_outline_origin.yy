@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "draw_outline_origin",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "Outline",
     "path": "folders/Scripts/View&Draw/Outline.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "draw_outline_origin",
-  "tags": [],
-  "resourceType": "GMScript",
 }

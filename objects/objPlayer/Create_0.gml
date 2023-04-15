@@ -45,7 +45,7 @@ crossbowWait = sec/2
 mobileAutoShift = false
 
 if (global.invisibility)
-	add_effectbox(efboxInvisibility, -1, 3*sec)
+	add_effectbox(efboxinvisibility, -1, 3*sec)
 	
 image_speed = 0
 alarm[2] = 3

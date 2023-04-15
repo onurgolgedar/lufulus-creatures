@@ -75,7 +75,7 @@ if (!death) {
 			audio_play_sound(sndSpeed, 5, false)
 			
 			if (extension_exists(ext_invisibility)) {
-				var efbox = add_effectbox(efboxInvisibility, -1, 100/shiftDecrease+5)
+				var efbox = add_effectbox(efboxinvisibility, -1, 100/shiftDecrease+5)
 				efbox.forShift = true
 			}
 			

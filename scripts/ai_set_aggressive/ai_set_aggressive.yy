@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "ai_set_aggressive",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "AI",
     "path": "folders/Scripts/AI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ai_set_aggressive",
-  "tags": [],
-  "resourceType": "GMScript",
 }
