@@ -1,11 +1,12 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "is_in_gui",
-  "isCompatibility": false,
   "isDnD": false,
+  "isCompatibility": false,
   "parent": {
     "name": "Coordinates",
     "path": "folders/Scripts/View&Draw/Coordinates.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "is_in_gui",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,11 +1,12 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "save_bag",
-  "isCompatibility": false,
   "isDnD": false,
+  "isCompatibility": false,
   "parent": {
     "name": "Saving System",
     "path": "folders/Scripts/Saving System.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "save_bag",
+  "tags": [],
+  "resourceType": "GMScript",
 }

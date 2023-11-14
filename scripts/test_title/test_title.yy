@@ -1,11 +1,12 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "test_title",
-  "isCompatibility": false,
   "isDnD": false,
+  "isCompatibility": false,
   "parent": {
     "name": "Other",
     "path": "folders/Scripts/Other.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "test_title",
+  "tags": [],
+  "resourceType": "GMScript",
 }

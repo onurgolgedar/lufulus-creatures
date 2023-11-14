@@ -1,11 +1,12 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "has_active_sweapon",
-  "isCompatibility": false,
   "isDnD": false,
+  "isCompatibility": false,
   "parent": {
     "name": "Equipment Management",
     "path": "folders/Scripts/Item/Equipment Management.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "has_active_sweapon",
+  "tags": [],
+  "resourceType": "GMScript",
 }

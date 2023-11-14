@@ -342,7 +342,7 @@ if (global.consoleMode) {
 		
 		if (global.invisibility) {
 			with (objPlayer.id)
-				add_effectbox(efboxinvisibility, -1, 3*sec)
+				add_effectbox(efboxInvisibility, -1, 3*sec)
 		}
 		
 		audio_play_sound(sndWindowTick, 0, false)

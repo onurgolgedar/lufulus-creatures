@@ -1,10 +1,11 @@
 {
-  "resourceType": "GMShader",
-  "resourceVersion": "1.0",
-  "name": "shDraw_aqua",
+  "type": 1,
   "parent": {
     "name": "Shaders",
     "path": "folders/Scripts/Shaders.yy",
   },
-  "type": 1,
+  "resourceVersion": "1.0",
+  "name": "shDraw_aqua",
+  "tags": [],
+  "resourceType": "GMShader",
 }

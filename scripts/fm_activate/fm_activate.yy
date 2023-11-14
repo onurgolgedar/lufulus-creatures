@@ -1,11 +1,12 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "fm_activate",
-  "isCompatibility": false,
   "isDnD": false,
+  "isCompatibility": false,
   "parent": {
     "name": "Fixed Message",
     "path": "folders/Scripts/Fixed Message.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "fm_activate",
+  "tags": [],
+  "resourceType": "GMScript",
 }

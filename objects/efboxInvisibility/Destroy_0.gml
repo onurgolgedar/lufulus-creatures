@@ -1,6 +1,6 @@
 event_inherited()
 
-with (efboxinvisibility)
+with (efboxInvisibility)
 	if (owner == objPlayer.id and id != other.id)
 		exit
 
